@@ -1,0 +1,34 @@
+{
+  "VARIABLE MASS SCALING()": {
+    "prefix": "*VARIABLE MASS SCALING",
+    "body": [
+      "*VARIABLE MASS SCALING"
+    ],
+    "description": "VARIABLE MASS SCALING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "VARIABLE MASS SCALING(TYPE, DT, ELSET)": {
+    "prefix": "*VARIABLE MASS SCALING",
+    "body": [
+      "*VARIABLE MASS SCALING, TYPE=${1}, DT=${2}, ELSET=${3}"
+    ],
+    "description": "VARIABLE MASS SCALING with parameter(s) TYPE, DT, ELSET.",
+    "scope": "source.inp"
+  },
+  "VARIABLE MASS SCALING(TYPE=ROLLING, CROSS SECTION NODES, EXTRUDED LENGTH, FEED RATE, FREQUENCY, DT, ELSET)": {
+    "prefix": "*VARIABLE MASS SCALING",
+    "body": [
+      "*VARIABLE MASS SCALING, TYPE=ROLLING, CROSS SECTION NODES=${1}, EXTRUDED LENGTH=${2}, FEED RATE=${3}, FREQUENCY=${4}, DT=${5}, ELSET=${6}"
+    ],
+    "description": "VARIABLE MASS SCALING with parameter(s) CROSS SECTION NODES, EXTRUDED LENGTH, FEED RATE, FREQUENCY, TYPE, DT, ELSET.",
+    "scope": "source.inp"
+  },
+  "VARIABLE MASS SCALING(TYPE=ROLLING, CROSS SECTION NODES, EXTRUDED LENGTH, FEED RATE, NUMBER INTERVAL, DT, ELSET)": {
+    "prefix": "*VARIABLE MASS SCALING",
+    "body": [
+      "*VARIABLE MASS SCALING, TYPE=ROLLING, CROSS SECTION NODES=${1}, EXTRUDED LENGTH=${2}, FEED RATE=${3}, NUMBER INTERVAL=${4}, DT=${5}, ELSET=${6}"
+    ],
+    "description": "VARIABLE MASS SCALING with parameter(s) CROSS SECTION NODES, EXTRUDED LENGTH, FEED RATE, NUMBER INTERVAL, TYPE, DT, ELSET.",
+    "scope": "source.inp"
+  }
+}

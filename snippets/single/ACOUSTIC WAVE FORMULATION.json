@@ -1,0 +1,18 @@
+{
+  "ACOUSTIC WAVE FORMULATION()": {
+    "prefix": "*ACOUSTIC WAVE FORMULATION",
+    "body": [
+      "*ACOUSTIC WAVE FORMULATION"
+    ],
+    "description": "ACOUSTIC WAVE FORMULATION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC WAVE FORMULATION(TYPE)": {
+    "prefix": "*ACOUSTIC WAVE FORMULATION",
+    "body": [
+      "*ACOUSTIC WAVE FORMULATION, TYPE=${1}"
+    ],
+    "description": "ACOUSTIC WAVE FORMULATION with parameter(s) TYPE.",
+    "scope": "source.inp"
+  }
+}

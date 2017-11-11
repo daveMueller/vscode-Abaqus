@@ -1,0 +1,10 @@
+{
+  "NO TENSION()": {
+    "prefix": "*NO TENSION",
+    "body": [
+      "*NO TENSION"
+    ],
+    "description": "NO TENSION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

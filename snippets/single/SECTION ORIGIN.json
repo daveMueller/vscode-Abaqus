@@ -1,0 +1,18 @@
+{
+  "SECTION ORIGIN()": {
+    "prefix": "*SECTION ORIGIN",
+    "body": [
+      "*SECTION ORIGIN"
+    ],
+    "description": "SECTION ORIGIN without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SECTION ORIGIN(ORIGIN)": {
+    "prefix": "*SECTION ORIGIN",
+    "body": [
+      "*SECTION ORIGIN, ORIGIN=${1}"
+    ],
+    "description": "SECTION ORIGIN with parameter(s) ORIGIN.",
+    "scope": "source.inp"
+  }
+}

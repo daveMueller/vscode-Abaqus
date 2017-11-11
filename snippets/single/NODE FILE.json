@@ -1,0 +1,18 @@
+{
+  "NODE FILE()": {
+    "prefix": "*NODE FILE",
+    "body": [
+      "*NODE FILE"
+    ],
+    "description": "NODE FILE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NODE FILE(FREQUENCY, GLOBAL, LAST MODE, MODE, NSET)": {
+    "prefix": "*NODE FILE",
+    "body": [
+      "*NODE FILE, FREQUENCY=${1}, GLOBAL=${2}, LAST MODE=${3}, MODE=${4}, NSET=${5}"
+    ],
+    "description": "NODE FILE with parameter(s) FREQUENCY, GLOBAL, LAST MODE, MODE, NSET.",
+    "scope": "source.inp"
+  }
+}

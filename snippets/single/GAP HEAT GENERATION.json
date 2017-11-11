@@ -1,0 +1,10 @@
+{
+  "GAP HEAT GENERATION()": {
+    "prefix": "*GAP HEAT GENERATION",
+    "body": [
+      "*GAP HEAT GENERATION"
+    ],
+    "description": "GAP HEAT GENERATION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

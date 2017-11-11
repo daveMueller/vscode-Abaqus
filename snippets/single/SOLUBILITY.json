@@ -1,0 +1,18 @@
+{
+  "SOLUBILITY()": {
+    "prefix": "*SOLUBILITY",
+    "body": [
+      "*SOLUBILITY"
+    ],
+    "description": "SOLUBILITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SOLUBILITY(DEPENDENCIES)": {
+    "prefix": "*SOLUBILITY",
+    "body": [
+      "*SOLUBILITY, DEPENDENCIES=${1}"
+    ],
+    "description": "SOLUBILITY with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

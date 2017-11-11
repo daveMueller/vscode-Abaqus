@@ -1,0 +1,10 @@
+{
+  "DESIGN PARAMETER()": {
+    "prefix": "*DESIGN PARAMETER",
+    "body": [
+      "*DESIGN PARAMETER"
+    ],
+    "description": "DESIGN PARAMETER without parameter(s).",
+    "scope": "source.inp"
+  }
+}

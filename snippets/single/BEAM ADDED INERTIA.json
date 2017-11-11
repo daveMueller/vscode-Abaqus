@@ -1,0 +1,18 @@
+{
+  "BEAM ADDED INERTIA()": {
+    "prefix": "*BEAM ADDED INERTIA",
+    "body": [
+      "*BEAM ADDED INERTIA"
+    ],
+    "description": "BEAM ADDED INERTIA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BEAM ADDED INERTIA(ALPHA, COMPOSITE)": {
+    "prefix": "*BEAM ADDED INERTIA",
+    "body": [
+      "*BEAM ADDED INERTIA, ALPHA=${1}, COMPOSITE=${2}"
+    ],
+    "description": "BEAM ADDED INERTIA with parameter(s) ALPHA, COMPOSITE.",
+    "scope": "source.inp"
+  }
+}

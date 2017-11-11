@@ -1,0 +1,50 @@
+{
+  "INTEGRATED OUTPUT(SECTION)": {
+    "prefix": "*INTEGRATED OUTPUT",
+    "body": [
+      "*INTEGRATED OUTPUT, SECTION=${1}"
+    ],
+    "description": "INTEGRATED OUTPUT with parameter(s) SECTION.",
+    "scope": "source.inp"
+  },
+  "INTEGRATED OUTPUT(ELSET)": {
+    "prefix": "*INTEGRATED OUTPUT",
+    "body": [
+      "*INTEGRATED OUTPUT, ELSET=${1}"
+    ],
+    "description": "INTEGRATED OUTPUT with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "INTEGRATED OUTPUT(SURFACE)": {
+    "prefix": "*INTEGRATED OUTPUT",
+    "body": [
+      "*INTEGRATED OUTPUT, SURFACE=${1}"
+    ],
+    "description": "INTEGRATED OUTPUT with parameter(s) SURFACE.",
+    "scope": "source.inp"
+  },
+  "INTEGRATED OUTPUT(SECTION, VARIABLE)": {
+    "prefix": "*INTEGRATED OUTPUT",
+    "body": [
+      "*INTEGRATED OUTPUT, SECTION=${1}, VARIABLE=${2}"
+    ],
+    "description": "INTEGRATED OUTPUT with parameter(s) SECTION, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "INTEGRATED OUTPUT(ELSET, VARIABLE)": {
+    "prefix": "*INTEGRATED OUTPUT",
+    "body": [
+      "*INTEGRATED OUTPUT, ELSET=${1}, VARIABLE=${2}"
+    ],
+    "description": "INTEGRATED OUTPUT with parameter(s) ELSET, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "INTEGRATED OUTPUT(SURFACE, VARIABLE)": {
+    "prefix": "*INTEGRATED OUTPUT",
+    "body": [
+      "*INTEGRATED OUTPUT, SURFACE=${1}, VARIABLE=${2}"
+    ],
+    "description": "INTEGRATED OUTPUT with parameter(s) SURFACE, VARIABLE.",
+    "scope": "source.inp"
+  }
+}

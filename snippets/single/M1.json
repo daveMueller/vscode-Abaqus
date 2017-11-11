@@ -1,0 +1,18 @@
+{
+  "M1()": {
+    "prefix": "*M1",
+    "body": [
+      "*M1"
+    ],
+    "description": "M1 without parameter(s).",
+    "scope": "source.inp"
+  },
+  "M1(DEPENDENCIES, ELASTIC, LINEAR)": {
+    "prefix": "*M1",
+    "body": [
+      "*M1, DEPENDENCIES=${1}, ELASTIC=${2}, LINEAR=${3}"
+    ],
+    "description": "M1 with parameter(s) DEPENDENCIES, ELASTIC, LINEAR.",
+    "scope": "source.inp"
+  }
+}

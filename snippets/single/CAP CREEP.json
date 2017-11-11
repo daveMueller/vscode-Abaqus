@@ -1,0 +1,18 @@
+{
+  "CAP CREEP()": {
+    "prefix": "*CAP CREEP",
+    "body": [
+      "*CAP CREEP"
+    ],
+    "description": "CAP CREEP without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CAP CREEP(DEPENDENCIES, LAW, MECHANISM, TIME)": {
+    "prefix": "*CAP CREEP",
+    "body": [
+      "*CAP CREEP, DEPENDENCIES=${1}, LAW=${2}, MECHANISM=${3}, TIME=${4}"
+    ],
+    "description": "CAP CREEP with parameter(s) DEPENDENCIES, LAW, MECHANISM, TIME.",
+    "scope": "source.inp"
+  }
+}

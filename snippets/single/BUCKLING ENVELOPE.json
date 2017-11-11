@@ -1,0 +1,10 @@
+{
+  "BUCKLING ENVELOPE()": {
+    "prefix": "*BUCKLING ENVELOPE",
+    "body": [
+      "*BUCKLING ENVELOPE"
+    ],
+    "description": "BUCKLING ENVELOPE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

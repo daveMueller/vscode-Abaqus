@@ -1,0 +1,10 @@
+{
+  "CONTACT INITIALIZATION ASSIGNMENT()": {
+    "prefix": "*CONTACT INITIALIZATION ASSIGNMENT",
+    "body": [
+      "*CONTACT INITIALIZATION ASSIGNMENT"
+    ],
+    "description": "CONTACT INITIALIZATION ASSIGNMENT without parameter(s).",
+    "scope": "source.inp"
+  }
+}

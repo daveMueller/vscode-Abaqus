@@ -1,0 +1,18 @@
+{
+  "NSET(NSET)": {
+    "prefix": "*NSET",
+    "body": [
+      "*NSET, NSET,=${1}"
+    ],
+    "description": "NSET with parameter(s) NSET.",
+    "scope": "source.inp"
+  },
+  "NSET(NSET, ELSET, GENERATE, INSTANCE, INTERNAL, UNSORTED)": {
+    "prefix": "*NSET",
+    "body": [
+      "*NSET, NSET,=${1}, ELSET=${2}, GENERATE=${3}, INSTANCE=${4}, INTERNAL=${5}, UNSORTED=${6}"
+    ],
+    "description": "NSET with parameter(s) NSET, ELSET, GENERATE, INSTANCE, INTERNAL, UNSORTED.",
+    "scope": "source.inp"
+  }
+}

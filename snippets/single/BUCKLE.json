@@ -1,0 +1,18 @@
+{
+  "BUCKLE()": {
+    "prefix": "*BUCKLE",
+    "body": [
+      "*BUCKLE"
+    ],
+    "description": "BUCKLE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BUCKLE(EIGENSOLVER)": {
+    "prefix": "*BUCKLE",
+    "body": [
+      "*BUCKLE, EIGENSOLVER=${1}"
+    ],
+    "description": "BUCKLE with parameter(s) EIGENSOLVER.",
+    "scope": "source.inp"
+  }
+}

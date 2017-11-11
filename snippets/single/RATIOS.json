@@ -1,0 +1,18 @@
+{
+  "RATIOS()": {
+    "prefix": "*RATIOS",
+    "body": [
+      "*RATIOS"
+    ],
+    "description": "RATIOS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RATIOS(DEPENDENCIES)": {
+    "prefix": "*RATIOS",
+    "body": [
+      "*RATIOS, DEPENDENCIES=${1}"
+    ],
+    "description": "RATIOS with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

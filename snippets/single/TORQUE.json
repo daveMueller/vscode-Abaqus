@@ -1,0 +1,18 @@
+{
+  "TORQUE()": {
+    "prefix": "*TORQUE",
+    "body": [
+      "*TORQUE"
+    ],
+    "description": "TORQUE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TORQUE(DEPENDENCIES, ELASTIC, LINEAR)": {
+    "prefix": "*TORQUE",
+    "body": [
+      "*TORQUE, DEPENDENCIES=${1}, ELASTIC=${2}, LINEAR=${3}"
+    ],
+    "description": "TORQUE with parameter(s) DEPENDENCIES, ELASTIC, LINEAR.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "FABRIC()": {
+    "prefix": "*FABRIC",
+    "body": [
+      "*FABRIC"
+    ],
+    "description": "FABRIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FABRIC(PROPERTIES, STRESS FREE INITIAL SLACK, USER)": {
+    "prefix": "*FABRIC",
+    "body": [
+      "*FABRIC, PROPERTIES=${1}, STRESS FREE INITIAL SLACK=${2}, USER=${3}"
+    ],
+    "description": "FABRIC with parameter(s) PROPERTIES, STRESS FREE INITIAL SLACK, USER.",
+    "scope": "source.inp"
+  }
+}

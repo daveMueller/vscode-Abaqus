@@ -1,0 +1,18 @@
+{
+  "SHEAR TEST DATA()": {
+    "prefix": "*SHEAR TEST DATA",
+    "body": [
+      "*SHEAR TEST DATA"
+    ],
+    "description": "SHEAR TEST DATA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SHEAR TEST DATA(SHRINF)": {
+    "prefix": "*SHEAR TEST DATA",
+    "body": [
+      "*SHEAR TEST DATA, SHRINF=${1}"
+    ],
+    "description": "SHEAR TEST DATA with parameter(s) SHRINF.",
+    "scope": "source.inp"
+  }
+}

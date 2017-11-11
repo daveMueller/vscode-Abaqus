@@ -1,0 +1,18 @@
+{
+  "ADAPTIVE MESH CONSTRAINT()": {
+    "prefix": "*ADAPTIVE MESH CONSTRAINT",
+    "body": [
+      "*ADAPTIVE MESH CONSTRAINT"
+    ],
+    "description": "ADAPTIVE MESH CONSTRAINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ADAPTIVE MESH CONSTRAINT(AMPLITUDE, CONSTRAINT TYPE, OP, TYPE, USER)": {
+    "prefix": "*ADAPTIVE MESH CONSTRAINT",
+    "body": [
+      "*ADAPTIVE MESH CONSTRAINT, AMPLITUDE=${1}, CONSTRAINT TYPE=${2}, OP=${3}, TYPE=${4}, USER=${5}"
+    ],
+    "description": "ADAPTIVE MESH CONSTRAINT with parameter(s) AMPLITUDE, CONSTRAINT TYPE, OP, TYPE, USER.",
+    "scope": "source.inp"
+  }
+}

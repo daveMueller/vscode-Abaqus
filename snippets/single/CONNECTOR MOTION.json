@@ -1,0 +1,58 @@
+{
+  "CONNECTOR MOTION()": {
+    "prefix": "*CONNECTOR MOTION",
+    "body": [
+      "*CONNECTOR MOTION"
+    ],
+    "description": "CONNECTOR MOTION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONNECTOR MOTION(AMPLITUDE, LOAD CASE, OP)": {
+    "prefix": "*CONNECTOR MOTION",
+    "body": [
+      "*CONNECTOR MOTION, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}"
+    ],
+    "description": "CONNECTOR MOTION with parameter(s) AMPLITUDE, LOAD CASE, OP.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR MOTION(AMPLITUDE, LOAD CASE, OP, FIXED)": {
+    "prefix": "*CONNECTOR MOTION",
+    "body": [
+      "*CONNECTOR MOTION, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}, FIXED=${4}"
+    ],
+    "description": "CONNECTOR MOTION with parameter(s) AMPLITUDE, LOAD CASE, OP, FIXED.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR MOTION(AMPLITUDE, LOAD CASE, OP, TYPE)": {
+    "prefix": "*CONNECTOR MOTION",
+    "body": [
+      "*CONNECTOR MOTION, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}, TYPE=${4}"
+    ],
+    "description": "CONNECTOR MOTION with parameter(s) AMPLITUDE, LOAD CASE, OP, TYPE.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR MOTION(AMPLITUDE, LOAD CASE, OP, USER)": {
+    "prefix": "*CONNECTOR MOTION",
+    "body": [
+      "*CONNECTOR MOTION, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}, USER=${4}"
+    ],
+    "description": "CONNECTOR MOTION with parameter(s) AMPLITUDE, LOAD CASE, OP, USER.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR MOTION(AMPLITUDE, LOAD CASE, OP, IMAGINARY)": {
+    "prefix": "*CONNECTOR MOTION",
+    "body": [
+      "*CONNECTOR MOTION, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}, IMAGINARY=${4}"
+    ],
+    "description": "CONNECTOR MOTION with parameter(s) AMPLITUDE, LOAD CASE, OP, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR MOTION(AMPLITUDE, LOAD CASE, OP, REAL)": {
+    "prefix": "*CONNECTOR MOTION",
+    "body": [
+      "*CONNECTOR MOTION, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}, REAL=${4}"
+    ],
+    "description": "CONNECTOR MOTION with parameter(s) AMPLITUDE, LOAD CASE, OP, REAL.",
+    "scope": "source.inp"
+  }
+}

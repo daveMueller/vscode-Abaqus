@@ -1,0 +1,18 @@
+{
+  "ENERGY FILE()": {
+    "prefix": "*ENERGY FILE",
+    "body": [
+      "*ENERGY FILE"
+    ],
+    "description": "ENERGY FILE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ENERGY FILE(ELSET, FREQUENCY)": {
+    "prefix": "*ENERGY FILE",
+    "body": [
+      "*ENERGY FILE, ELSET=${1}, FREQUENCY=${2}"
+    ],
+    "description": "ENERGY FILE with parameter(s) ELSET, FREQUENCY.",
+    "scope": "source.inp"
+  }
+}

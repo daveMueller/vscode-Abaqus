@@ -1,0 +1,10 @@
+{
+  "HYSTERESIS()": {
+    "prefix": "*HYSTERESIS",
+    "body": [
+      "*HYSTERESIS"
+    ],
+    "description": "HYSTERESIS without parameter(s).",
+    "scope": "source.inp"
+  }
+}

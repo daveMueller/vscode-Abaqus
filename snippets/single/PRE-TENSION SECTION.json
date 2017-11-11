@@ -1,0 +1,18 @@
+{
+  "PRE-TENSION SECTION(NODE, ELEMENT)": {
+    "prefix": "*PRE-TENSION SECTION",
+    "body": [
+      "*PRE-TENSION SECTION, NODE=${1}, ELEMENT=${2}"
+    ],
+    "description": "PRE-TENSION SECTION with parameter(s) NODE, ELEMENT.",
+    "scope": "source.inp"
+  },
+  "PRE-TENSION SECTION(NODE, SURFACE)": {
+    "prefix": "*PRE-TENSION SECTION",
+    "body": [
+      "*PRE-TENSION SECTION, NODE=${1}, SURFACE=${2}"
+    ],
+    "description": "PRE-TENSION SECTION with parameter(s) NODE, SURFACE.",
+    "scope": "source.inp"
+  }
+}

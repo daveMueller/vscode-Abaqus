@@ -1,0 +1,10 @@
+{
+  "PLASTIC AXIAL()": {
+    "prefix": "*PLASTIC AXIAL",
+    "body": [
+      "*PLASTIC AXIAL"
+    ],
+    "description": "PLASTIC AXIAL without parameter(s).",
+    "scope": "source.inp"
+  }
+}

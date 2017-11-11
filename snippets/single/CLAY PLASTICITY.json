@@ -1,0 +1,18 @@
+{
+  "CLAY PLASTICITY()": {
+    "prefix": "*CLAY PLASTICITY",
+    "body": [
+      "*CLAY PLASTICITY"
+    ],
+    "description": "CLAY PLASTICITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CLAY PLASTICITY(DEPENDENCIES, HARDENING, INTERCEPT)": {
+    "prefix": "*CLAY PLASTICITY",
+    "body": [
+      "*CLAY PLASTICITY, DEPENDENCIES=${1}, HARDENING=${2}, INTERCEPT=${3}"
+    ],
+    "description": "CLAY PLASTICITY with parameter(s) DEPENDENCIES, HARDENING, INTERCEPT.",
+    "scope": "source.inp"
+  }
+}

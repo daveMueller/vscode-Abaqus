@@ -1,0 +1,18 @@
+{
+  "HYPERFOAM()": {
+    "prefix": "*HYPERFOAM",
+    "body": [
+      "*HYPERFOAM"
+    ],
+    "description": "HYPERFOAM without parameter(s).",
+    "scope": "source.inp"
+  },
+  "HYPERFOAM(MODULI, N, POISSON, TEST DATA INPUT)": {
+    "prefix": "*HYPERFOAM",
+    "body": [
+      "*HYPERFOAM, MODULI=${1}, N=${2}, POISSON=${3}, TEST DATA INPUT=${4}"
+    ],
+    "description": "HYPERFOAM with parameter(s) MODULI, N, POISSON, TEST DATA INPUT.",
+    "scope": "source.inp"
+  }
+}

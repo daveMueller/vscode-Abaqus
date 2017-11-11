@@ -1,0 +1,18 @@
+{
+  "BEAM SECTION(ELSET, MATERIAL, SECTION)": {
+    "prefix": "*BEAM SECTION",
+    "body": [
+      "*BEAM SECTION, ELSET=${1}, MATERIAL=${2}, SECTION=${3}"
+    ],
+    "description": "BEAM SECTION with parameter(s) ELSET, MATERIAL, SECTION.",
+    "scope": "source.inp"
+  },
+  "BEAM SECTION(ELSET, MATERIAL, SECTION, LUMPED, POISSON, ROTARY INERTIA, TEMPERATURE)": {
+    "prefix": "*BEAM SECTION",
+    "body": [
+      "*BEAM SECTION, ELSET=${1}, MATERIAL=${2}, SECTION=${3}, LUMPED=${4}, POISSON=${5}, ROTARY INERTIA=${6}, TEMPERATURE=${7}"
+    ],
+    "description": "BEAM SECTION with parameter(s) ELSET, MATERIAL, SECTION, LUMPED, POISSON, ROTARY INERTIA, TEMPERATURE.",
+    "scope": "source.inp"
+  }
+}

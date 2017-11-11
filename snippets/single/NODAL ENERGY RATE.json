@@ -1,0 +1,18 @@
+{
+  "NODAL ENERGY RATE()": {
+    "prefix": "*NODAL ENERGY RATE",
+    "body": [
+      "*NODAL ENERGY RATE"
+    ],
+    "description": "NODAL ENERGY RATE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NODAL ENERGY RATE(GENERATE, INPUT)": {
+    "prefix": "*NODAL ENERGY RATE",
+    "body": [
+      "*NODAL ENERGY RATE, GENERATE=${1}, INPUT=${2}"
+    ],
+    "description": "NODAL ENERGY RATE with parameter(s) GENERATE, INPUT.",
+    "scope": "source.inp"
+  }
+}

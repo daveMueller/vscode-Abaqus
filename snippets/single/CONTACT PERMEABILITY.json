@@ -1,0 +1,18 @@
+{
+  "CONTACT PERMEABILITY()": {
+    "prefix": "*CONTACT PERMEABILITY",
+    "body": [
+      "*CONTACT PERMEABILITY"
+    ],
+    "description": "CONTACT PERMEABILITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONTACT PERMEABILITY(CUTOFF FLOW ACROSS, CUTOFF GAP FILL, DEPENDENCIES)": {
+    "prefix": "*CONTACT PERMEABILITY",
+    "body": [
+      "*CONTACT PERMEABILITY, CUTOFF FLOW ACROSS=${1}, CUTOFF GAP FILL=${2}, DEPENDENCIES=${3}"
+    ],
+    "description": "CONTACT PERMEABILITY with parameter(s) CUTOFF FLOW ACROSS, CUTOFF GAP FILL, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

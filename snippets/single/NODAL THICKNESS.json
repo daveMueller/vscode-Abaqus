@@ -1,0 +1,18 @@
+{
+  "NODAL THICKNESS()": {
+    "prefix": "*NODAL THICKNESS",
+    "body": [
+      "*NODAL THICKNESS"
+    ],
+    "description": "NODAL THICKNESS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NODAL THICKNESS(GENERATE, INPUT)": {
+    "prefix": "*NODAL THICKNESS",
+    "body": [
+      "*NODAL THICKNESS, GENERATE=${1}, INPUT=${2}"
+    ],
+    "description": "NODAL THICKNESS with parameter(s) GENERATE, INPUT.",
+    "scope": "source.inp"
+  }
+}

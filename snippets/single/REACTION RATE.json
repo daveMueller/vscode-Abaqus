@@ -1,0 +1,10 @@
+{
+  "REACTION RATE()": {
+    "prefix": "*REACTION RATE",
+    "body": [
+      "*REACTION RATE"
+    ],
+    "description": "REACTION RATE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

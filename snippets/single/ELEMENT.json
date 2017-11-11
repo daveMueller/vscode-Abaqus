@@ -1,0 +1,18 @@
+{
+  "ELEMENT(TYPE)": {
+    "prefix": "*ELEMENT",
+    "body": [
+      "*ELEMENT, TYPE=${1}"
+    ],
+    "description": "ELEMENT with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "ELEMENT(TYPE, ELSET, FILE, INPUT, OFFSET, SOLID ELEMENT NUMBERING)": {
+    "prefix": "*ELEMENT",
+    "body": [
+      "*ELEMENT, TYPE=${1}, ELSET=${2}, FILE=${3}, INPUT=${4}, OFFSET=${5}, SOLID ELEMENT, NUMBERING=${6}"
+    ],
+    "description": "ELEMENT with parameter(s) TYPE, ELSET, FILE, INPUT, OFFSET, SOLID ELEMENT NUMBERING.",
+    "scope": "source.inp"
+  }
+}

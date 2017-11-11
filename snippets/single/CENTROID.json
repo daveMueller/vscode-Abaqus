@@ -1,0 +1,10 @@
+{
+  "CENTROID()": {
+    "prefix": "*CENTROID",
+    "body": [
+      "*CENTROID"
+    ],
+    "description": "CENTROID without parameter(s).",
+    "scope": "source.inp"
+  }
+}

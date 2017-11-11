@@ -1,0 +1,18 @@
+{
+  "ENERGY PRINT()": {
+    "prefix": "*ENERGY PRINT",
+    "body": [
+      "*ENERGY PRINT"
+    ],
+    "description": "ENERGY PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ENERGY PRINT(ELSET, FREQUENCY)": {
+    "prefix": "*ENERGY PRINT",
+    "body": [
+      "*ENERGY PRINT, ELSET=${1}, FREQUENCY=${2}"
+    ],
+    "description": "ENERGY PRINT with parameter(s) ELSET, FREQUENCY.",
+    "scope": "source.inp"
+  }
+}

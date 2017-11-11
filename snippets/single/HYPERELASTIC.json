@@ -1,0 +1,90 @@
+{
+  "HYPERELASTIC()": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC"
+    ],
+    "description": "HYPERELASTIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(ARRUDA-BOYCE, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, ARRUDA-BOYCE=${1}, BETA=${2}, MODULI=${3}, N=${4}, POISSON=${5}, PROPERTIES=${6}, TEST DATA INPUT=${7}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) ARRUDA-BOYCE, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(MARLOW, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, MARLOW=${1}, BETA=${2}, MODULI=${3}, N=${4}, POISSON=${5}, PROPERTIES=${6}, TEST DATA INPUT=${7}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) MARLOW, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(MOONEY-RIVLIN, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, MOONEY-RIVLIN=${1}, BETA=${2}, MODULI=${3}, N=${4}, POISSON=${5}, PROPERTIES=${6}, TEST DATA INPUT=${7}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) MOONEY-RIVLIN, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(NEO HOOKE, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, NEO HOOKE=${1}, BETA=${2}, MODULI=${3}, N=${4}, POISSON=${5}, PROPERTIES=${6}, TEST DATA INPUT=${7}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) NEO HOOKE, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(OGDEN, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, OGDEN=${1}, BETA=${2}, MODULI=${3}, N=${4}, POISSON=${5}, PROPERTIES=${6}, TEST DATA INPUT=${7}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) OGDEN, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(POLYNOMIAL, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, POLYNOMIAL=${1}, BETA=${2}, MODULI=${3}, N=${4}, POISSON=${5}, PROPERTIES=${6}, TEST DATA INPUT=${7}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) POLYNOMIAL, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(REDUCED POLYNOMIAL, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, REDUCED POLYNOMIAL=${1}, BETA=${2}, MODULI=${3}, N=${4}, POISSON=${5}, PROPERTIES=${6}, TEST DATA INPUT=${7}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) REDUCED POLYNOMIAL, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(TYPE, USER, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, TYPE=${1}, USER=${2}, BETA=${3}, MODULI=${4}, N=${5}, POISSON=${6}, PROPERTIES=${7}, TEST DATA INPUT=${8}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) TYPE, USER, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(TYPE, VAN DER WAALS, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, TYPE=${1}, VAN DER WAALS=${2}, BETA=${3}, MODULI=${4}, N=${5}, POISSON=${6}, PROPERTIES=${7}, TEST DATA INPUT=${8}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) TYPE, VAN DER WAALS, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  },
+  "HYPERELASTIC(TYPE, YEOH, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT)": {
+    "prefix": "*HYPERELASTIC",
+    "body": [
+      "*HYPERELASTIC, TYPE=${1}, YEOH=${2}, BETA=${3}, MODULI=${4}, N=${5}, POISSON=${6}, PROPERTIES=${7}, TEST DATA INPUT=${8}"
+    ],
+    "description": "HYPERELASTIC with parameter(s) TYPE, YEOH, BETA, MODULI, N, POISSON, PROPERTIES, TEST DATA INPUT.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "PRESSURE PENETRATION(MASTER, SLAVE)": {
+    "prefix": "*PRESSURE PENETRATION",
+    "body": [
+      "*PRESSURE PENETRATION, MASTER=${1}, SLAVE=${2}"
+    ],
+    "description": "PRESSURE PENETRATION with parameter(s) MASTER, SLAVE.",
+    "scope": "source.inp"
+  },
+  "PRESSURE PENETRATION(MASTER, SLAVE, AMPLITUDE, OP, PENETRATION TIME, IMAGINARY)": {
+    "prefix": "*PRESSURE PENETRATION",
+    "body": [
+      "*PRESSURE PENETRATION, MASTER=${1}, SLAVE=${2}, AMPLITUDE=${3}, OP=${4}, PENETRATION TIME=${5}, IMAGINARY=${6}"
+    ],
+    "description": "PRESSURE PENETRATION with parameter(s) MASTER, SLAVE, AMPLITUDE, OP, PENETRATION TIME, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "PRESSURE PENETRATION(MASTER, SLAVE, AMPLITUDE, OP, PENETRATION TIME, REAL)": {
+    "prefix": "*PRESSURE PENETRATION",
+    "body": [
+      "*PRESSURE PENETRATION, MASTER=${1}, SLAVE=${2}, AMPLITUDE=${3}, OP=${4}, PENETRATION TIME=${5}, REAL=${6}"
+    ],
+    "description": "PRESSURE PENETRATION with parameter(s) MASTER, SLAVE, AMPLITUDE, OP, PENETRATION TIME, REAL.",
+    "scope": "source.inp"
+  }
+}

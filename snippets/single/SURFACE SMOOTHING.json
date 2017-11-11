@@ -1,0 +1,10 @@
+{
+  "SURFACE SMOOTHING(NAME)": {
+    "prefix": "*SURFACE SMOOTHING",
+    "body": [
+      "*SURFACE SMOOTHING, NAME=${1}"
+    ],
+    "description": "SURFACE SMOOTHING with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

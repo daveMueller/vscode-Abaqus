@@ -1,0 +1,18 @@
+{
+  "TRIAXIAL TEST DATA()": {
+    "prefix": "*TRIAXIAL TEST DATA",
+    "body": [
+      "*TRIAXIAL TEST DATA"
+    ],
+    "description": "TRIAXIAL TEST DATA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TRIAXIAL TEST DATA(A, B, PT)": {
+    "prefix": "*TRIAXIAL TEST DATA",
+    "body": [
+      "*TRIAXIAL TEST DATA, A=${1}, B=${2}, PT=${3}"
+    ],
+    "description": "TRIAXIAL TEST DATA with parameter(s) A, B, PT.",
+    "scope": "source.inp"
+  }
+}

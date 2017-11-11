@@ -1,0 +1,18 @@
+{
+  "MATRIX INPUT(NAME)": {
+    "prefix": "*MATRIX INPUT",
+    "body": [
+      "*MATRIX INPUT, NAME=${1}"
+    ],
+    "description": "MATRIX INPUT with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "MATRIX INPUT(NAME, INPUT, MATRIX, SCALE FACTOR, TYPE)": {
+    "prefix": "*MATRIX INPUT",
+    "body": [
+      "*MATRIX INPUT, NAME=${1}, INPUT=${2}, MATRIX=${3}, SCALE FACTOR=${4}, TYPE=${5}"
+    ],
+    "description": "MATRIX INPUT with parameter(s) NAME, INPUT, MATRIX, SCALE FACTOR, TYPE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "EXTREME NODE VALUE(NSET, ABS)": {
+    "prefix": "*EXTREME NODE VALUE",
+    "body": [
+      "*EXTREME NODE VALUE, NSET=${1}, ABS=${2}"
+    ],
+    "description": "EXTREME NODE VALUE with parameter(s) NSET, ABS.",
+    "scope": "source.inp"
+  },
+  "EXTREME NODE VALUE(NSET, MAX)": {
+    "prefix": "*EXTREME NODE VALUE",
+    "body": [
+      "*EXTREME NODE VALUE, NSET=${1}, MAX=${2}"
+    ],
+    "description": "EXTREME NODE VALUE with parameter(s) NSET, MAX.",
+    "scope": "source.inp"
+  },
+  "EXTREME NODE VALUE(NSET, MIN)": {
+    "prefix": "*EXTREME NODE VALUE",
+    "body": [
+      "*EXTREME NODE VALUE, NSET=${1}, MIN=${2}"
+    ],
+    "description": "EXTREME NODE VALUE with parameter(s) NSET, MIN.",
+    "scope": "source.inp"
+  },
+  "EXTREME NODE VALUE(NSET, ABS, OUTPUT)": {
+    "prefix": "*EXTREME NODE VALUE",
+    "body": [
+      "*EXTREME NODE VALUE, NSET=${1}, ABS=${2}, OUTPUT=${3}"
+    ],
+    "description": "EXTREME NODE VALUE with parameter(s) NSET, ABS, OUTPUT.",
+    "scope": "source.inp"
+  },
+  "EXTREME NODE VALUE(NSET, MAX, OUTPUT)": {
+    "prefix": "*EXTREME NODE VALUE",
+    "body": [
+      "*EXTREME NODE VALUE, NSET=${1}, MAX=${2}, OUTPUT=${3}"
+    ],
+    "description": "EXTREME NODE VALUE with parameter(s) NSET, MAX, OUTPUT.",
+    "scope": "source.inp"
+  },
+  "EXTREME NODE VALUE(NSET, MIN, OUTPUT)": {
+    "prefix": "*EXTREME NODE VALUE",
+    "body": [
+      "*EXTREME NODE VALUE, NSET=${1}, MIN=${2}, OUTPUT=${3}"
+    ],
+    "description": "EXTREME NODE VALUE with parameter(s) NSET, MIN, OUTPUT.",
+    "scope": "source.inp"
+  }
+}

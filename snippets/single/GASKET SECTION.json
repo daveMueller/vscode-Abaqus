@@ -1,0 +1,34 @@
+{
+  "GASKET SECTION(ELSET, BEHAVIOR)": {
+    "prefix": "*GASKET SECTION",
+    "body": [
+      "*GASKET SECTION, ELSET=${1}, BEHAVIOR=${2}"
+    ],
+    "description": "GASKET SECTION with parameter(s) ELSET, BEHAVIOR.",
+    "scope": "source.inp"
+  },
+  "GASKET SECTION(ELSET, MATERIAL)": {
+    "prefix": "*GASKET SECTION",
+    "body": [
+      "*GASKET SECTION, ELSET=${1}, MATERIAL=${2}"
+    ],
+    "description": "GASKET SECTION with parameter(s) ELSET, MATERIAL.",
+    "scope": "source.inp"
+  },
+  "GASKET SECTION(ELSET, BEHAVIOR, ORIENTATION, STABILIZATION STIFFNESS)": {
+    "prefix": "*GASKET SECTION",
+    "body": [
+      "*GASKET SECTION, ELSET=${1}, BEHAVIOR=${2}, ORIENTATION=${3}, STABILIZATION STIFFNESS=${4}"
+    ],
+    "description": "GASKET SECTION with parameter(s) ELSET, BEHAVIOR, ORIENTATION, STABILIZATION STIFFNESS.",
+    "scope": "source.inp"
+  },
+  "GASKET SECTION(ELSET, MATERIAL, ORIENTATION, STABILIZATION STIFFNESS)": {
+    "prefix": "*GASKET SECTION",
+    "body": [
+      "*GASKET SECTION, ELSET=${1}, MATERIAL=${2}, ORIENTATION=${3}, STABILIZATION STIFFNESS=${4}"
+    ],
+    "description": "GASKET SECTION with parameter(s) ELSET, MATERIAL, ORIENTATION, STABILIZATION STIFFNESS.",
+    "scope": "source.inp"
+  }
+}

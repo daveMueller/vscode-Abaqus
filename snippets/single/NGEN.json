@@ -1,0 +1,18 @@
+{
+  "NGEN()": {
+    "prefix": "*NGEN",
+    "body": [
+      "*NGEN"
+    ],
+    "description": "NGEN without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NGEN(LINE, NSET, SYSTEM)": {
+    "prefix": "*NGEN",
+    "body": [
+      "*NGEN, LINE=${1}, NSET=${2}, SYSTEM=${3}"
+    ],
+    "description": "NGEN with parameter(s) LINE, NSET, SYSTEM.",
+    "scope": "source.inp"
+  }
+}

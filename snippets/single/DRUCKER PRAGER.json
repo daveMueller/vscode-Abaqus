@@ -1,0 +1,18 @@
+{
+  "DRUCKER PRAGER()": {
+    "prefix": "*DRUCKER PRAGER",
+    "body": [
+      "*DRUCKER PRAGER"
+    ],
+    "description": "DRUCKER PRAGER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DRUCKER PRAGER(DEPENDENCIES, ECCENTRICITY, SHEAR CRITERION, TEST DATA)": {
+    "prefix": "*DRUCKER PRAGER",
+    "body": [
+      "*DRUCKER PRAGER, DEPENDENCIES=${1}, ECCENTRICITY=${2}, SHEAR CRITERION=${3}, TEST DATA=${4}"
+    ],
+    "description": "DRUCKER PRAGER with parameter(s) DEPENDENCIES, ECCENTRICITY, SHEAR CRITERION, TEST DATA.",
+    "scope": "source.inp"
+  }
+}

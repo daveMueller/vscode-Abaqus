@@ -1,0 +1,18 @@
+{
+  "DESIGN RESPONSE()": {
+    "prefix": "*DESIGN RESPONSE",
+    "body": [
+      "*DESIGN RESPONSE"
+    ],
+    "description": "DESIGN RESPONSE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DESIGN RESPONSE(FREQUENCY, MODE LIST)": {
+    "prefix": "*DESIGN RESPONSE",
+    "body": [
+      "*DESIGN RESPONSE, FREQUENCY=${1}, MODE LIST=${2}"
+    ],
+    "description": "DESIGN RESPONSE with parameter(s) FREQUENCY, MODE LIST.",
+    "scope": "source.inp"
+  }
+}

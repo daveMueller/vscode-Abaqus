@@ -1,0 +1,10 @@
+{
+  "D ADDED MASS()": {
+    "prefix": "*D ADDED MASS",
+    "body": [
+      "*D ADDED MASS"
+    ],
+    "description": "D ADDED MASS without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "PLASTIC()": {
+    "prefix": "*PLASTIC",
+    "body": [
+      "*PLASTIC"
+    ],
+    "description": "PLASTIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PLASTIC(HARDENING, SCALESTRESS)": {
+    "prefix": "*PLASTIC",
+    "body": [
+      "*PLASTIC, HARDENING=${1}, SCALESTRESS=${2}"
+    ],
+    "description": "PLASTIC with parameter(s) HARDENING, SCALESTRESS.",
+    "scope": "source.inp"
+  },
+  "PLASTIC(HARDENING=USER, SCALESTRESS, PROPERTIES)": {
+    "prefix": "*PLASTIC",
+    "body": [
+      "*PLASTIC, HARDENING=USER, SCALESTRESS=${1}, PROPERTIES=${2}"
+    ],
+    "description": "PLASTIC with parameter(s) HARDENING=USER, SCALESTRESS, PROPERTIES.",
+    "scope": "source.inp"
+  },
+  "PLASTIC(HARDENING=ISOTROPIC, SCALESTRESS, DEPENDENCIES)": {
+    "prefix": "*PLASTIC",
+    "body": [
+      "*PLASTIC, HARDENING=ISOTROPIC, SCALESTRESS=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "PLASTIC with parameter(s) HARDENING=ISOTROPIC, SCALESTRESS, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "PLASTIC(HARDENING=COMBINED, SCALESTRESS, DEPENDENCIES)": {
+    "prefix": "*PLASTIC",
+    "body": [
+      "*PLASTIC, HARDENING=COMBINED, SCALESTRESS=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "PLASTIC with parameter(s) HARDENING=COMBINED, SCALESTRESS, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "PLASTIC(HARDENING=ISOTROPIC, SCALESTRESS, DEPENDENCIES, RATE)": {
+    "prefix": "*PLASTIC",
+    "body": [
+      "*PLASTIC, HARDENING=ISOTROPIC, SCALESTRESS=${1}, DEPENDENCIES=${2}, RATE=${3}"
+    ],
+    "description": "PLASTIC with parameter(s) HARDENING=ISOTROPIC, SCALESTRESS, DEPENDENCIES, RATE.",
+    "scope": "source.inp"
+  },
+  "PLASTIC(HARDENING=COMBINED, SCALESTRESS, DEPENDENCIES, DATA TYPE, NUMBER BACKSTRESSES)": {
+    "prefix": "*PLASTIC",
+    "body": [
+      "*PLASTIC, HARDENING=COMBINED, SCALESTRESS=${1}, DEPENDENCIES=${2}, DATA TYPE=${3}, NUMBER BACKSTRESSES=${4}"
+    ],
+    "description": "PLASTIC with parameter(s) HARDENING=COMBINED, SCALESTRESS, DEPENDENCIES, DATA TYPE, NUMBER BACKSTRESSES.",
+    "scope": "source.inp"
+  }
+}

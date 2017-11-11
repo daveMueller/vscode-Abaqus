@@ -1,0 +1,18 @@
+{
+  "FLUID FLUX()": {
+    "prefix": "*FLUID FLUX",
+    "body": [
+      "*FLUID FLUX"
+    ],
+    "description": "FLUID FLUX without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FLUID FLUX(AMPLITUDE, OP)": {
+    "prefix": "*FLUID FLUX",
+    "body": [
+      "*FLUID FLUX, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "FLUID FLUX with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "abaqus",
+    "displayName": "abaqus",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "Dave",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "inp",
+            "aliases": ["", "inp"],
+            "extensions": ["inp"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "inp",
+            "scopeName": "source.inp",
+            "path": "./syntaxes/abaqus.tmLanguage"
+        }],
+        "snippets": [{
+			"language": "inp",
+			"path": "./snippets/abaqusSnippets.json"
+		}]
+    }
+}

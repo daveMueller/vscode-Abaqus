@@ -1,0 +1,18 @@
+{
+  "FLUID SECTION(ELSET)": {
+    "prefix": "*FLUID SECTION",
+    "body": [
+      "*FLUID SECTION, ELSET=${1}"
+    ],
+    "description": "FLUID SECTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "FLUID SECTION(ELSET, TYPE)": {
+    "prefix": "*FLUID SECTION",
+    "body": [
+      "*FLUID SECTION, ELSET=${1}, TYPE=${2}"
+    ],
+    "description": "FLUID SECTION with parameter(s) ELSET, TYPE.",
+    "scope": "source.inp"
+  }
+}

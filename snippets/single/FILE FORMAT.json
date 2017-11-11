@@ -1,0 +1,18 @@
+{
+  "FILE FORMAT()": {
+    "prefix": "*FILE FORMAT",
+    "body": [
+      "*FILE FORMAT"
+    ],
+    "description": "FILE FORMAT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FILE FORMAT(ASCII, ZERO INCREMENT)": {
+    "prefix": "*FILE FORMAT",
+    "body": [
+      "*FILE FORMAT, ASCII=${1}, ZERO INCREMENT=${2}"
+    ],
+    "description": "FILE FORMAT with parameter(s) ASCII, ZERO INCREMENT.",
+    "scope": "source.inp"
+  }
+}

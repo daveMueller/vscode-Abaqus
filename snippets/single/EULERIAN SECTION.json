@@ -1,0 +1,18 @@
+{
+  "EULERIAN SECTION(ELSET)": {
+    "prefix": "*EULERIAN SECTION",
+    "body": [
+      "*EULERIAN SECTION, ELSET=${1}"
+    ],
+    "description": "EULERIAN SECTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "EULERIAN SECTION(ELSET, ADVECTION, CONTROLS, FLUX LIMIT RATIO)": {
+    "prefix": "*EULERIAN SECTION",
+    "body": [
+      "*EULERIAN SECTION, ELSET=${1}, ADVECTION=${2}, CONTROLS=${3}, FLUX LIMIT RATIO=${4}"
+    ],
+    "description": "EULERIAN SECTION with parameter(s) ELSET, ADVECTION, CONTROLS, FLUX LIMIT RATIO.",
+    "scope": "source.inp"
+  }
+}

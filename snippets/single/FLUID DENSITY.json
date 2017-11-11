@@ -1,0 +1,10 @@
+{
+  "FLUID DENSITY()": {
+    "prefix": "*FLUID DENSITY",
+    "body": [
+      "*FLUID DENSITY"
+    ],
+    "description": "FLUID DENSITY without parameter(s).",
+    "scope": "source.inp"
+  }
+}

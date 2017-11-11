@@ -1,0 +1,10 @@
+{
+  "UNIAXIAL(COMPONENT)": {
+    "prefix": "*UNIAXIAL",
+    "body": [
+      "*UNIAXIAL, COMPONENT=${1}"
+    ],
+    "description": "UNIAXIAL with parameter(s) COMPONENT.",
+    "scope": "source.inp"
+  }
+}

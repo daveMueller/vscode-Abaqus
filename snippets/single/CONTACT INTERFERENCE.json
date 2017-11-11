@@ -1,0 +1,18 @@
+{
+  "CONTACT INTERFERENCE()": {
+    "prefix": "*CONTACT INTERFERENCE",
+    "body": [
+      "*CONTACT INTERFERENCE"
+    ],
+    "description": "CONTACT INTERFERENCE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONTACT INTERFERENCE(AMPLITUDE, OP, SHRINK, TYPE)": {
+    "prefix": "*CONTACT INTERFERENCE",
+    "body": [
+      "*CONTACT INTERFERENCE, AMPLITUDE=${1}, OP=${2}, SHRINK=${3}, TYPE=${4}"
+    ],
+    "description": "CONTACT INTERFERENCE with parameter(s) AMPLITUDE, OP, SHRINK, TYPE.",
+    "scope": "source.inp"
+  }
+}

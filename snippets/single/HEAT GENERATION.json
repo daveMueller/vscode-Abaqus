@@ -1,0 +1,10 @@
+{
+  "HEAT GENERATION()": {
+    "prefix": "*HEAT GENERATION",
+    "body": [
+      "*HEAT GENERATION"
+    ],
+    "description": "HEAT GENERATION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

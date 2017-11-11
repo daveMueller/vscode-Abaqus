@@ -1,0 +1,18 @@
+{
+  "DSA CONTROLS()": {
+    "prefix": "*DSA CONTROLS",
+    "body": [
+      "*DSA CONTROLS"
+    ],
+    "description": "DSA CONTROLS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DSA CONTROLS(FORMULATION, RESET, SIZING FREQUENCY, TOLERANCE)": {
+    "prefix": "*DSA CONTROLS",
+    "body": [
+      "*DSA CONTROLS, FORMULATION=${1}, RESET=${2}, SIZING FREQUENCY=${3}, TOLERANCE=${4}"
+    ],
+    "description": "DSA CONTROLS with parameter(s) FORMULATION, RESET, SIZING FREQUENCY, TOLERANCE.",
+    "scope": "source.inp"
+  }
+}

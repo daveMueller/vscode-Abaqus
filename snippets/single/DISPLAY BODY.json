@@ -1,0 +1,10 @@
+{
+  "DISPLAY BODY(INSTANCE)": {
+    "prefix": "*DISPLAY BODY",
+    "body": [
+      "*DISPLAY BODY, INSTANCE=${1}"
+    ],
+    "description": "DISPLAY BODY with parameter(s) INSTANCE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "TRANSPORT VELOCITY()": {
+    "prefix": "*TRANSPORT VELOCITY",
+    "body": [
+      "*TRANSPORT VELOCITY"
+    ],
+    "description": "TRANSPORT VELOCITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TRANSPORT VELOCITY(AMPLITUDE, USER)": {
+    "prefix": "*TRANSPORT VELOCITY",
+    "body": [
+      "*TRANSPORT VELOCITY, AMPLITUDE=${1}, USER=${2}"
+    ],
+    "description": "TRANSPORT VELOCITY with parameter(s) AMPLITUDE, USER.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "STEADY STATE TRANSPORT()": {
+    "prefix": "*STEADY STATE TRANSPORT",
+    "body": [
+      "*STEADY STATE TRANSPORT"
+    ],
+    "description": "STEADY STATE TRANSPORT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "STEADY STATE TRANSPORT(ALLSDTOL, CONTINUE, DIRECT, ELSET, FACTOR, INERTIA, LONG TERM, MULLINS, PASS BY PASS, STABILIZE)": {
+    "prefix": "*STEADY STATE TRANSPORT",
+    "body": [
+      "*STEADY STATE TRANSPORT, ALLSDTOL=${1}, CONTINUE=${2}, DIRECT=${3}, ELSET=${4}, FACTOR=${5}, INERTIA=${6}, LONG TERM=${7}, MULLINS=${8}, PASS BY PASS=${9}, STABILIZE=${10}"
+    ],
+    "description": "STEADY STATE TRANSPORT with parameter(s) ALLSDTOL, CONTINUE, DIRECT, ELSET, FACTOR, INERTIA, LONG TERM, MULLINS, PASS BY PASS, STABILIZE.",
+    "scope": "source.inp"
+  }
+}

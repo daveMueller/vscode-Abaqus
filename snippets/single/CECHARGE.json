@@ -1,0 +1,34 @@
+{
+  "CECHARGE()": {
+    "prefix": "*CECHARGE",
+    "body": [
+      "*CECHARGE"
+    ],
+    "description": "CECHARGE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CECHARGE(AMPLITUDE, OP)": {
+    "prefix": "*CECHARGE",
+    "body": [
+      "*CECHARGE, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "CECHARGE with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  },
+  "CECHARGE(AMPLITUDE, OP, IMAGINARY)": {
+    "prefix": "*CECHARGE",
+    "body": [
+      "*CECHARGE, AMPLITUDE=${1}, OP=${2}, IMAGINARY=${3}"
+    ],
+    "description": "CECHARGE with parameter(s) AMPLITUDE, OP, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "CECHARGE(AMPLITUDE, OP, REAL)": {
+    "prefix": "*CECHARGE",
+    "body": [
+      "*CECHARGE, AMPLITUDE=${1}, OP=${2}, REAL=${3}"
+    ],
+    "description": "CECHARGE with parameter(s) AMPLITUDE, OP, REAL.",
+    "scope": "source.inp"
+  }
+}

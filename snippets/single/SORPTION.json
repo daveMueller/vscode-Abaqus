@@ -1,0 +1,18 @@
+{
+  "SORPTION()": {
+    "prefix": "*SORPTION",
+    "body": [
+      "*SORPTION"
+    ],
+    "description": "SORPTION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SORPTION(LAW, TYPE)": {
+    "prefix": "*SORPTION",
+    "body": [
+      "*SORPTION, LAW=${1}, TYPE=${2}"
+    ],
+    "description": "SORPTION with parameter(s) LAW, TYPE.",
+    "scope": "source.inp"
+  }
+}

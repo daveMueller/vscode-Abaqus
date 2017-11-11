@@ -1,0 +1,18 @@
+{
+  "SYMMETRIC RESULTS TRANSFER()": {
+    "prefix": "*SYMMETRIC RESULTS TRANSFER",
+    "body": [
+      "*SYMMETRIC RESULTS TRANSFER"
+    ],
+    "description": "SYMMETRIC RESULTS TRANSFER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SYMMETRIC RESULTS TRANSFER(STEP, INC, ITERATION, UNBALANCED STRESS)": {
+    "prefix": "*SYMMETRIC RESULTS TRANSFER",
+    "body": [
+      "*SYMMETRIC RESULTS TRANSFER, STEP=${1}, INC=${2}, ITERATION=${3}, UNBALANCED STRESS=${4}"
+    ],
+    "description": "SYMMETRIC RESULTS TRANSFER with parameter(s) STEP, INC, ITERATION, UNBALANCED STRESS.",
+    "scope": "source.inp"
+  }
+}

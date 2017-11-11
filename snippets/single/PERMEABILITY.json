@@ -1,0 +1,42 @@
+{
+  "PERMEABILITY()": {
+    "prefix": "*PERMEABILITY",
+    "body": [
+      "*PERMEABILITY"
+    ],
+    "description": "PERMEABILITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PERMEABILITY(SPECIFIC)": {
+    "prefix": "*PERMEABILITY",
+    "body": [
+      "*PERMEABILITY, SPECIFIC=${1}"
+    ],
+    "description": "PERMEABILITY with parameter(s) SPECIFIC.",
+    "scope": "source.inp"
+  },
+  "PERMEABILITY(DEPENDENCIES, TYPE)": {
+    "prefix": "*PERMEABILITY",
+    "body": [
+      "*PERMEABILITY, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "PERMEABILITY with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  },
+  "PERMEABILITY(INERTIAL DRAG COEFFICIENT, TYPE)": {
+    "prefix": "*PERMEABILITY",
+    "body": [
+      "*PERMEABILITY, INERTIAL DRAG COEFFICIENT=${1}, TYPE=${2}"
+    ],
+    "description": "PERMEABILITY with parameter(s) INERTIAL DRAG COEFFICIENT, TYPE.",
+    "scope": "source.inp"
+  },
+  "PERMEABILITY(SPECIFIC, DEPENDENCIES, TYPE)": {
+    "prefix": "*PERMEABILITY",
+    "body": [
+      "*PERMEABILITY, SPECIFIC=${1}, DEPENDENCIES=${2}, TYPE=${3}"
+    ],
+    "description": "PERMEABILITY with parameter(s) SPECIFIC, DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

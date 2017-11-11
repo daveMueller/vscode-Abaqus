@@ -1,0 +1,18 @@
+{
+  "ORIENTATION(NAME)": {
+    "prefix": "*ORIENTATION",
+    "body": [
+      "*ORIENTATION, NAME=${1}"
+    ],
+    "description": "ORIENTATION with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "ORIENTATION(NAME, DEFINITION, LOCAL DIRECTIONS, SYSTEM)": {
+    "prefix": "*ORIENTATION",
+    "body": [
+      "*ORIENTATION, NAME=${1}, DEFINITION=${2}, LOCAL DIRECTIONS=${3}, SYSTEM=${4}"
+    ],
+    "description": "ORIENTATION with parameter(s) NAME, DEFINITION, LOCAL DIRECTIONS, SYSTEM.",
+    "scope": "source.inp"
+  }
+}

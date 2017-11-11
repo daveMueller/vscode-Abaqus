@@ -1,0 +1,18 @@
+{
+  "DIELECTRIC()": {
+    "prefix": "*DIELECTRIC",
+    "body": [
+      "*DIELECTRIC"
+    ],
+    "description": "DIELECTRIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DIELECTRIC(DEPENDENCIES, TYPE)": {
+    "prefix": "*DIELECTRIC",
+    "body": [
+      "*DIELECTRIC, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "DIELECTRIC with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

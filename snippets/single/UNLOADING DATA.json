@@ -1,0 +1,18 @@
+{
+  "UNLOADING DATA(DEFINITION)": {
+    "prefix": "*UNLOADING DATA",
+    "body": [
+      "*UNLOADING DATA, DEFINITION=${1}"
+    ],
+    "description": "UNLOADING DATA with parameter(s) DEFINITION.",
+    "scope": "source.inp"
+  },
+  "UNLOADING DATA(DEFINITION, RATE DEPENDENT)": {
+    "prefix": "*UNLOADING DATA",
+    "body": [
+      "*UNLOADING DATA, DEFINITION=${1}, RATE DEPENDENT=${2}"
+    ],
+    "description": "UNLOADING DATA with parameter(s) DEFINITION, RATE DEPENDENT.",
+    "scope": "source.inp"
+  }
+}

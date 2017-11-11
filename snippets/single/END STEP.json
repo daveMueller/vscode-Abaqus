@@ -1,0 +1,10 @@
+{
+  "END STEP()": {
+    "prefix": "*END STEP",
+    "body": [
+      "*END STEP"
+    ],
+    "description": "END STEP without parameter(s).",
+    "scope": "source.inp"
+  }
+}

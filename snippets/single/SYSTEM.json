@@ -1,0 +1,10 @@
+{
+  "SYSTEM()": {
+    "prefix": "*SYSTEM",
+    "body": [
+      "*SYSTEM"
+    ],
+    "description": "SYSTEM without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "TRANSPORT EQUATION SOLVER()": {
+    "prefix": "*TRANSPORT EQUATION SOLVER",
+    "body": [
+      "*TRANSPORT EQUATION SOLVER"
+    ],
+    "description": "TRANSPORT EQUATION SOLVER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TRANSPORT EQUATION SOLVER(CONVERGENCE, DIAGNOSTICS, TYPE)": {
+    "prefix": "*TRANSPORT EQUATION SOLVER",
+    "body": [
+      "*TRANSPORT EQUATION SOLVER, CONVERGENCE=${1}, DIAGNOSTICS=${2}, TYPE=${3}"
+    ],
+    "description": "TRANSPORT EQUATION SOLVER with parameter(s) CONVERGENCE, DIAGNOSTICS, TYPE.",
+    "scope": "source.inp"
+  }
+}

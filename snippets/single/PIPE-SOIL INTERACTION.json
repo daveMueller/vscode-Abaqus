@@ -1,0 +1,18 @@
+{
+  "PIPE-SOIL INTERACTION(ELSET)": {
+    "prefix": "*PIPE-SOIL INTERACTION",
+    "body": [
+      "*PIPE-SOIL INTERACTION, ELSET=${1}"
+    ],
+    "description": "PIPE-SOIL INTERACTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "PIPE-SOIL INTERACTION(ELSET, ORIENTATION)": {
+    "prefix": "*PIPE-SOIL INTERACTION",
+    "body": [
+      "*PIPE-SOIL INTERACTION, ELSET=${1}, ORIENTATION=${2}"
+    ],
+    "description": "PIPE-SOIL INTERACTION with parameter(s) ELSET, ORIENTATION.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "BLOCKAGE()": {
+    "prefix": "*BLOCKAGE",
+    "body": [
+      "*BLOCKAGE"
+    ],
+    "description": "BLOCKAGE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

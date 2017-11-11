@@ -1,0 +1,18 @@
+{
+  "PSD-DEFINITION(NAME)": {
+    "prefix": "*PSD-DEFINITION",
+    "body": [
+      "*PSD-DEFINITION, NAME=${1}"
+    ],
+    "description": "PSD-DEFINITION with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "PSD-DEFINITION(NAME, DB REFERENCE, G, INPUT, TYPE, USER)": {
+    "prefix": "*PSD-DEFINITION",
+    "body": [
+      "*PSD-DEFINITION, NAME=${1}, DB REFERENCE=${2}, G=${3}, INPUT=${4}, TYPE=${5}, USER=${6}"
+    ],
+    "description": "PSD-DEFINITION with parameter(s) NAME, DB REFERENCE, G, INPUT, TYPE, USER.",
+    "scope": "source.inp"
+  }
+}

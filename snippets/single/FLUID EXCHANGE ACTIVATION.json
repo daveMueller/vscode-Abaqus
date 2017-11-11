@@ -1,0 +1,18 @@
+{
+  "FLUID EXCHANGE ACTIVATION()": {
+    "prefix": "*FLUID EXCHANGE ACTIVATION",
+    "body": [
+      "*FLUID EXCHANGE ACTIVATION"
+    ],
+    "description": "FLUID EXCHANGE ACTIVATION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FLUID EXCHANGE ACTIVATION(AMPLITUDE, BLOCKAGE, DELTA LEAKAGE AREA, OP, OUTFLOW ONLY)": {
+    "prefix": "*FLUID EXCHANGE ACTIVATION",
+    "body": [
+      "*FLUID EXCHANGE ACTIVATION, AMPLITUDE=${1}, BLOCKAGE=${2}, DELTA LEAKAGE AREA=${3}, OP=${4}, OUTFLOW ONLY=${5}"
+    ],
+    "description": "FLUID EXCHANGE ACTIVATION with parameter(s) AMPLITUDE, BLOCKAGE, DELTA LEAKAGE AREA, OP, OUTFLOW ONLY.",
+    "scope": "source.inp"
+  }
+}

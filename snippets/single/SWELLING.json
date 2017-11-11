@@ -1,0 +1,18 @@
+{
+  "SWELLING()": {
+    "prefix": "*SWELLING",
+    "body": [
+      "*SWELLING"
+    ],
+    "description": "SWELLING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SWELLING(DEPENDENCIES, LAW)": {
+    "prefix": "*SWELLING",
+    "body": [
+      "*SWELLING, DEPENDENCIES=${1}, LAW=${2}"
+    ],
+    "description": "SWELLING with parameter(s) DEPENDENCIES, LAW.",
+    "scope": "source.inp"
+  }
+}

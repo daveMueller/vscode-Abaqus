@@ -1,0 +1,42 @@
+{
+  "TEMPERATURE()": {
+    "prefix": "*TEMPERATURE",
+    "body": [
+      "*TEMPERATURE"
+    ],
+    "description": "TEMPERATURE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TEMPERATURE(FILE)": {
+    "prefix": "*TEMPERATURE",
+    "body": [
+      "*TEMPERATURE, FILE=${1}"
+    ],
+    "description": "TEMPERATURE with parameter(s) FILE.",
+    "scope": "source.inp"
+  },
+  "TEMPERATURE(USER)": {
+    "prefix": "*TEMPERATURE",
+    "body": [
+      "*TEMPERATURE, USER=${1}"
+    ],
+    "description": "TEMPERATURE with parameter(s) USER.",
+    "scope": "source.inp"
+  },
+  "TEMPERATURE(AMPLITUDE, INPUT, OP)": {
+    "prefix": "*TEMPERATURE",
+    "body": [
+      "*TEMPERATURE, AMPLITUDE=${1}, INPUT=${2}, OP=${3}"
+    ],
+    "description": "TEMPERATURE with parameter(s) AMPLITUDE, INPUT, OP.",
+    "scope": "source.inp"
+  },
+  "TEMPERATURE(FILE, ABSOLUTE EXTERIOR TOLERANCE, EXTERIOR TOLERANCE, BSTEP, BINC, ESTEP, EINC, BTRAMP, DRIVING ELSETS, INTERPOLATE, MIDSIDE)": {
+    "prefix": "*TEMPERATURE",
+    "body": [
+      "*TEMPERATURE, FILE=${1}, ABSOLUTE EXTERIOR TOLERANCE=${2}, EXTERIOR TOLERANCE=${3}, BSTEP=${4}, BINC=${5}, ESTEP=${6}, EINC=${7}, BTRAMP=${8}, DRIVING ELSETS=${9}, INTERPOLATE=${10}, MIDSIDE=${11}"
+    ],
+    "description": "TEMPERATURE with parameter(s) FILE, ABSOLUTE EXTERIOR TOLERANCE, EXTERIOR TOLERANCE, BSTEP, BINC, ESTEP, EINC, BTRAMP, DRIVING ELSETS, INTERPOLATE, MIDSIDE.",
+    "scope": "source.inp"
+  }
+}

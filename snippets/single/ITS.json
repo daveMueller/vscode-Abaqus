@@ -1,0 +1,10 @@
+{
+  "ITS(ELSET)": {
+    "prefix": "*ITS",
+    "body": [
+      "*ITS, ELSET=${1}"
+    ],
+    "description": "ITS with parameter(s) ELSET.",
+    "scope": "source.inp"
+  }
+}

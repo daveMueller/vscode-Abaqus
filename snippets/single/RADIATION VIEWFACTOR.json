@@ -1,0 +1,18 @@
+{
+  "RADIATION VIEWFACTOR()": {
+    "prefix": "*RADIATION VIEWFACTOR",
+    "body": [
+      "*RADIATION VIEWFACTOR"
+    ],
+    "description": "RADIATION VIEWFACTOR without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RADIATION VIEWFACTOR(BLOCKING, CAVITY, INFINITESIMAL, INTEGRATION, LUMPED AREA, OFF, RANGE, REFLECTION, SYMMETRY)": {
+    "prefix": "*RADIATION VIEWFACTOR",
+    "body": [
+      "*RADIATION VIEWFACTOR, BLOCKING=${1}, CAVITY=${2}, INFINITESIMAL=${3}, INTEGRATION=${4}, LUMPED AREA=${5}, OFF=${6}, RANGE=${7}, REFLECTION=${8}, SYMMETRY=${9}"
+    ],
+    "description": "RADIATION VIEWFACTOR with parameter(s) BLOCKING, CAVITY, INFINITESIMAL, INTEGRATION, LUMPED AREA, OFF, RANGE, REFLECTION, SYMMETRY.",
+    "scope": "source.inp"
+  }
+}

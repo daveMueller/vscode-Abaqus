@@ -1,0 +1,10 @@
+{
+  "PRESTRESS HOLD()": {
+    "prefix": "*PRESTRESS HOLD",
+    "body": [
+      "*PRESTRESS HOLD"
+    ],
+    "description": "PRESTRESS HOLD without parameter(s).",
+    "scope": "source.inp"
+  }
+}

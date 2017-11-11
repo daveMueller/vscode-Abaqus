@@ -1,0 +1,18 @@
+{
+  "SELECT CYCLIC SYMMETRY MODES()": {
+    "prefix": "*SELECT CYCLIC SYMMETRY MODES",
+    "body": [
+      "*SELECT CYCLIC SYMMETRY MODES"
+    ],
+    "description": "SELECT CYCLIC SYMMETRY MODES without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SELECT CYCLIC SYMMETRY MODES(EVEN, NMIN, NMAX)": {
+    "prefix": "*SELECT CYCLIC SYMMETRY MODES",
+    "body": [
+      "*SELECT CYCLIC SYMMETRY MODES, EVEN=${1}, NMIN=${2}, NMAX=${3}"
+    ],
+    "description": "SELECT CYCLIC SYMMETRY MODES with parameter(s) EVEN, NMIN, NMAX.",
+    "scope": "source.inp"
+  }
+}

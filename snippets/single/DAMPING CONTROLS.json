@@ -1,0 +1,18 @@
+{
+  "DAMPING CONTROLS()": {
+    "prefix": "*DAMPING CONTROLS",
+    "body": [
+      "*DAMPING CONTROLS"
+    ],
+    "description": "DAMPING CONTROLS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DAMPING CONTROLS(STRUCTURAL, VISCOUS)": {
+    "prefix": "*DAMPING CONTROLS",
+    "body": [
+      "*DAMPING CONTROLS, STRUCTURAL=${1}, VISCOUS=${2}"
+    ],
+    "description": "DAMPING CONTROLS with parameter(s) STRUCTURAL, VISCOUS.",
+    "scope": "source.inp"
+  }
+}

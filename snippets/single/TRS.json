@@ -1,0 +1,18 @@
+{
+  "TRS()": {
+    "prefix": "*TRS",
+    "body": [
+      "*TRS"
+    ],
+    "description": "TRS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TRS(DEFINITION, PROPERTIES)": {
+    "prefix": "*TRS",
+    "body": [
+      "*TRS, DEFINITION=${1}, PROPERTIES=${2}"
+    ],
+    "description": "TRS with parameter(s) DEFINITION, PROPERTIES.",
+    "scope": "source.inp"
+  }
+}

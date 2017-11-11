@@ -1,0 +1,10 @@
+{
+  "CONNECTOR UNIAXIAL BEHAVIOR(COMPONENT)": {
+    "prefix": "*CONNECTOR UNIAXIAL BEHAVIOR",
+    "body": [
+      "*CONNECTOR UNIAXIAL BEHAVIOR, COMPONENT=${1}"
+    ],
+    "description": "CONNECTOR UNIAXIAL BEHAVIOR with parameter(s) COMPONENT.",
+    "scope": "source.inp"
+  }
+}

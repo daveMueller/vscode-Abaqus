@@ -1,0 +1,18 @@
+{
+  "ADJUST(NODE SET, SURFACE)": {
+    "prefix": "*ADJUST",
+    "body": [
+      "*ADJUST, NODE SET=${1}, SURFACE=${2}"
+    ],
+    "description": "ADJUST with parameter(s) NODE SET, SURFACE.",
+    "scope": "source.inp"
+  },
+  "ADJUST(NODE SET, SURFACE, ORIENTATION)": {
+    "prefix": "*ADJUST",
+    "body": [
+      "*ADJUST, NODE SET=${1}, SURFACE=${2}, ORIENTATION=${3}"
+    ],
+    "description": "ADJUST with parameter(s) NODE SET, SURFACE, ORIENTATION.",
+    "scope": "source.inp"
+  }
+}

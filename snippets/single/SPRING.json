@@ -1,0 +1,34 @@
+{
+  "SPRING()": {
+    "prefix": "*SPRING",
+    "body": [
+      "*SPRING"
+    ],
+    "description": "SPRING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SPRING(ELSET)": {
+    "prefix": "*SPRING",
+    "body": [
+      "*SPRING, ELSET=${1}"
+    ],
+    "description": "SPRING with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "SPRING(COMPLEX STIFFNESS, DEPENDENCIES, NONLINEAR, ORIENTATION, RTOL)": {
+    "prefix": "*SPRING",
+    "body": [
+      "*SPRING, COMPLEX STIFFNESS=${1}, DEPENDENCIES=${2}, NONLINEAR=${3}, ORIENTATION=${4}, RTOL=${5}"
+    ],
+    "description": "SPRING with parameter(s) COMPLEX STIFFNESS, DEPENDENCIES, NONLINEAR, ORIENTATION, RTOL.",
+    "scope": "source.inp"
+  },
+  "SPRING(ELSET, COMPLEX STIFFNESS, DEPENDENCIES, NONLINEAR, ORIENTATION, RTOL)": {
+    "prefix": "*SPRING",
+    "body": [
+      "*SPRING, ELSET=${1}, COMPLEX STIFFNESS=${2}, DEPENDENCIES=${3}, NONLINEAR=${4}, ORIENTATION=${5}, RTOL=${6}"
+    ],
+    "description": "SPRING with parameter(s) ELSET, COMPLEX STIFFNESS, DEPENDENCIES, NONLINEAR, ORIENTATION, RTOL.",
+    "scope": "source.inp"
+  }
+}

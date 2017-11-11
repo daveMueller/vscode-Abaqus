@@ -1,0 +1,18 @@
+{
+  "EPJOINT(ELSET, ORIENTATION)": {
+    "prefix": "*EPJOINT",
+    "body": [
+      "*EPJOINT, ELSET=${1}, ORIENTATION=${2}"
+    ],
+    "description": "EPJOINT with parameter(s) ELSET, ORIENTATION.",
+    "scope": "source.inp"
+  },
+  "EPJOINT(ELSET, ORIENTATION, SECTION)": {
+    "prefix": "*EPJOINT",
+    "body": [
+      "*EPJOINT, ELSET=${1}, ORIENTATION=${2}, SECTION=${3}"
+    ],
+    "description": "EPJOINT with parameter(s) ELSET, ORIENTATION, SECTION.",
+    "scope": "source.inp"
+  }
+}

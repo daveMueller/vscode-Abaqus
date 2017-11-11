@@ -1,0 +1,18 @@
+{
+  "MONITOR(DOF, NODE)": {
+    "prefix": "*MONITOR",
+    "body": [
+      "*MONITOR, DOF=${1}, NODE=${2}"
+    ],
+    "description": "MONITOR with parameter(s) DOF, NODE.",
+    "scope": "source.inp"
+  },
+  "MONITOR(DOF, NODE, FREQUENCY)": {
+    "prefix": "*MONITOR",
+    "body": [
+      "*MONITOR, DOF=${1}, NODE=${2}, FREQUENCY=${3}"
+    ],
+    "description": "MONITOR with parameter(s) DOF, NODE, FREQUENCY.",
+    "scope": "source.inp"
+  }
+}

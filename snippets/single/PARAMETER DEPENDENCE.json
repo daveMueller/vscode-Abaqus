@@ -1,0 +1,10 @@
+{
+  "PARAMETER DEPENDENCE(NUMBER VALUES, TABLE)": {
+    "prefix": "*PARAMETER DEPENDENCE",
+    "body": [
+      "*PARAMETER DEPENDENCE, NUMBER VALUES=${1}, TABLE=${2}"
+    ],
+    "description": "PARAMETER DEPENDENCE with parameter(s) NUMBER VALUES, TABLE.",
+    "scope": "source.inp"
+  }
+}

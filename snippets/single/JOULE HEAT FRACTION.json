@@ -1,0 +1,10 @@
+{
+  "JOULE HEAT FRACTION()": {
+    "prefix": "*JOULE HEAT FRACTION",
+    "body": [
+      "*JOULE HEAT FRACTION"
+    ],
+    "description": "JOULE HEAT FRACTION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

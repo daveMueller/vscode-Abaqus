@@ -1,0 +1,26 @@
+{
+  "TIE(NAME)": {
+    "prefix": "*TIE",
+    "body": [
+      "*TIE, NAME=${1}"
+    ],
+    "description": "TIE with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "TIE(NAME, POSITION TOLERANCE, ADJUST, CONSTRAINT RATIO, CYCLIC SYMMETRY, NO ROTATION, NO THICKNESS, TYPE)": {
+    "prefix": "*TIE",
+    "body": [
+      "*TIE, NAME=${1}, POSITION TOLERANCE=${2}, ADJUST=${3}, CONSTRAINT RATIO=${4}, CYCLIC SYMMETRY=${5}, NO ROTATION=${6}, NO THICKNESS=${7}, TYPE=${8}"
+    ],
+    "description": "TIE with parameter(s) NAME, POSITION TOLERANCE, ADJUST, CONSTRAINT RATIO, CYCLIC SYMMETRY, NO ROTATION, NO THICKNESS, TYPE.",
+    "scope": "source.inp"
+  },
+  "TIE(NAME, TIED NSET, ADJUST, CONSTRAINT RATIO, CYCLIC SYMMETRY, NO ROTATION, NO THICKNESS, TYPE)": {
+    "prefix": "*TIE",
+    "body": [
+      "*TIE, NAME=${1}, TIE,D NSET=${2}, ADJUST=${3}, CONSTRAINT RATIO=${4}, CYCLIC SYMMETRY=${5}, NO ROTATION=${6}, NO THICKNESS=${7}, TYPE=${8}"
+    ],
+    "description": "TIE with parameter(s) NAME, TIED NSET, ADJUST, CONSTRAINT RATIO, CYCLIC SYMMETRY, NO ROTATION, NO THICKNESS, TYPE.",
+    "scope": "source.inp"
+  }
+}

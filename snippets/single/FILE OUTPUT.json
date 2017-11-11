@@ -1,0 +1,18 @@
+{
+  "FILE OUTPUT(NUMBER INTERVAL)": {
+    "prefix": "*FILE OUTPUT",
+    "body": [
+      "*FILE OUTPUT, NUMBER INTERVAL=${1}"
+    ],
+    "description": "FILE OUTPUT with parameter(s) NUMBER INTERVAL.",
+    "scope": "source.inp"
+  },
+  "FILE OUTPUT(NUMBER INTERVAL, TIME MARKS)": {
+    "prefix": "*FILE OUTPUT",
+    "body": [
+      "*FILE OUTPUT, NUMBER INTERVAL=${1}, TIME MARKS=${2}"
+    ],
+    "description": "FILE OUTPUT with parameter(s) NUMBER INTERVAL, TIME MARKS.",
+    "scope": "source.inp"
+  }
+}

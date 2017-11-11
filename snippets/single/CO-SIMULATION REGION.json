@@ -1,0 +1,66 @@
+{
+  "CO-SIMULATION REGION()": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION"
+    ],
+    "description": "CO-SIMULATION REGION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CO-SIMULATION REGION(TYPE)": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION, TYPE=${1}"
+    ],
+    "description": "CO-SIMULATION REGION with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "CO-SIMULATION REGION(EXPORT)": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION, EXPORT=${1}"
+    ],
+    "description": "CO-SIMULATION REGION with parameter(s) EXPORT.",
+    "scope": "source.inp"
+  },
+  "CO-SIMULATION REGION(IMPORT)": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION, IMPORT=${1}"
+    ],
+    "description": "CO-SIMULATION REGION with parameter(s) IMPORT.",
+    "scope": "source.inp"
+  },
+  "CO-SIMULATION REGION(EXPORT, TYPE)": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION, EXPORT=${1}, TYPE=${2}"
+    ],
+    "description": "CO-SIMULATION REGION with parameter(s) EXPORT, TYPE.",
+    "scope": "source.inp"
+  },
+  "CO-SIMULATION REGION(EXPORT, REGION ID)": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION, EXPORT=${1}, REGION ID=${2}"
+    ],
+    "description": "CO-SIMULATION REGION with parameter(s) EXPORT, REGION ID.",
+    "scope": "source.inp"
+  },
+  "CO-SIMULATION REGION(IMPORT, TYPE)": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION, IMPORT=${1}, TYPE=${2}"
+    ],
+    "description": "CO-SIMULATION REGION with parameter(s) IMPORT, TYPE.",
+    "scope": "source.inp"
+  },
+  "CO-SIMULATION REGION(IMPORT, REGION ID)": {
+    "prefix": "*CO-SIMULATION REGION",
+    "body": [
+      "*CO-SIMULATION REGION, IMPORT=${1}, REGION ID=${2}"
+    ],
+    "description": "CO-SIMULATION REGION with parameter(s) IMPORT, REGION ID.",
+    "scope": "source.inp"
+  }
+}

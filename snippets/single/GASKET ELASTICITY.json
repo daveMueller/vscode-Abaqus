@@ -1,0 +1,18 @@
+{
+  "GASKET ELASTICITY()": {
+    "prefix": "*GASKET ELASTICITY",
+    "body": [
+      "*GASKET ELASTICITY"
+    ],
+    "description": "GASKET ELASTICITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GASKET ELASTICITY(COMPONENT, DEPENDENCIES, VARIABLE)": {
+    "prefix": "*GASKET ELASTICITY",
+    "body": [
+      "*GASKET ELASTICITY, COMPONENT=${1}, DEPENDENCIES=${2}, VARIABLE=${3}"
+    ],
+    "description": "GASKET ELASTICITY with parameter(s) COMPONENT, DEPENDENCIES, VARIABLE.",
+    "scope": "source.inp"
+  }
+}

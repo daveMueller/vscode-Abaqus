@@ -1,0 +1,18 @@
+{
+  "COHESIVE BEHAVIOR()": {
+    "prefix": "*COHESIVE BEHAVIOR",
+    "body": [
+      "*COHESIVE BEHAVIOR"
+    ],
+    "description": "COHESIVE BEHAVIOR without parameter(s).",
+    "scope": "source.inp"
+  },
+  "COHESIVE BEHAVIOR(DEPENDENCIES, ELIGIBILITY, REPEATED CONTACTS, TYPE)": {
+    "prefix": "*COHESIVE BEHAVIOR",
+    "body": [
+      "*COHESIVE BEHAVIOR, DEPENDENCIES=${1}, ELIGIBILITY=${2}, REPEATED CONTACTS=${3}, TYPE=${4}"
+    ],
+    "description": "COHESIVE BEHAVIOR with parameter(s) DEPENDENCIES, ELIGIBILITY, REPEATED CONTACTS, TYPE.",
+    "scope": "source.inp"
+  }
+}

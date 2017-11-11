@@ -1,0 +1,18 @@
+{
+  "INCLUDE(INPUT)": {
+    "prefix": "*INCLUDE",
+    "body": [
+      "*INCLUDE, INPUT=${1}"
+    ],
+    "description": "INCLUDE with parameter(s) INPUT.",
+    "scope": "source.inp"
+  },
+  "INCLUDE(INPUT, PASSWORD)": {
+    "prefix": "*INCLUDE",
+    "body": [
+      "*INCLUDE, INPUT=${1}, PASSWORD=${2}"
+    ],
+    "description": "INCLUDE with parameter(s) INPUT, PASSWORD.",
+    "scope": "source.inp"
+  }
+}

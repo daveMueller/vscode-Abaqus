@@ -1,0 +1,18 @@
+{
+  "NODE()": {
+    "prefix": "*NODE",
+    "body": [
+      "*NODE"
+    ],
+    "description": "NODE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NODE(INPUT, NSET, SYSTEM)": {
+    "prefix": "*NODE",
+    "body": [
+      "*NODE, INPUT=${1}, NSET=${2}, SYSTEM=${3}"
+    ],
+    "description": "NODE with parameter(s) INPUT, NSET, SYSTEM.",
+    "scope": "source.inp"
+  }
+}

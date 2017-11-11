@@ -1,0 +1,90 @@
+{
+  "OUTPUT(DIAGNOSTICS)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, DIAGNOSTICS=${1}"
+    ],
+    "description": "OUTPUT with parameter(s) DIAGNOSTICS.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(FIELD)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, FIELD=${1}"
+    ],
+    "description": "OUTPUT with parameter(s) FIELD.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(HISTORY)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, HISTORY=${1}"
+    ],
+    "description": "OUTPUT with parameter(s) HISTORY.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(DIAGNOSTICS, NAME)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, DIAGNOSTICS=${1}, NAME=${2}"
+    ],
+    "description": "OUTPUT with parameter(s) DIAGNOSTICS, NAME.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(HISTORY, NAME, FREQUENCY, SENSOR, FILTER, OP, TIME INTERVAL, VARIABLE)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, HISTORY=${1}, NAME=${2}, FREQUENCY=${3}, SENSOR=${4}, FILTER=${5}, OP=${6}, TIME INTERVAL=${7}, VARIABLE=${8}"
+    ],
+    "description": "OUTPUT with parameter(s) HISTORY, NAME, FREQUENCY, SENSOR, FILTER, OP, TIME INTERVAL, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(FIELD, NAME, FREQUENCY, NUMBER INTERVAL, TIME INTERVAL, OP)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, FIELD=${1}, NAME=${2}, FREQUENCY=${3}, NUMBER INTERVAL=${4}, TIME INTERVAL=${5}, OP=${6}"
+    ],
+    "description": "OUTPUT with parameter(s) FIELD, NAME, FREQUENCY, NUMBER INTERVAL, TIME INTERVAL, OP.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(HISTORY, NAME, FREQUENCY, NUMBER INTERVAL, TIME INTERVAL, OP)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, HISTORY=${1}, NAME=${2}, FREQUENCY=${3}, NUMBER INTERVAL=${4}, TIME INTERVAL=${5}, OP=${6}"
+    ],
+    "description": "OUTPUT with parameter(s) HISTORY, NAME, FREQUENCY, NUMBER INTERVAL, TIME INTERVAL, OP.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(DIAGNOSTICS, FREQUENCY, MODE LIST, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, DIAGNOSTICS=${1}, FREQUENCY=${2}, MODE LIST=${3}, NAME=${4}, NUMBER INTERVAL=${5}, TIME MARKS=${6}, TIME POINTS=${7}"
+    ],
+    "description": "OUTPUT with parameter(s) DIAGNOSTICS, FREQUENCY, MODE LIST, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(FIELD, FREQUENCY, MODE LIST, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS, OP, TIME INTERVAL, VARIABLE)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, FIELD=${1}, FREQUENCY=${2}, MODE LIST=${3}, NAME=${4}, NUMBER INTERVAL=${5}, TIME MARKS=${6}, TIME POINTS=${7}, OP=${8}, TIME INTERVAL=${9}, VARIABLE=${10}"
+    ],
+    "description": "OUTPUT with parameter(s) FIELD, FREQUENCY, MODE LIST, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS, OP, TIME INTERVAL, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(HISTORY, FREQUENCY, MODE LIST, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS, OP, TIME INTERVAL, VARIABLE, SENSOR)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, HISTORY=${1}, FREQUENCY=${2}, MODE LIST=${3}, NAME=${4}, NUMBER INTERVAL=${5}, TIME MARKS=${6}, TIME POINTS=${7}, OP=${8}, TIME INTERVAL=${9}, VARIABLE=${10}, SENSOR=${11}"
+    ],
+    "description": "OUTPUT with parameter(s) HISTORY, FREQUENCY, MODE LIST, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS, OP, TIME INTERVAL, VARIABLE, SENSOR.",
+    "scope": "source.inp"
+  },
+  "OUTPUT(FIELD, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS, FILTER, OP, TIME INTERVAL, VARIABLE)": {
+    "prefix": "*OUTPUT",
+    "body": [
+      "*OUTPUT, FIELD=${1}, NAME=${2}, NUMBER INTERVAL=${3}, TIME MARKS=${4}, TIME POINTS=${5}, FILTER=${6}, OP=${7}, TIME INTERVAL=${8}, VARIABLE=${9}"
+    ],
+    "description": "OUTPUT with parameter(s) FIELD, NAME, NUMBER INTERVAL, TIME MARKS, TIME POINTS, FILTER, OP, TIME INTERVAL, VARIABLE.",
+    "scope": "source.inp"
+  }
+}

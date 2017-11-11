@@ -1,0 +1,10 @@
+{
+  "GASKET BEHAVIOR(NAME)": {
+    "prefix": "*GASKET BEHAVIOR",
+    "body": [
+      "*GASKET BEHAVIOR, NAME=${1}"
+    ],
+    "description": "GASKET BEHAVIOR with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

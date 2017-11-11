@@ -1,0 +1,10 @@
+{
+  "STEADY STATE DETECTION(ELSET, SAMPLING)": {
+    "prefix": "*STEADY STATE DETECTION",
+    "body": [
+      "*STEADY STATE DETECTION, ELSET=${1}, SAMPLING=${2}"
+    ],
+    "description": "STEADY STATE DETECTION with parameter(s) ELSET, SAMPLING.",
+    "scope": "source.inp"
+  }
+}

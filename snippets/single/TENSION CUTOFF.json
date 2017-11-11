@@ -1,0 +1,18 @@
+{
+  "TENSION CUTOFF()": {
+    "prefix": "*TENSION CUTOFF",
+    "body": [
+      "*TENSION CUTOFF"
+    ],
+    "description": "TENSION CUTOFF without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TENSION CUTOFF(DEPENDENCIES)": {
+    "prefix": "*TENSION CUTOFF",
+    "body": [
+      "*TENSION CUTOFF, DEPENDENCIES=${1}"
+    ],
+    "description": "TENSION CUTOFF with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

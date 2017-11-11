@@ -1,0 +1,18 @@
+{
+  "GAP FLOW()": {
+    "prefix": "*GAP FLOW",
+    "body": [
+      "*GAP FLOW"
+    ],
+    "description": "GAP FLOW without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GAP FLOW(DEPENDENCIES, TYPE, KMAX)": {
+    "prefix": "*GAP FLOW",
+    "body": [
+      "*GAP FLOW, DEPENDENCIES=${1}, TYPE=${2}, KMAX=${3}"
+    ],
+    "description": "GAP FLOW with parameter(s) DEPENDENCIES, TYPE, KMAX.",
+    "scope": "source.inp"
+  }
+}

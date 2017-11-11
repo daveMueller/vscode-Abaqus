@@ -1,0 +1,18 @@
+{
+  "SOILS()": {
+    "prefix": "*SOILS",
+    "body": [
+      "*SOILS"
+    ],
+    "description": "SOILS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SOILS(ALLSDTOL, CETOL, CONSOLIDATION, CONTINUE, DELTMX, END, CREEP, FACTOR, HEAT, STABILIZE, UTOL)": {
+    "prefix": "*SOILS",
+    "body": [
+      "*SOILS, ALLSDTOL=${1}, CETOL=${2}, CONSOLIDATION=${3}, CONTINUE=${4}, DELTMX=${5}, END=${6}, CREEP=${7}, FACTOR=${8}, HEAT=${9}, STABILIZE=${10}, UTOL=${11}"
+    ],
+    "description": "SOILS with parameter(s) ALLSDTOL, CETOL, CONSOLIDATION, CONTINUE, DELTMX, END, CREEP, FACTOR, HEAT, STABILIZE, UTOL.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "WIND()": {
+    "prefix": "*WIND",
+    "body": [
+      "*WIND"
+    ],
+    "description": "WIND without parameter(s).",
+    "scope": "source.inp"
+  }
+}

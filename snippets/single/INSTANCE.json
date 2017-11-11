@@ -1,0 +1,34 @@
+{
+  "INSTANCE(NAME, PART)": {
+    "prefix": "*INSTANCE",
+    "body": [
+      "*INSTANCE, NAME=${1}, PART=${2}"
+    ],
+    "description": "INSTANCE with parameter(s) NAME, PART.",
+    "scope": "source.inp"
+  },
+  "INSTANCE(INSTANCE)": {
+    "prefix": "*INSTANCE",
+    "body": [
+      "*INSTANCE, INSTANCE,=${1}"
+    ],
+    "description": "INSTANCE with parameter(s) INSTANCE.",
+    "scope": "source.inp"
+  },
+  "INSTANCE(NAME, PART, LIBRARY)": {
+    "prefix": "*INSTANCE",
+    "body": [
+      "*INSTANCE, NAME=${1}, PART=${2}, LIBRARY=${3}"
+    ],
+    "description": "INSTANCE with parameter(s) NAME, PART, LIBRARY.",
+    "scope": "source.inp"
+  },
+  "INSTANCE(INSTANCE, LIBRARY)": {
+    "prefix": "*INSTANCE",
+    "body": [
+      "*INSTANCE, INSTANCE,=${1}, LIBRARY=${2}"
+    ],
+    "description": "INSTANCE with parameter(s) INSTANCE, LIBRARY.",
+    "scope": "source.inp"
+  }
+}

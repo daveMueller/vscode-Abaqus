@@ -1,0 +1,18 @@
+{
+  "USER MATERIAL(CONSTANTS)": {
+    "prefix": "*USER MATERIAL",
+    "body": [
+      "*USER MATERIAL, CONSTANTS=${1}"
+    ],
+    "description": "USER MATERIAL with parameter(s) CONSTANTS.",
+    "scope": "source.inp"
+  },
+  "USER MATERIAL(CONSTANTS, TYPE, UNSYMM)": {
+    "prefix": "*USER MATERIAL",
+    "body": [
+      "*USER MATERIAL, CONSTANTS=${1}, TYPE=${2}, UNSYMM=${3}"
+    ],
+    "description": "USER MATERIAL with parameter(s) CONSTANTS, TYPE, UNSYMM.",
+    "scope": "source.inp"
+  }
+}

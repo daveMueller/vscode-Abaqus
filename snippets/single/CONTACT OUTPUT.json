@@ -1,0 +1,74 @@
+{
+  "CONTACT OUTPUT()": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT"
+    ],
+    "description": "CONTACT OUTPUT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(CPSET)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, CPSET=${1}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) CPSET.",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(NSET)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, NSET=${1}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) NSET.",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(SURFACE)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, SURFACE=${1}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) SURFACE.",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(VARIABLE)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, VARIABLE=${1}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) VARIABLE.",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(SURFACE, SECOND SURFACE)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, SURFACE=${1}, SECOND SURFACE=${2}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) SURFACE, SECOND SURFACE.",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(CPSET, GENERAL CONTACT, SURFACE)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, CPSET=${1}, GENERAL CONTACT=${2}, SURFACE=${3}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) CPSET, GENERAL CONTACT, SURFACE.",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(CPSET, GENERAL CONTACT, SURFACE, SECOND SURFACE)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, CPSET=${1}, GENERAL CONTACT=${2}, SURFACE=${3}, SECOND SURFACE=${4}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) CPSET, GENERAL CONTACT, SURFACE, SECOND SURFACE.",
+    "scope": "source.inp"
+  },
+  "CONTACT OUTPUT(MASTER, NSET, SLAVE, VARIABLE)": {
+    "prefix": "*CONTACT OUTPUT",
+    "body": [
+      "*CONTACT OUTPUT, MASTER=${1}, NSET=${2}, SLAVE=${3}, VARIABLE=${4}"
+    ],
+    "description": "CONTACT OUTPUT with parameter(s) MASTER, NSET, SLAVE, VARIABLE.",
+    "scope": "source.inp"
+  }
+}

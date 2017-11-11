@@ -1,0 +1,18 @@
+{
+  "EL PRINT()": {
+    "prefix": "*EL PRINT",
+    "body": [
+      "*EL PRINT"
+    ],
+    "description": "EL PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EL PRINT(ELSET, FREQUENCY, LAST MODE, MODE, POSITION, REBAR, SUMMARY, TOTALS)": {
+    "prefix": "*EL PRINT",
+    "body": [
+      "*EL PRINT, ELSET=${1}, FREQUENCY=${2}, LAST MODE=${3}, MODE=${4}, POSITION=${5}, REBAR=${6}, SUMMARY=${7}, TOTALS=${8}"
+    ],
+    "description": "EL PRINT with parameter(s) ELSET, FREQUENCY, LAST MODE, MODE, POSITION, REBAR, SUMMARY, TOTALS.",
+    "scope": "source.inp"
+  }
+}

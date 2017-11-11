@@ -1,0 +1,18 @@
+{
+  "EXTREME VALUE()": {
+    "prefix": "*EXTREME VALUE",
+    "body": [
+      "*EXTREME VALUE"
+    ],
+    "description": "EXTREME VALUE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EXTREME VALUE(HALT)": {
+    "prefix": "*EXTREME VALUE",
+    "body": [
+      "*EXTREME VALUE, HALT=${1}"
+    ],
+    "description": "EXTREME VALUE with parameter(s) HALT.",
+    "scope": "source.inp"
+  }
+}

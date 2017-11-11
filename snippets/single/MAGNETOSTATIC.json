@@ -1,0 +1,18 @@
+{
+  "MAGNETOSTATIC()": {
+    "prefix": "*MAGNETOSTATIC",
+    "body": [
+      "*MAGNETOSTATIC"
+    ],
+    "description": "MAGNETOSTATIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MAGNETOSTATIC(DIRECT, STABILIZATION)": {
+    "prefix": "*MAGNETOSTATIC",
+    "body": [
+      "*MAGNETOSTATIC, DIRECT=${1}, STABILIZATION=${2}"
+    ],
+    "description": "MAGNETOSTATIC with parameter(s) DIRECT, STABILIZATION.",
+    "scope": "source.inp"
+  }
+}

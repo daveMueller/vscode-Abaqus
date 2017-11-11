@@ -1,0 +1,10 @@
+{
+  "ASYMMETRIC-AXISYMMETRIC(ANGLE, MODE)": {
+    "prefix": "*ASYMMETRIC-AXISYMMETRIC",
+    "body": [
+      "*ASYMMETRIC-AXISYMMETRIC, ANGLE=${1}, MODE=${2}"
+    ],
+    "description": "ASYMMETRIC-AXISYMMETRIC with parameter(s) ANGLE, MODE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "CONNECTOR SECTION(ELSET)": {
+    "prefix": "*CONNECTOR SECTION",
+    "body": [
+      "*CONNECTOR SECTION, ELSET=${1}"
+    ],
+    "description": "CONNECTOR SECTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR SECTION(ELSET, BEHAVIOR, CONTROLS, ELIMINATION)": {
+    "prefix": "*CONNECTOR SECTION",
+    "body": [
+      "*CONNECTOR SECTION, ELSET=${1}, BEHAVIOR=${2}, CONTROLS=${3}, ELIMINATION=${4}"
+    ],
+    "description": "CONNECTOR SECTION with parameter(s) ELSET, BEHAVIOR, CONTROLS, ELIMINATION.",
+    "scope": "source.inp"
+  }
+}

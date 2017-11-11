@@ -1,0 +1,10 @@
+{
+  "SURFACE PROPERTY ASSIGNMENT(PROPERTY)": {
+    "prefix": "*SURFACE PROPERTY ASSIGNMENT",
+    "body": [
+      "*SURFACE PROPERTY ASSIGNMENT, PROPERTY=${1}"
+    ],
+    "description": "SURFACE PROPERTY ASSIGNMENT with parameter(s) PROPERTY.",
+    "scope": "source.inp"
+  }
+}

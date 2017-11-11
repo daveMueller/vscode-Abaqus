@@ -1,0 +1,50 @@
+{
+  "PRESSURE STRESS()": {
+    "prefix": "*PRESSURE STRESS",
+    "body": [
+      "*PRESSURE STRESS"
+    ],
+    "description": "PRESSURE STRESS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PRESSURE STRESS(FILE)": {
+    "prefix": "*PRESSURE STRESS",
+    "body": [
+      "*PRESSURE STRESS, FILE=${1}"
+    ],
+    "description": "PRESSURE STRESS with parameter(s) FILE.",
+    "scope": "source.inp"
+  },
+  "PRESSURE STRESS(USER)": {
+    "prefix": "*PRESSURE STRESS",
+    "body": [
+      "*PRESSURE STRESS, USER=${1}"
+    ],
+    "description": "PRESSURE STRESS with parameter(s) USER.",
+    "scope": "source.inp"
+  },
+  "PRESSURE STRESS(AMPLITUDE, INPUT, OP)": {
+    "prefix": "*PRESSURE STRESS",
+    "body": [
+      "*PRESSURE STRESS, AMPLITUDE=${1}, INPUT=${2}, OP=${3}"
+    ],
+    "description": "PRESSURE STRESS with parameter(s) AMPLITUDE, INPUT, OP.",
+    "scope": "source.inp"
+  },
+  "PRESSURE STRESS(FILE, BSTEP, BINC, ESTEP, EINC)": {
+    "prefix": "*PRESSURE STRESS",
+    "body": [
+      "*PRESSURE STRESS, FILE=${1}, BSTEP=${2}, BINC=${3}, ESTEP=${4}, EINC=${5}"
+    ],
+    "description": "PRESSURE STRESS with parameter(s) FILE, BSTEP, BINC, ESTEP, EINC.",
+    "scope": "source.inp"
+  },
+  "PRESSURE STRESS(USER, AMPLITUDE, INPUT, OP)": {
+    "prefix": "*PRESSURE STRESS",
+    "body": [
+      "*PRESSURE STRESS, USER=${1}, AMPLITUDE=${2}, INPUT=${3}, OP=${4}"
+    ],
+    "description": "PRESSURE STRESS with parameter(s) USER, AMPLITUDE, INPUT, OP.",
+    "scope": "source.inp"
+  }
+}

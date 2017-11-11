@@ -1,0 +1,18 @@
+{
+  "CFILM()": {
+    "prefix": "*CFILM",
+    "body": [
+      "*CFILM"
+    ],
+    "description": "CFILM without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CFILM(AMPLITUDE, FILM AMPLITUDE, OP, REGION TYPE, USER)": {
+    "prefix": "*CFILM",
+    "body": [
+      "*CFILM, AMPLITUDE=${1}, FILM AMPLITUDE=${2}, OP=${3}, REGION TYPE=${4}, USER=${5}"
+    ],
+    "description": "CFILM with parameter(s) AMPLITUDE, FILM AMPLITUDE, OP, REGION TYPE, USER.",
+    "scope": "source.inp"
+  }
+}

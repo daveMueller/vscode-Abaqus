@@ -1,0 +1,10 @@
+{
+  "SUBCYCLING(ELSET)": {
+    "prefix": "*SUBCYCLING",
+    "body": [
+      "*SUBCYCLING, ELSET=${1}"
+    ],
+    "description": "SUBCYCLING with parameter(s) ELSET.",
+    "scope": "source.inp"
+  }
+}

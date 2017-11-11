@@ -1,0 +1,18 @@
+{
+  "DSFLOW()": {
+    "prefix": "*DSFLOW",
+    "body": [
+      "*DSFLOW"
+    ],
+    "description": "DSFLOW without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DSFLOW(AMPLITUDE, OP)": {
+    "prefix": "*DSFLOW",
+    "body": [
+      "*DSFLOW, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "DSFLOW with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "HOURGLASS STIFFNESS()": {
+    "prefix": "*HOURGLASS STIFFNESS",
+    "body": [
+      "*HOURGLASS STIFFNESS"
+    ],
+    "description": "HOURGLASS STIFFNESS without parameter(s).",
+    "scope": "source.inp"
+  }
+}

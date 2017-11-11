@@ -1,0 +1,18 @@
+{
+  "INCIDENT WAVE INTERACTION PROPERTY(NAME)": {
+    "prefix": "*INCIDENT WAVE INTERACTION PROPERTY",
+    "body": [
+      "*INCIDENT WAVE INTERACTION PROPERTY, NAME=${1}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION PROPERTY with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION PROPERTY(NAME, TYPE)": {
+    "prefix": "*INCIDENT WAVE INTERACTION PROPERTY",
+    "body": [
+      "*INCIDENT WAVE INTERACTION PROPERTY, NAME=${1}, TYPE=${2}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION PROPERTY with parameter(s) NAME, TYPE.",
+    "scope": "source.inp"
+  }
+}

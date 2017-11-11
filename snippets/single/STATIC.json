@@ -1,0 +1,18 @@
+{
+  "STATIC()": {
+    "prefix": "*STATIC",
+    "body": [
+      "*STATIC"
+    ],
+    "description": "STATIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "STATIC(ADIABATIC, ALLSDTOL, CONTINUE, DIRECT, FACTOR, FULLY PLASTIC, LONG TERM, RIKS, STABILIZE)": {
+    "prefix": "*STATIC",
+    "body": [
+      "*STATIC, ADIABATIC=${1}, ALLSDTOL=${2}, CONTINUE=${3}, DIRECT=${4}, FACTOR=${5}, FULLY PLASTIC=${6}, LONG TERM=${7}, RIKS=${8}, STABILIZE=${9}"
+    ],
+    "description": "STATIC with parameter(s) ADIABATIC, ALLSDTOL, CONTINUE, DIRECT, FACTOR, FULLY PLASTIC, LONG TERM, RIKS, STABILIZE.",
+    "scope": "source.inp"
+  }
+}

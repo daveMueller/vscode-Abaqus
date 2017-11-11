@@ -1,0 +1,18 @@
+{
+  "ELEMENT RESPONSE()": {
+    "prefix": "*ELEMENT RESPONSE",
+    "body": [
+      "*ELEMENT RESPONSE"
+    ],
+    "description": "ELEMENT RESPONSE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ELEMENT RESPONSE(ELSET)": {
+    "prefix": "*ELEMENT RESPONSE",
+    "body": [
+      "*ELEMENT RESPONSE, ELSET=${1}"
+    ],
+    "description": "ELEMENT RESPONSE with parameter(s) ELSET.",
+    "scope": "source.inp"
+  }
+}

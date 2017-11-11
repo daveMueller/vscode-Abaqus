@@ -1,0 +1,34 @@
+{
+  "CONNECTOR LOAD()": {
+    "prefix": "*CONNECTOR LOAD",
+    "body": [
+      "*CONNECTOR LOAD"
+    ],
+    "description": "CONNECTOR LOAD without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONNECTOR LOAD(AMPLITUDE, LOAD CASE, OP)": {
+    "prefix": "*CONNECTOR LOAD",
+    "body": [
+      "*CONNECTOR LOAD, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}"
+    ],
+    "description": "CONNECTOR LOAD with parameter(s) AMPLITUDE, LOAD CASE, OP.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR LOAD(AMPLITUDE, LOAD CASE, OP, IMAGINARY)": {
+    "prefix": "*CONNECTOR LOAD",
+    "body": [
+      "*CONNECTOR LOAD, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}, IMAGINARY=${4}"
+    ],
+    "description": "CONNECTOR LOAD with parameter(s) AMPLITUDE, LOAD CASE, OP, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR LOAD(AMPLITUDE, LOAD CASE, OP, REAL)": {
+    "prefix": "*CONNECTOR LOAD",
+    "body": [
+      "*CONNECTOR LOAD, AMPLITUDE=${1}, LOAD CASE=${2}, OP=${3}, REAL=${4}"
+    ],
+    "description": "CONNECTOR LOAD with parameter(s) AMPLITUDE, LOAD CASE, OP, REAL.",
+    "scope": "source.inp"
+  }
+}

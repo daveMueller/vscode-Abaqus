@@ -1,0 +1,18 @@
+{
+  "COMPLEX FREQUENCY()": {
+    "prefix": "*COMPLEX FREQUENCY",
+    "body": [
+      "*COMPLEX FREQUENCY"
+    ],
+    "description": "COMPLEX FREQUENCY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "COMPLEX FREQUENCY(FRICTION DAMPING, PROPERTY EVALUATION, UNSTABLE MODES ONLY)": {
+    "prefix": "*COMPLEX FREQUENCY",
+    "body": [
+      "*COMPLEX FREQUENCY, FRICTION DAMPING=${1}, PROPERTY EVALUATION=${2}, UNSTABLE MODES ONLY=${3}"
+    ],
+    "description": "COMPLEX FREQUENCY with parameter(s) FRICTION DAMPING, PROPERTY EVALUATION, UNSTABLE MODES ONLY.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "EXPANSION()": {
+    "prefix": "*EXPANSION",
+    "body": [
+      "*EXPANSION"
+    ],
+    "description": "EXPANSION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EXPANSION(DEPENDENCIES, FIELD, PORE FLUID, TYPE, USER, ZERO)": {
+    "prefix": "*EXPANSION",
+    "body": [
+      "*EXPANSION, DEPENDENCIES=${1}, FIELD=${2}, PORE FLUID=${3}, TYPE=${4}, USER=${5}, ZERO=${6}"
+    ],
+    "description": "EXPANSION with parameter(s) DEPENDENCIES, FIELD, PORE FLUID, TYPE, USER, ZERO.",
+    "scope": "source.inp"
+  }
+}

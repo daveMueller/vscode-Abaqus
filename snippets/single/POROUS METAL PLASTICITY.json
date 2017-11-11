@@ -1,0 +1,18 @@
+{
+  "POROUS METAL PLASTICITY()": {
+    "prefix": "*POROUS METAL PLASTICITY",
+    "body": [
+      "*POROUS METAL PLASTICITY"
+    ],
+    "description": "POROUS METAL PLASTICITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "POROUS METAL PLASTICITY(DEPENDENCIES, RELATIVE DENSITY)": {
+    "prefix": "*POROUS METAL PLASTICITY",
+    "body": [
+      "*POROUS METAL PLASTICITY, DEPENDENCIES=${1}, RELATIVE DENSITY=${2}"
+    ],
+    "description": "POROUS METAL PLASTICITY with parameter(s) DEPENDENCIES, RELATIVE DENSITY.",
+    "scope": "source.inp"
+  }
+}

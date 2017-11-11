@@ -1,0 +1,10 @@
+{
+  "END PART()": {
+    "prefix": "*END PART",
+    "body": [
+      "*END PART"
+    ],
+    "description": "END PART without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "SURFACE FLAW(SIDE)": {
+    "prefix": "*SURFACE FLAW",
+    "body": [
+      "*SURFACE FLAW, SIDE=${1}"
+    ],
+    "description": "SURFACE FLAW with parameter(s) SIDE.",
+    "scope": "source.inp"
+  },
+  "SURFACE FLAW(SIDE, INPUT)": {
+    "prefix": "*SURFACE FLAW",
+    "body": [
+      "*SURFACE FLAW, SIDE=${1}, INPUT=${2}"
+    ],
+    "description": "SURFACE FLAW with parameter(s) SIDE, INPUT.",
+    "scope": "source.inp"
+  }
+}

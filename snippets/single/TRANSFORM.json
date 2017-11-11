@@ -1,0 +1,18 @@
+{
+  "TRANSFORM(NSET)": {
+    "prefix": "*TRANSFORM",
+    "body": [
+      "*TRANSFORM, NSET=${1}"
+    ],
+    "description": "TRANSFORM with parameter(s) NSET.",
+    "scope": "source.inp"
+  },
+  "TRANSFORM(NSET, TYPE)": {
+    "prefix": "*TRANSFORM",
+    "body": [
+      "*TRANSFORM, NSET=${1}, TYPE=${2}"
+    ],
+    "description": "TRANSFORM with parameter(s) NSET, TYPE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "CREEP STRAIN RATE CONTROL(AMPLITUDE, ELSET)": {
+    "prefix": "*CREEP STRAIN RATE CONTROL",
+    "body": [
+      "*CREEP STRAIN RATE CONTROL, AMPLITUDE=${1}, ELSET=${2}"
+    ],
+    "description": "CREEP STRAIN RATE CONTROL with parameter(s) AMPLITUDE, ELSET.",
+    "scope": "source.inp"
+  },
+  "CREEP STRAIN RATE CONTROL(AMPLITUDE, ELSET, DEPENDENCIES, OP)": {
+    "prefix": "*CREEP STRAIN RATE CONTROL",
+    "body": [
+      "*CREEP STRAIN RATE CONTROL, AMPLITUDE=${1}, ELSET=${2}, DEPENDENCIES=${3}, OP=${4}"
+    ],
+    "description": "CREEP STRAIN RATE CONTROL with parameter(s) AMPLITUDE, ELSET, DEPENDENCIES, OP.",
+    "scope": "source.inp"
+  }
+}

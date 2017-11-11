@@ -1,0 +1,58 @@
+{
+  "CLOAD()": {
+    "prefix": "*CLOAD",
+    "body": [
+      "*CLOAD"
+    ],
+    "description": "CLOAD without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CLOAD(FILE)": {
+    "prefix": "*CLOAD",
+    "body": [
+      "*CLOAD, FILE=${1}"
+    ],
+    "description": "CLOAD with parameter(s) FILE.",
+    "scope": "source.inp"
+  },
+  "CLOAD(FILE, CYCLIC MODE)": {
+    "prefix": "*CLOAD",
+    "body": [
+      "*CLOAD, FILE=${1}, CYCLIC MODE=${2}"
+    ],
+    "description": "CLOAD with parameter(s) FILE, CYCLIC MODE.",
+    "scope": "source.inp"
+  },
+  "CLOAD(AMPLITUDE, OP)": {
+    "prefix": "*CLOAD",
+    "body": [
+      "*CLOAD, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "CLOAD with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  },
+  "CLOAD(FILE, AMPLITUDE, FOLLOWER, INC, LOAD CASE, OP, REGION TYPE, STEP)": {
+    "prefix": "*CLOAD",
+    "body": [
+      "*CLOAD, FILE=${1}, AMPLITUDE=${2}, FOLLOWER=${3}, INC=${4}, LOAD CASE=${5}, OP=${6}, REGION TYPE=${7}, STEP=${8}"
+    ],
+    "description": "CLOAD with parameter(s) FILE, AMPLITUDE, FOLLOWER, INC, LOAD CASE, OP, REGION TYPE, STEP.",
+    "scope": "source.inp"
+  },
+  "CLOAD(FILE, CYCLIC MODE, AMPLITUDE, FOLLOWER, INC, LOAD CASE, OP, REGION TYPE, STEP, IMAGINARY)": {
+    "prefix": "*CLOAD",
+    "body": [
+      "*CLOAD, FILE=${1}, CYCLIC MODE=${2}, AMPLITUDE=${3}, FOLLOWER=${4}, INC=${5}, LOAD CASE=${6}, OP=${7}, REGION TYPE=${8}, STEP=${9}, IMAGINARY=${10}"
+    ],
+    "description": "CLOAD with parameter(s) FILE, CYCLIC MODE, AMPLITUDE, FOLLOWER, INC, LOAD CASE, OP, REGION TYPE, STEP, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "CLOAD(FILE, CYCLIC MODE, AMPLITUDE, FOLLOWER, INC, LOAD CASE, OP, REGION TYPE, STEP, REAL)": {
+    "prefix": "*CLOAD",
+    "body": [
+      "*CLOAD, FILE=${1}, CYCLIC MODE=${2}, AMPLITUDE=${3}, FOLLOWER=${4}, INC=${5}, LOAD CASE=${6}, OP=${7}, REGION TYPE=${8}, STEP=${9}, REAL=${10}"
+    ],
+    "description": "CLOAD with parameter(s) FILE, CYCLIC MODE, AMPLITUDE, FOLLOWER, INC, LOAD CASE, OP, REGION TYPE, STEP, REAL.",
+    "scope": "source.inp"
+  }
+}

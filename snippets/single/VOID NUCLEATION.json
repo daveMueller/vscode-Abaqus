@@ -1,0 +1,18 @@
+{
+  "VOID NUCLEATION()": {
+    "prefix": "*VOID NUCLEATION",
+    "body": [
+      "*VOID NUCLEATION"
+    ],
+    "description": "VOID NUCLEATION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "VOID NUCLEATION(DEPENDENCIES)": {
+    "prefix": "*VOID NUCLEATION",
+    "body": [
+      "*VOID NUCLEATION, DEPENDENCIES=${1}"
+    ],
+    "description": "VOID NUCLEATION with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ANNEAL TEMPERATURE()": {
+    "prefix": "*ANNEAL TEMPERATURE",
+    "body": [
+      "*ANNEAL TEMPERATURE"
+    ],
+    "description": "ANNEAL TEMPERATURE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ANNEAL TEMPERATURE(DEPENDENCIES)": {
+    "prefix": "*ANNEAL TEMPERATURE",
+    "body": [
+      "*ANNEAL TEMPERATURE, DEPENDENCIES=${1}"
+    ],
+    "description": "ANNEAL TEMPERATURE with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

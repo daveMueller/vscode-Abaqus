@@ -1,0 +1,10 @@
+{
+  "TURBULENCE MODEL(TYPE)": {
+    "prefix": "*TURBULENCE MODEL",
+    "body": [
+      "*TURBULENCE MODEL, TYPE=${1}"
+    ],
+    "description": "TURBULENCE MODEL with parameter(s) TYPE.",
+    "scope": "source.inp"
+  }
+}

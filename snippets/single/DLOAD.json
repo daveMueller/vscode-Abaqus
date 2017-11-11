@@ -1,0 +1,50 @@
+{
+  "DLOAD()": {
+    "prefix": "*DLOAD",
+    "body": [
+      "*DLOAD"
+    ],
+    "description": "DLOAD without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DLOAD(CYCLIC MODE)": {
+    "prefix": "*DLOAD",
+    "body": [
+      "*DLOAD, CYCLIC MODE=${1}"
+    ],
+    "description": "DLOAD with parameter(s) CYCLIC MODE.",
+    "scope": "source.inp"
+  },
+  "DLOAD(AMPLITUDE, OP)": {
+    "prefix": "*DLOAD",
+    "body": [
+      "*DLOAD, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "DLOAD with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  },
+  "DLOAD(CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REGION TYPE)": {
+    "prefix": "*DLOAD",
+    "body": [
+      "*DLOAD, CYCLIC MODE=${1}, AMPLITUDE=${2}, CONSTANT RESULTANT=${3}, FOLLOWER=${4}, OP=${5}, ORIENTATION=${6}, REF NODE=${7}, REGION TYPE=${8}"
+    ],
+    "description": "DLOAD with parameter(s) CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REGION TYPE.",
+    "scope": "source.inp"
+  },
+  "DLOAD(CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REGION TYPE, IMAGINARY)": {
+    "prefix": "*DLOAD",
+    "body": [
+      "*DLOAD, CYCLIC MODE=${1}, AMPLITUDE=${2}, CONSTANT RESULTANT=${3}, FOLLOWER=${4}, OP=${5}, ORIENTATION=${6}, REF NODE=${7}, REGION TYPE=${8}, IMAGINARY=${9}"
+    ],
+    "description": "DLOAD with parameter(s) CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REGION TYPE, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "DLOAD(CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REGION TYPE, REAL)": {
+    "prefix": "*DLOAD",
+    "body": [
+      "*DLOAD, CYCLIC MODE=${1}, AMPLITUDE=${2}, CONSTANT RESULTANT=${3}, FOLLOWER=${4}, OP=${5}, ORIENTATION=${6}, REF NODE=${7}, REGION TYPE=${8}, REAL=${9}"
+    ],
+    "description": "DLOAD with parameter(s) CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REGION TYPE, REAL.",
+    "scope": "source.inp"
+  }
+}

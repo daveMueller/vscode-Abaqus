@@ -1,0 +1,34 @@
+{
+  "STEP()": {
+    "prefix": "*STEP",
+    "body": [
+      "*STEP"
+    ],
+    "description": "STEP without parameter(s).",
+    "scope": "source.inp"
+  },
+  "STEP(NAME)": {
+    "prefix": "*STEP",
+    "body": [
+      "*STEP, NAME=${1}"
+    ],
+    "description": "STEP with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "STEP(NAME, NLGEOM)": {
+    "prefix": "*STEP",
+    "body": [
+      "*STEP, NAME=${1}, NLGEOM=${2}"
+    ],
+    "description": "STEP with parameter(s) NAME, NLGEOM.",
+    "scope": "source.inp"
+  },
+  "STEP(AMPLITUDE, CONVERT SDI, DSA, EXTRAPOLATION, INC, NAME, NLGEOM, PERTURBATION, SOLVER, UNSYMM)": {
+    "prefix": "*STEP",
+    "body": [
+      "*STEP, AMPLITUDE=${1}, CONVERT SDI=${2}, DSA=${3}, EXTRAPOLATION=${4}, INC=${5}, NAME=${6}, NLGEOM=${7}, PERTURBATION=${8}, SOLVER=${9}, UNSYMM=${10}"
+    ],
+    "description": "STEP with parameter(s) AMPLITUDE, CONVERT SDI, DSA, EXTRAPOLATION, INC, NAME, NLGEOM, PERTURBATION, SOLVER, UNSYMM.",
+    "scope": "source.inp"
+  }
+}

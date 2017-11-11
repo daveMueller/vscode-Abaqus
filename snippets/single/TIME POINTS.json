@@ -1,0 +1,18 @@
+{
+  "TIME POINTS(NAME)": {
+    "prefix": "*TIME POINTS",
+    "body": [
+      "*TIME POINTS, NAME=${1}"
+    ],
+    "description": "TIME POINTS with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "TIME POINTS(NAME, GENERATE, INPUT)": {
+    "prefix": "*TIME POINTS",
+    "body": [
+      "*TIME POINTS, NAME=${1}, GENERATE=${2}, INPUT=${3}"
+    ],
+    "description": "TIME POINTS with parameter(s) NAME, GENERATE, INPUT.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "FIXED MASS SCALING()": {
+    "prefix": "*FIXED MASS SCALING",
+    "body": [
+      "*FIXED MASS SCALING"
+    ],
+    "description": "FIXED MASS SCALING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FIXED MASS SCALING(DT, ELSET, FACTOR, TYPE)": {
+    "prefix": "*FIXED MASS SCALING",
+    "body": [
+      "*FIXED MASS SCALING, DT=${1}, ELSET=${2}, FACTOR=${3}, TYPE=${4}"
+    ],
+    "description": "FIXED MASS SCALING with parameter(s) DT, ELSET, FACTOR, TYPE.",
+    "scope": "source.inp"
+  }
+}

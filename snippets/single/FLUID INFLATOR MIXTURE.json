@@ -1,0 +1,18 @@
+{
+  "FLUID INFLATOR MIXTURE(NUMBER SPECIES)": {
+    "prefix": "*FLUID INFLATOR MIXTURE",
+    "body": [
+      "*FLUID INFLATOR MIXTURE, NUMBER SPECIES=${1}"
+    ],
+    "description": "FLUID INFLATOR MIXTURE with parameter(s) NUMBER SPECIES.",
+    "scope": "source.inp"
+  },
+  "FLUID INFLATOR MIXTURE(NUMBER SPECIES, TYPE)": {
+    "prefix": "*FLUID INFLATOR MIXTURE",
+    "body": [
+      "*FLUID INFLATOR MIXTURE, NUMBER SPECIES=${1}, TYPE=${2}"
+    ],
+    "description": "FLUID INFLATOR MIXTURE with parameter(s) NUMBER SPECIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

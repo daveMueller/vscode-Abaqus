@@ -1,0 +1,18 @@
+{
+  "SURFACE SECTION(ELSET)": {
+    "prefix": "*SURFACE SECTION",
+    "body": [
+      "*SURFACE SECTION, ELSET=${1}"
+    ],
+    "description": "SURFACE SECTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "SURFACE SECTION(ELSET, DENSITY)": {
+    "prefix": "*SURFACE SECTION",
+    "body": [
+      "*SURFACE SECTION, ELSET=${1}, DENSITY=${2}"
+    ],
+    "description": "SURFACE SECTION with parameter(s) ELSET, DENSITY.",
+    "scope": "source.inp"
+  }
+}

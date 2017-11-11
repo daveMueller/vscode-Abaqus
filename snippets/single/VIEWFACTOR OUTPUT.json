@@ -1,0 +1,18 @@
+{
+  "VIEWFACTOR OUTPUT(CAVITY)": {
+    "prefix": "*VIEWFACTOR OUTPUT",
+    "body": [
+      "*VIEWFACTOR OUTPUT, CAVITY=${1}"
+    ],
+    "description": "VIEWFACTOR OUTPUT with parameter(s) CAVITY.",
+    "scope": "source.inp"
+  },
+  "VIEWFACTOR OUTPUT(CAVITY, FREQUENCY)": {
+    "prefix": "*VIEWFACTOR OUTPUT",
+    "body": [
+      "*VIEWFACTOR OUTPUT, CAVITY=${1}, FREQUENCY=${2}"
+    ],
+    "description": "VIEWFACTOR OUTPUT with parameter(s) CAVITY, FREQUENCY.",
+    "scope": "source.inp"
+  }
+}

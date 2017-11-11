@@ -1,0 +1,10 @@
+{
+  "HEATCAP(DEPENDENCIES, ELSET)": {
+    "prefix": "*HEATCAP",
+    "body": [
+      "*HEATCAP, DEPENDENCIES=${1}, ELSET=${2}"
+    ],
+    "description": "HEATCAP with parameter(s) DEPENDENCIES, ELSET.",
+    "scope": "source.inp"
+  }
+}

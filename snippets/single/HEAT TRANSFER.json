@@ -1,0 +1,26 @@
+{
+  "HEAT TRANSFER()": {
+    "prefix": "*HEAT TRANSFER",
+    "body": [
+      "*HEAT TRANSFER"
+    ],
+    "description": "HEAT TRANSFER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "HEAT TRANSFER(DELTMX, END, STEADY STATE)": {
+    "prefix": "*HEAT TRANSFER",
+    "body": [
+      "*HEAT TRANSFER, DELTMX=${1}, END=${2}, STEADY STATE=${3}"
+    ],
+    "description": "HEAT TRANSFER with parameter(s) DELTMX, END, STEADY STATE.",
+    "scope": "source.inp"
+  },
+  "HEAT TRANSFER(DELTMX, END, STEADY STATE, MXDEM)": {
+    "prefix": "*HEAT TRANSFER",
+    "body": [
+      "*HEAT TRANSFER, DELTMX=${1}, END=${2}, STEADY STATE=${3}, MXDEM=${4}"
+    ],
+    "description": "HEAT TRANSFER with parameter(s) DELTMX, END, STEADY STATE, MXDEM.",
+    "scope": "source.inp"
+  }
+}

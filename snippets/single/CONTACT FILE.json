@@ -1,0 +1,18 @@
+{
+  "CONTACT FILE()": {
+    "prefix": "*CONTACT FILE",
+    "body": [
+      "*CONTACT FILE"
+    ],
+    "description": "CONTACT FILE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONTACT FILE(FREQUENCY, MASTER, NSET, SLAVE)": {
+    "prefix": "*CONTACT FILE",
+    "body": [
+      "*CONTACT FILE, FREQUENCY=${1}, MASTER=${2}, NSET=${3}, SLAVE=${4}"
+    ],
+    "description": "CONTACT FILE with parameter(s) FREQUENCY, MASTER, NSET, SLAVE.",
+    "scope": "source.inp"
+  }
+}

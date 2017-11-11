@@ -1,0 +1,10 @@
+{
+  "END ASSEMBLY()": {
+    "prefix": "*END ASSEMBLY",
+    "body": [
+      "*END ASSEMBLY"
+    ],
+    "description": "END ASSEMBLY without parameter(s).",
+    "scope": "source.inp"
+  }
+}

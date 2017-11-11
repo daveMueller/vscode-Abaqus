@@ -1,0 +1,18 @@
+{
+  "INCIDENT WAVE(PROPERTY, ACCELERATION AMPLITUDE)": {
+    "prefix": "*INCIDENT WAVE",
+    "body": [
+      "*INCIDENT WAVE, PROPERTY=${1}, ACCELERATION AMPLITUDE=${2}"
+    ],
+    "description": "INCIDENT WAVE with parameter(s) PROPERTY, ACCELERATION AMPLITUDE.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE(PROPERTY, PRESSURE AMPLITUDE)": {
+    "prefix": "*INCIDENT WAVE",
+    "body": [
+      "*INCIDENT WAVE, PROPERTY=${1}, PRESSURE AMPLITUDE=${2}"
+    ],
+    "description": "INCIDENT WAVE with parameter(s) PROPERTY, PRESSURE AMPLITUDE.",
+    "scope": "source.inp"
+  }
+}

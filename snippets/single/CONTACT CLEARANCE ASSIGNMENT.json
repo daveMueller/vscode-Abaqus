@@ -1,0 +1,10 @@
+{
+  "CONTACT CLEARANCE ASSIGNMENT()": {
+    "prefix": "*CONTACT CLEARANCE ASSIGNMENT",
+    "body": [
+      "*CONTACT CLEARANCE ASSIGNMENT"
+    ],
+    "description": "CONTACT CLEARANCE ASSIGNMENT without parameter(s).",
+    "scope": "source.inp"
+  }
+}

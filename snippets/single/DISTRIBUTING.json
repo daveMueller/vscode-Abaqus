@@ -1,0 +1,18 @@
+{
+  "DISTRIBUTING()": {
+    "prefix": "*DISTRIBUTING",
+    "body": [
+      "*DISTRIBUTING"
+    ],
+    "description": "DISTRIBUTING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DISTRIBUTING(COUPLING, WEIGHTING METHOD)": {
+    "prefix": "*DISTRIBUTING",
+    "body": [
+      "*DISTRIBUTING, COUPLING=${1}, WEIGHTING METHOD=${2}"
+    ],
+    "description": "DISTRIBUTING with parameter(s) COUPLING, WEIGHTING METHOD.",
+    "scope": "source.inp"
+  }
+}

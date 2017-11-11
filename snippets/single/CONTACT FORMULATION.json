@@ -1,0 +1,10 @@
+{
+  "CONTACT FORMULATION(TYPE)": {
+    "prefix": "*CONTACT FORMULATION",
+    "body": [
+      "*CONTACT FORMULATION, TYPE=${1}"
+    ],
+    "description": "CONTACT FORMULATION with parameter(s) TYPE.",
+    "scope": "source.inp"
+  }
+}

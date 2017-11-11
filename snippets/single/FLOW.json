@@ -1,0 +1,18 @@
+{
+  "FLOW()": {
+    "prefix": "*FLOW",
+    "body": [
+      "*FLOW"
+    ],
+    "description": "FLOW without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FLOW(AMPLITUDE, OP)": {
+    "prefix": "*FLOW",
+    "body": [
+      "*FLOW, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "FLOW with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

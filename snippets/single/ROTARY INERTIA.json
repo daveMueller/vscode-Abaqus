@@ -1,0 +1,18 @@
+{
+  "ROTARY INERTIA(ELSET)": {
+    "prefix": "*ROTARY INERTIA",
+    "body": [
+      "*ROTARY INERTIA, ELSET=${1}"
+    ],
+    "description": "ROTARY INERTIA with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "ROTARY INERTIA(ELSET, ALPHA, COMPOSITE, ORIENTATION)": {
+    "prefix": "*ROTARY INERTIA",
+    "body": [
+      "*ROTARY INERTIA, ELSET=${1}, ALPHA=${2}, COMPOSITE=${3}, ORIENTATION=${4}"
+    ],
+    "description": "ROTARY INERTIA with parameter(s) ELSET, ALPHA, COMPOSITE, ORIENTATION.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "DSLOAD(CYCLIC MODE)": {
+    "prefix": "*DSLOAD",
+    "body": [
+      "*DSLOAD, CYCLIC MODE=${1}"
+    ],
+    "description": "DSLOAD with parameter(s) CYCLIC MODE.",
+    "scope": "source.inp"
+  },
+  "DSLOAD(STEP, SUBMODEL)": {
+    "prefix": "*DSLOAD",
+    "body": [
+      "*DSLOAD, STEP=${1}, SUBMODEL=${2}"
+    ],
+    "description": "DSLOAD with parameter(s) STEP, SUBMODEL.",
+    "scope": "source.inp"
+  },
+  "DSLOAD(STEP, SUBMODEL, INC, OP)": {
+    "prefix": "*DSLOAD",
+    "body": [
+      "*DSLOAD, STEP=${1}, SUBMODEL=${2}, INC=${3}, OP=${4}"
+    ],
+    "description": "DSLOAD with parameter(s) STEP, SUBMODEL, INC, OP.",
+    "scope": "source.inp"
+  },
+  "DSLOAD(CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE)": {
+    "prefix": "*DSLOAD",
+    "body": [
+      "*DSLOAD, CYCLIC MODE=${1}, AMPLITUDE=${2}, CONSTANT RESULTANT=${3}, FOLLOWER=${4}, OP=${5}, ORIENTATION=${6}, REF NODE=${7}"
+    ],
+    "description": "DSLOAD with parameter(s) CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE.",
+    "scope": "source.inp"
+  },
+  "DSLOAD(CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, IMAGINARY)": {
+    "prefix": "*DSLOAD",
+    "body": [
+      "*DSLOAD, CYCLIC MODE=${1}, AMPLITUDE=${2}, CONSTANT RESULTANT=${3}, FOLLOWER=${4}, OP=${5}, ORIENTATION=${6}, REF NODE=${7}, IMAGINARY=${8}"
+    ],
+    "description": "DSLOAD with parameter(s) CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "DSLOAD(CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REAL)": {
+    "prefix": "*DSLOAD",
+    "body": [
+      "*DSLOAD, CYCLIC MODE=${1}, AMPLITUDE=${2}, CONSTANT RESULTANT=${3}, FOLLOWER=${4}, OP=${5}, ORIENTATION=${6}, REF NODE=${7}, REAL=${8}"
+    ],
+    "description": "DSLOAD with parameter(s) CYCLIC MODE, AMPLITUDE, CONSTANT RESULTANT, FOLLOWER, OP, ORIENTATION, REF NODE, REAL.",
+    "scope": "source.inp"
+  }
+}

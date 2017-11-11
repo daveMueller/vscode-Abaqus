@@ -1,0 +1,18 @@
+{
+  "CFD(INCOMPRESSIBLE NAVIER STOKES)": {
+    "prefix": "*CFD",
+    "body": [
+      "*CFD, INCOMPRESSIBLE NAVIER STOKES=${1}"
+    ],
+    "description": "CFD with parameter(s) INCOMPRESSIBLE NAVIER STOKES.",
+    "scope": "source.inp"
+  },
+  "CFD(INCOMPRESSIBLE NAVIER STOKES, ENERGY EQUATION, INCREMENTATION)": {
+    "prefix": "*CFD",
+    "body": [
+      "*CFD, INCOMPRESSIBLE NAVIER STOKES=${1}, ENERGY EQUATION=${2}, INCREMENTATION=${3}"
+    ],
+    "description": "CFD with parameter(s) INCOMPRESSIBLE NAVIER STOKES, ENERGY EQUATION, INCREMENTATION.",
+    "scope": "source.inp"
+  }
+}

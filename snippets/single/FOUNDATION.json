@@ -1,0 +1,10 @@
+{
+  "FOUNDATION()": {
+    "prefix": "*FOUNDATION",
+    "body": [
+      "*FOUNDATION"
+    ],
+    "description": "FOUNDATION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

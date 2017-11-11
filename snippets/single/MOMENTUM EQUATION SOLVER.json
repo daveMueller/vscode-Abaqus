@@ -1,0 +1,18 @@
+{
+  "MOMENTUM EQUATION SOLVER()": {
+    "prefix": "*MOMENTUM EQUATION SOLVER",
+    "body": [
+      "*MOMENTUM EQUATION SOLVER"
+    ],
+    "description": "MOMENTUM EQUATION SOLVER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MOMENTUM EQUATION SOLVER(CONVERGENCE, DIAGNOSTICS, TYPE)": {
+    "prefix": "*MOMENTUM EQUATION SOLVER",
+    "body": [
+      "*MOMENTUM EQUATION SOLVER, CONVERGENCE=${1}, DIAGNOSTICS=${2}, TYPE=${3}"
+    ],
+    "description": "MOMENTUM EQUATION SOLVER with parameter(s) CONVERGENCE, DIAGNOSTICS, TYPE.",
+    "scope": "source.inp"
+  }
+}

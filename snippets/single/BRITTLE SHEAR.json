@@ -1,0 +1,18 @@
+{
+  "BRITTLE SHEAR()": {
+    "prefix": "*BRITTLE SHEAR",
+    "body": [
+      "*BRITTLE SHEAR"
+    ],
+    "description": "BRITTLE SHEAR without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BRITTLE SHEAR(DEPENDENCIES, TYPE)": {
+    "prefix": "*BRITTLE SHEAR",
+    "body": [
+      "*BRITTLE SHEAR, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "BRITTLE SHEAR with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

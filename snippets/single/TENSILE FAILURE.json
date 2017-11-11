@@ -1,0 +1,26 @@
+{
+  "TENSILE FAILURE()": {
+    "prefix": "*TENSILE FAILURE",
+    "body": [
+      "*TENSILE FAILURE"
+    ],
+    "description": "TENSILE FAILURE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TENSILE FAILURE(ELEMENT DELETION, DEPENDENCIES)": {
+    "prefix": "*TENSILE FAILURE",
+    "body": [
+      "*TENSILE FAILURE, ELEMENT DELETION=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "TENSILE FAILURE with parameter(s) ELEMENT DELETION, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "TENSILE FAILURE(ELEMENT DELETION=NO, PRESSURE, SHEAR, DEPENDENCIES)": {
+    "prefix": "*TENSILE FAILURE",
+    "body": [
+      "*TENSILE FAILURE, ELEMENT DELETION=NO, PRESSURE=${1}, SHEAR=${2}, DEPENDENCIES=${3}"
+    ],
+    "description": "TENSILE FAILURE with parameter(s) PRESSURE, SHEAR, ELEMENT DELETION, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "COUPLING(CONSTRAINT NAME, REF NODE, SURFACE)": {
+    "prefix": "*COUPLING",
+    "body": [
+      "*COUPLING, CONSTRAINT NAME=${1}, REF NODE=${2}, SURFACE=${3}"
+    ],
+    "description": "COUPLING with parameter(s) CONSTRAINT NAME, REF NODE, SURFACE.",
+    "scope": "source.inp"
+  },
+  "COUPLING(CONSTRAINT NAME, REF NODE, SURFACE, INFLUENCE RADIUS, ORIENTATION)": {
+    "prefix": "*COUPLING",
+    "body": [
+      "*COUPLING, CONSTRAINT NAME=${1}, REF NODE=${2}, SURFACE=${3}, INFLUENCE RADIUS=${4}, ORIENTATION=${5}"
+    ],
+    "description": "COUPLING with parameter(s) CONSTRAINT NAME, REF NODE, SURFACE, INFLUENCE RADIUS, ORIENTATION.",
+    "scope": "source.inp"
+  }
+}

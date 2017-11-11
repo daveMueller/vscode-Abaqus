@@ -1,0 +1,18 @@
+{
+  "UEL PROPERTY(ELSET)": {
+    "prefix": "*UEL PROPERTY",
+    "body": [
+      "*UEL PROPERTY, ELSET=${1}"
+    ],
+    "description": "UEL PROPERTY with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "UEL PROPERTY(ELSET, MATERIAL, ORIENTATION, ALPHA, BETA)": {
+    "prefix": "*UEL PROPERTY",
+    "body": [
+      "*UEL PROPERTY, ELSET=${1}, MATERIAL=${2}, ORIENTATION=${3}, ALPHA=${4}, BETA=${5}"
+    ],
+    "description": "UEL PROPERTY with parameter(s) ELSET, MATERIAL, ORIENTATION, ALPHA, BETA.",
+    "scope": "source.inp"
+  }
+}

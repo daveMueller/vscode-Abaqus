@@ -1,0 +1,82 @@
+{
+  "RIGID BODY(REF NODE, ANALYTICAL SURFACE)": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, ANALYTICAL SURFACE=${2}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, ANALYTICAL SURFACE.",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, TIE NSET)": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, TIE NSET=${2}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, TIE NSET.",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, PIN NSET)": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, PIN NSET=${2}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, PIN NSET.",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, ELSET)": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, ELSET=${2}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, ELSET.",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, ANALYTICAL SURFACE, ELSET, PIN NSET, TIE NSET)": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, ANALYTICAL SURFACE=${2}, ELSET=${3}, PIN NSET=${4}, TIE NSET=${5}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, ANALYTICAL SURFACE, ELSET, PIN NSET, TIE NSET.",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, ANALYTICAL SURFACE, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, )": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, ANALYTICAL SURFACE=${2}, ISOTHERMAL=${3}, POSITION=${4}, DENSITY=${5}, NODAL THICKNESS=${6}, OFFSET=${7}, =${8}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, ANALYTICAL SURFACE, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, .",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, TIE NSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, )": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, TIE NSET=${2}, ISOTHERMAL=${3}, POSITION=${4}, DENSITY=${5}, NODAL THICKNESS=${6}, OFFSET=${7}, =${8}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, TIE NSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, .",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, PIN NSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, )": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, PIN NSET=${2}, ISOTHERMAL=${3}, POSITION=${4}, DENSITY=${5}, NODAL THICKNESS=${6}, OFFSET=${7}, =${8}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, PIN NSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, .",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, ELSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, )": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, ELSET=${2}, ISOTHERMAL=${3}, POSITION=${4}, DENSITY=${5}, NODAL THICKNESS=${6}, OFFSET=${7}, =${8}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, ELSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET, .",
+    "scope": "source.inp"
+  },
+  "RIGID BODY(REF NODE, ANALYTICAL SURFACE, ELSET, PIN NSET, TIE NSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET)": {
+    "prefix": "*RIGID BODY",
+    "body": [
+      "*RIGID BODY, REF NODE=${1}, ANALYTICAL SURFACE=${2}, ELSET=${3}, PIN NSET=${4}, TIE NSET=${5}, ISOTHERMAL=${6}, POSITION=${7}, DENSITY=${8}, NODAL THICKNESS=${9}, OFFSET=${10}"
+    ],
+    "description": "RIGID BODY with parameter(s) REF NODE, ANALYTICAL SURFACE, ELSET, PIN NSET, TIE NSET, ISOTHERMAL, POSITION, DENSITY, NODAL THICKNESS, OFFSET.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "POROUS FAILURE CRITERIA()": {
+    "prefix": "*POROUS FAILURE CRITERIA",
+    "body": [
+      "*POROUS FAILURE CRITERIA"
+    ],
+    "description": "POROUS FAILURE CRITERIA without parameter(s).",
+    "scope": "source.inp"
+  }
+}

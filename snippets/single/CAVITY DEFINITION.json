@@ -1,0 +1,18 @@
+{
+  "CAVITY DEFINITION(NAME)": {
+    "prefix": "*CAVITY DEFINITION",
+    "body": [
+      "*CAVITY DEFINITION, NAME=${1}"
+    ],
+    "description": "CAVITY DEFINITION with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "CAVITY DEFINITION(NAME, AMBIENT TEMP, PARALLEL DECOMPOSITION, SET PROPERTY)": {
+    "prefix": "*CAVITY DEFINITION",
+    "body": [
+      "*CAVITY DEFINITION, NAME=${1}, AMBIENT TEMP=${2}, PARALLEL DECOMPOSITION=${3}, SET PROPERTY=${4}"
+    ],
+    "description": "CAVITY DEFINITION with parameter(s) NAME, AMBIENT TEMP, PARALLEL DECOMPOSITION, SET PROPERTY.",
+    "scope": "source.inp"
+  }
+}

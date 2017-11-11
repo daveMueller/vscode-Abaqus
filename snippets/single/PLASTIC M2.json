@@ -1,0 +1,10 @@
+{
+  "PLASTIC M2()": {
+    "prefix": "*PLASTIC M2",
+    "body": [
+      "*PLASTIC M2"
+    ],
+    "description": "PLASTIC M2 without parameter(s).",
+    "scope": "source.inp"
+  }
+}

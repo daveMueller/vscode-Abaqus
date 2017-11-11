@@ -1,0 +1,18 @@
+{
+  "SFLOW()": {
+    "prefix": "*SFLOW",
+    "body": [
+      "*SFLOW"
+    ],
+    "description": "SFLOW without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SFLOW(AMPLITUDE, OP)": {
+    "prefix": "*SFLOW",
+    "body": [
+      "*SFLOW, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "SFLOW with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

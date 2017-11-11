@@ -1,0 +1,10 @@
+{
+  "CONNECTOR STOP(COMPONENT)": {
+    "prefix": "*CONNECTOR STOP",
+    "body": [
+      "*CONNECTOR STOP, COMPONENT=${1}"
+    ],
+    "description": "CONNECTOR STOP with parameter(s) COMPONENT.",
+    "scope": "source.inp"
+  }
+}

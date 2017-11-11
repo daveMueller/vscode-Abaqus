@@ -1,0 +1,42 @@
+{
+  "WAVE()": {
+    "prefix": "*WAVE",
+    "body": [
+      "*WAVE"
+    ],
+    "description": "WAVE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "WAVE(TYPE, INPUT)": {
+    "prefix": "*WAVE",
+    "body": [
+      "*WAVE, TYPE=${1}, INPUT=${2}"
+    ],
+    "description": "WAVE with parameter(s) TYPE, INPUT.",
+    "scope": "source.inp"
+  },
+  "WAVE(TYPE=AIRY, INPUT, WAVE PERIOD)": {
+    "prefix": "*WAVE",
+    "body": [
+      "*WAVE, TYPE=AIRY, INPUT=${1}, WAVE, PERIOD=${2}"
+    ],
+    "description": "WAVE with parameter(s) TYPE=AIRY, INPUT, WAVE PERIOD.",
+    "scope": "source.inp"
+  },
+  "WAVE(TYPE=GRIDDED, INPUT, DATA FILE, MINIMUM, QUADRATIC)": {
+    "prefix": "*WAVE",
+    "body": [
+      "*WAVE, TYPE=GRIDDED, INPUT=${1}, DATA FILE=${2}, MINIMUM=${3}, QUADRATIC=${4}"
+    ],
+    "description": "WAVE with parameter(s) TYPE=GRIDDED, INPUT, DATA FILE, MINIMUM, QUADRATIC.",
+    "scope": "source.inp"
+  },
+  "WAVE(TYPE=USER, INPUT, STOCHASTIC, PROPERTIES, DEPVAR)": {
+    "prefix": "*WAVE",
+    "body": [
+      "*WAVE, TYPE=USER, INPUT=${1}, STOCHASTIC=${2}, PROPERTIES=${3}, DEPVAR=${4}"
+    ],
+    "description": "WAVE with parameter(s) TYPE=USER, INPUT, STOCHASTIC, PROPERTIES, DEPVAR.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "LOW DENSITY FOAM()": {
+    "prefix": "*LOW DENSITY FOAM",
+    "body": [
+      "*LOW DENSITY FOAM"
+    ],
+    "description": "LOW DENSITY FOAM without parameter(s).",
+    "scope": "source.inp"
+  },
+  "LOW DENSITY FOAM(LATERAL STRAIN DATA, STRAIN RATE, RATE EXTRAPOLATION, TENSION CUTOFF, FAIL)": {
+    "prefix": "*LOW DENSITY FOAM",
+    "body": [
+      "*LOW DENSITY FOAM, LATERAL STRAIN DATA=${1}, STRAIN RATE=${2}, RATE EXTRAPOLATION=${3}, TENSION CUTOFF=${4}, FAIL=${5}"
+    ],
+    "description": "LOW DENSITY FOAM with parameter(s) LATERAL STRAIN DATA, STRAIN RATE, RATE EXTRAPOLATION, TENSION CUTOFF, FAIL.",
+    "scope": "source.inp"
+  }
+}

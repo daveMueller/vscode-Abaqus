@@ -1,0 +1,18 @@
+{
+  "ANNEAL()": {
+    "prefix": "*ANNEAL",
+    "body": [
+      "*ANNEAL"
+    ],
+    "description": "ANNEAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ANNEAL(TEMPERATURE)": {
+    "prefix": "*ANNEAL",
+    "body": [
+      "*ANNEAL, TEMPERATURE=${1}"
+    ],
+    "description": "ANNEAL with parameter(s) TEMPERATURE.",
+    "scope": "source.inp"
+  }
+}

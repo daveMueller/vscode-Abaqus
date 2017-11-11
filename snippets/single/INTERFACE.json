@@ -1,0 +1,18 @@
+{
+  "INTERFACE(ELSET)": {
+    "prefix": "*INTERFACE",
+    "body": [
+      "*INTERFACE, ELSET=${1}"
+    ],
+    "description": "INTERFACE with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "INTERFACE(ELSET, NAME)": {
+    "prefix": "*INTERFACE",
+    "body": [
+      "*INTERFACE, ELSET=${1}, NAME=${2}"
+    ],
+    "description": "INTERFACE with parameter(s) ELSET, NAME.",
+    "scope": "source.inp"
+  }
+}

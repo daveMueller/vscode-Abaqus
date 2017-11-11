@@ -1,0 +1,10 @@
+{
+  "BASELINE CORRECTION()": {
+    "prefix": "*BASELINE CORRECTION",
+    "body": [
+      "*BASELINE CORRECTION"
+    ],
+    "description": "BASELINE CORRECTION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

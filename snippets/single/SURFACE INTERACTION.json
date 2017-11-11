@@ -1,0 +1,18 @@
+{
+  "SURFACE INTERACTION(NAME)": {
+    "prefix": "*SURFACE INTERACTION",
+    "body": [
+      "*SURFACE INTERACTION, NAME=${1}"
+    ],
+    "description": "SURFACE INTERACTION with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "SURFACE INTERACTION(NAME, DEPVAR, PAD THICKNESS, PROPERTIES, TRACKING THICKNESS, UNSYMM, USER)": {
+    "prefix": "*SURFACE INTERACTION",
+    "body": [
+      "*SURFACE INTERACTION, NAME=${1}, DEPVAR=${2}, PAD THICKNESS=${3}, PROPERTIES=${4}, TRACKING THICKNESS=${5}, UNSYMM=${6}, USER=${7}"
+    ],
+    "description": "SURFACE INTERACTION with parameter(s) NAME, DEPVAR, PAD THICKNESS, PROPERTIES, TRACKING THICKNESS, UNSYMM, USER.",
+    "scope": "source.inp"
+  }
+}

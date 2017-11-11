@@ -1,0 +1,18 @@
+{
+  "CONNECTOR PLASTICITY()": {
+    "prefix": "*CONNECTOR PLASTICITY",
+    "body": [
+      "*CONNECTOR PLASTICITY"
+    ],
+    "description": "CONNECTOR PLASTICITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONNECTOR PLASTICITY(COMPONENT)": {
+    "prefix": "*CONNECTOR PLASTICITY",
+    "body": [
+      "*CONNECTOR PLASTICITY, COMPONENT=${1}"
+    ],
+    "description": "CONNECTOR PLASTICITY with parameter(s) COMPONENT.",
+    "scope": "source.inp"
+  }
+}

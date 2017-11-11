@@ -1,0 +1,66 @@
+{
+  "CONTROLS(ANALYSIS)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, ANALYSIS=${1}"
+    ],
+    "description": "CONTROLS with parameter(s) ANALYSIS.",
+    "scope": "source.inp"
+  },
+  "CONTROLS(PARAMETERS)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, PARAMETERS=${1}"
+    ],
+    "description": "CONTROLS with parameter(s) PARAMETERS.",
+    "scope": "source.inp"
+  },
+  "CONTROLS(RESET)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, RESET=${1}"
+    ],
+    "description": "CONTROLS with parameter(s) RESET.",
+    "scope": "source.inp"
+  },
+  "CONTROLS(TYPE)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, TYPE=${1}"
+    ],
+    "description": "CONTROLS with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "CONTROLS(ANALYSIS, DISTORTION CONTROL, FIELD)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, ANALYSIS=${1}, DISTORTION CONTROL=${2}, FIELD=${3}"
+    ],
+    "description": "CONTROLS with parameter(s) ANALYSIS, DISTORTION CONTROL, FIELD.",
+    "scope": "source.inp"
+  },
+  "CONTROLS(PARAMETERS, DISTORTION CONTROL, FIELD)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, PARAMETERS=${1}, DISTORTION CONTROL=${2}, FIELD=${3}"
+    ],
+    "description": "CONTROLS with parameter(s) PARAMETERS, DISTORTION CONTROL, FIELD.",
+    "scope": "source.inp"
+  },
+  "CONTROLS(RESET, DISTORTION CONTROL, FIELD)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, RESET=${1}, DISTORTION CONTROL=${2}, FIELD=${3}"
+    ],
+    "description": "CONTROLS with parameter(s) RESET, DISTORTION CONTROL, FIELD.",
+    "scope": "source.inp"
+  },
+  "CONTROLS(TYPE, DISTORTION CONTROL, FIELD)": {
+    "prefix": "*CONTROLS",
+    "body": [
+      "*CONTROLS, TYPE=${1}, DISTORTION CONTROL=${2}, FIELD=${3}"
+    ],
+    "description": "CONTROLS with parameter(s) TYPE, DISTORTION CONTROL, FIELD.",
+    "scope": "source.inp"
+  }
+}

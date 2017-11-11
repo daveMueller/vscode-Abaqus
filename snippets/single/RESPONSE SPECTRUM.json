@@ -1,0 +1,18 @@
+{
+  "RESPONSE SPECTRUM()": {
+    "prefix": "*RESPONSE SPECTRUM",
+    "body": [
+      "*RESPONSE SPECTRUM"
+    ],
+    "description": "RESPONSE SPECTRUM without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RESPONSE SPECTRUM(COMP, SUM)": {
+    "prefix": "*RESPONSE SPECTRUM",
+    "body": [
+      "*RESPONSE SPECTRUM, COMP=${1}, SUM=${2}"
+    ],
+    "description": "RESPONSE SPECTRUM with parameter(s) COMP, SUM.",
+    "scope": "source.inp"
+  }
+}

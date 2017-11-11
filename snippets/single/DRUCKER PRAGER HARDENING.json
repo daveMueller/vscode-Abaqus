@@ -1,0 +1,18 @@
+{
+  "DRUCKER PRAGER HARDENING()": {
+    "prefix": "*DRUCKER PRAGER HARDENING",
+    "body": [
+      "*DRUCKER PRAGER HARDENING"
+    ],
+    "description": "DRUCKER PRAGER HARDENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DRUCKER PRAGER HARDENING(DEPENDENCIES, RATE, TYPE)": {
+    "prefix": "*DRUCKER PRAGER HARDENING",
+    "body": [
+      "*DRUCKER PRAGER HARDENING, DEPENDENCIES=${1}, RATE=${2}, TYPE=${3}"
+    ],
+    "description": "DRUCKER PRAGER HARDENING with parameter(s) DEPENDENCIES, RATE, TYPE.",
+    "scope": "source.inp"
+  }
+}

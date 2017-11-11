@@ -1,0 +1,18 @@
+{
+  "DIFFUSIVITY()": {
+    "prefix": "*DIFFUSIVITY",
+    "body": [
+      "*DIFFUSIVITY"
+    ],
+    "description": "DIFFUSIVITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DIFFUSIVITY(DEPENDENCIES, LAW, TYPE)": {
+    "prefix": "*DIFFUSIVITY",
+    "body": [
+      "*DIFFUSIVITY, DEPENDENCIES=${1}, LAW=${2}, TYPE=${3}"
+    ],
+    "description": "DIFFUSIVITY with parameter(s) DEPENDENCIES, LAW, TYPE.",
+    "scope": "source.inp"
+  }
+}

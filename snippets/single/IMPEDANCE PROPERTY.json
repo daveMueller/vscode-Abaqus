@@ -1,0 +1,18 @@
+{
+  "IMPEDANCE PROPERTY(NAME)": {
+    "prefix": "*IMPEDANCE PROPERTY",
+    "body": [
+      "*IMPEDANCE PROPERTY, NAME=${1}"
+    ],
+    "description": "IMPEDANCE PROPERTY with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "IMPEDANCE PROPERTY(NAME, DATA, INPUT)": {
+    "prefix": "*IMPEDANCE PROPERTY",
+    "body": [
+      "*IMPEDANCE PROPERTY, NAME=${1}, DATA=${2}, INPUT=${3}"
+    ],
+    "description": "IMPEDANCE PROPERTY with parameter(s) NAME, DATA, INPUT.",
+    "scope": "source.inp"
+  }
+}

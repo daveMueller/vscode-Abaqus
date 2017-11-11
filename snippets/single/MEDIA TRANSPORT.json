@@ -1,0 +1,10 @@
+{
+  "MEDIA TRANSPORT()": {
+    "prefix": "*MEDIA TRANSPORT",
+    "body": [
+      "*MEDIA TRANSPORT"
+    ],
+    "description": "MEDIA TRANSPORT without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "SUBSTRUCTURE PATH(ENTER ELEMENT)": {
+    "prefix": "*SUBSTRUCTURE PATH",
+    "body": [
+      "*SUBSTRUCTURE PATH, ENTER ELEMENT=${1}"
+    ],
+    "description": "SUBSTRUCTURE PATH with parameter(s) ENTER ELEMENT.",
+    "scope": "source.inp"
+  },
+  "SUBSTRUCTURE PATH(LEAVE)": {
+    "prefix": "*SUBSTRUCTURE PATH",
+    "body": [
+      "*SUBSTRUCTURE PATH, LEAVE=${1}"
+    ],
+    "description": "SUBSTRUCTURE PATH with parameter(s) LEAVE.",
+    "scope": "source.inp"
+  },
+  "SUBSTRUCTURE PATH(ENTER ELEMENT, LEAVE)": {
+    "prefix": "*SUBSTRUCTURE PATH",
+    "body": [
+      "*SUBSTRUCTURE PATH, ENTER ELEMENT=${1}, LEAVE=${2}"
+    ],
+    "description": "SUBSTRUCTURE PATH with parameter(s) ENTER ELEMENT, LEAVE.",
+    "scope": "source.inp"
+  }
+}

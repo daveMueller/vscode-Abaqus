@@ -1,0 +1,42 @@
+{
+  "BASE MOTION(DOF)": {
+    "prefix": "*BASE MOTION",
+    "body": [
+      "*BASE MOTION, DOF=${1}"
+    ],
+    "description": "BASE MOTION with parameter(s) DOF.",
+    "scope": "source.inp"
+  },
+  "BASE MOTION(DOF, AMPLITUDE)": {
+    "prefix": "*BASE MOTION",
+    "body": [
+      "*BASE MOTION, DOF=${1}, AMPLITUDE=${2}"
+    ],
+    "description": "BASE MOTION with parameter(s) DOF, AMPLITUDE.",
+    "scope": "source.inp"
+  },
+  "BASE MOTION(DOF, BASE NAME, LOAD CASE, SCALE, TYPE)": {
+    "prefix": "*BASE MOTION",
+    "body": [
+      "*BASE MOTION, DOF=${1}, BASE NAME=${2}, LOAD CASE=${3}, SCALE=${4}, TYPE=${5}"
+    ],
+    "description": "BASE MOTION with parameter(s) DOF, BASE NAME, LOAD CASE, SCALE, TYPE.",
+    "scope": "source.inp"
+  },
+  "BASE MOTION(DOF, AMPLITUDE, BASE NAME, LOAD CASE, SCALE, TYPE, IMAGINARY)": {
+    "prefix": "*BASE MOTION",
+    "body": [
+      "*BASE MOTION, DOF=${1}, AMPLITUDE=${2}, BASE NAME=${3}, LOAD CASE=${4}, SCALE=${5}, TYPE=${6}, IMAGINARY=${7}"
+    ],
+    "description": "BASE MOTION with parameter(s) DOF, AMPLITUDE, BASE NAME, LOAD CASE, SCALE, TYPE, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "BASE MOTION(DOF, AMPLITUDE, BASE NAME, LOAD CASE, SCALE, TYPE, REAL)": {
+    "prefix": "*BASE MOTION",
+    "body": [
+      "*BASE MOTION, DOF=${1}, AMPLITUDE=${2}, BASE NAME=${3}, LOAD CASE=${4}, SCALE=${5}, TYPE=${6}, REAL=${7}"
+    ],
+    "description": "BASE MOTION with parameter(s) DOF, AMPLITUDE, BASE NAME, LOAD CASE, SCALE, TYPE, REAL.",
+    "scope": "source.inp"
+  }
+}

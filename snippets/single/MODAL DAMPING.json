@@ -1,0 +1,42 @@
+{
+  "MODAL DAMPING()": {
+    "prefix": "*MODAL DAMPING",
+    "body": [
+      "*MODAL DAMPING"
+    ],
+    "description": "MODAL DAMPING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MODAL DAMPING(DEFINITION, FIELD)": {
+    "prefix": "*MODAL DAMPING",
+    "body": [
+      "*MODAL DAMPING, DEFINITION=${1}, FIELD=${2}"
+    ],
+    "description": "MODAL DAMPING with parameter(s) DEFINITION, FIELD.",
+    "scope": "source.inp"
+  },
+  "MODAL DAMPING(DEFINITION, FIELD, MODAL)": {
+    "prefix": "*MODAL DAMPING",
+    "body": [
+      "*MODAL DAMPING, DEFINITION=${1}, FIELD=${2}, MODAL=${3}"
+    ],
+    "description": "MODAL DAMPING with parameter(s) DEFINITION, FIELD, MODAL.",
+    "scope": "source.inp"
+  },
+  "MODAL DAMPING(DEFINITION, FIELD, RAYLEIGH)": {
+    "prefix": "*MODAL DAMPING",
+    "body": [
+      "*MODAL DAMPING, DEFINITION=${1}, FIELD=${2}, RAYLEIGH=${3}"
+    ],
+    "description": "MODAL DAMPING with parameter(s) DEFINITION, FIELD, RAYLEIGH.",
+    "scope": "source.inp"
+  },
+  "MODAL DAMPING(DEFINITION, FIELD, STRUCTURAL)": {
+    "prefix": "*MODAL DAMPING",
+    "body": [
+      "*MODAL DAMPING, DEFINITION=${1}, FIELD=${2}, STRUCTURAL=${3}"
+    ],
+    "description": "MODAL DAMPING with parameter(s) DEFINITION, FIELD, STRUCTURAL.",
+    "scope": "source.inp"
+  }
+}

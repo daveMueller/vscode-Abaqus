@@ -1,0 +1,34 @@
+{
+  "CONTACT CONTROLS ASSIGNMENT(AUTOMATIC OVERCLOSURE RESOLUTION)": {
+    "prefix": "*CONTACT CONTROLS ASSIGNMENT",
+    "body": [
+      "*CONTACT CONTROLS ASSIGNMENT, AUTOMATIC OVERCLOSURE RESOLUTION=${1}"
+    ],
+    "description": "CONTACT CONTROLS ASSIGNMENT with parameter(s) AUTOMATIC OVERCLOSURE RESOLUTION.",
+    "scope": "source.inp"
+  },
+  "CONTACT CONTROLS ASSIGNMENT(CONTACT THICKNESS REDUCTION)": {
+    "prefix": "*CONTACT CONTROLS ASSIGNMENT",
+    "body": [
+      "*CONTACT CONTROLS ASSIGNMENT, CONTACT THICKNESS REDUCTION=${1}"
+    ],
+    "description": "CONTACT CONTROLS ASSIGNMENT with parameter(s) CONTACT THICKNESS REDUCTION.",
+    "scope": "source.inp"
+  },
+  "CONTACT CONTROLS ASSIGNMENT(NODAL EROSION)": {
+    "prefix": "*CONTACT CONTROLS ASSIGNMENT",
+    "body": [
+      "*CONTACT CONTROLS ASSIGNMENT, NODAL EROSION=${1}"
+    ],
+    "description": "CONTACT CONTROLS ASSIGNMENT with parameter(s) NODAL EROSION.",
+    "scope": "source.inp"
+  },
+  "CONTACT CONTROLS ASSIGNMENT(TYPE)": {
+    "prefix": "*CONTACT CONTROLS ASSIGNMENT",
+    "body": [
+      "*CONTACT CONTROLS ASSIGNMENT, TYPE=${1}"
+    ],
+    "description": "CONTACT CONTROLS ASSIGNMENT with parameter(s) TYPE.",
+    "scope": "source.inp"
+  }
+}

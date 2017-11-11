@@ -1,0 +1,74 @@
+{
+  "FIELD()": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD"
+    ],
+    "description": "FIELD without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FIELD(VARIABLE)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, VARIABLE=${1}"
+    ],
+    "description": "FIELD with parameter(s) VARIABLE.",
+    "scope": "source.inp"
+  },
+  "FIELD(FILE)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, FILE=${1}"
+    ],
+    "description": "FIELD with parameter(s) FILE.",
+    "scope": "source.inp"
+  },
+  "FIELD(OUTPUT VARIABLE)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, OUTPUT VARIABLE=${1}"
+    ],
+    "description": "FIELD with parameter(s) OUTPUT VARIABLE.",
+    "scope": "source.inp"
+  },
+  "FIELD(USER)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, USER=${1}"
+    ],
+    "description": "FIELD with parameter(s) USER.",
+    "scope": "source.inp"
+  },
+  "FIELD(OUTPUT VARIABLE, INTERPOLATE)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, OUTPUT VARIABLE=${1}, INTERPOLATE=${2}"
+    ],
+    "description": "FIELD with parameter(s) OUTPUT VARIABLE, INTERPOLATE.",
+    "scope": "source.inp"
+  },
+  "FIELD(USER, NUMBER, BLOCKING)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, USER=${1}, NUMBER=${2}, BLOCKING=${3}"
+    ],
+    "description": "FIELD with parameter(s) USER, NUMBER, BLOCKING.",
+    "scope": "source.inp"
+  },
+  "FIELD(AMPLITUDE, INPUT, OP)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, AMPLITUDE=${1}, INPUT=${2}, OP=${3}"
+    ],
+    "description": "FIELD with parameter(s) AMPLITUDE, INPUT, OP.",
+    "scope": "source.inp"
+  },
+  "FIELD(FILE, BSTEP, BINC, ESTEP, EINC)": {
+    "prefix": "*FIELD",
+    "body": [
+      "*FIELD, FILE=${1}, BSTEP=${2}, BINC=${3}, ESTEP=${4}, EINC=${5}"
+    ],
+    "description": "FIELD with parameter(s) FILE, BSTEP, BINC, ESTEP, EINC.",
+    "scope": "source.inp"
+  }
+}

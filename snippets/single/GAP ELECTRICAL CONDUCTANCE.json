@@ -1,0 +1,18 @@
+{
+  "GAP ELECTRICAL CONDUCTANCE()": {
+    "prefix": "*GAP ELECTRICAL CONDUCTANCE",
+    "body": [
+      "*GAP ELECTRICAL CONDUCTANCE"
+    ],
+    "description": "GAP ELECTRICAL CONDUCTANCE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GAP ELECTRICAL CONDUCTANCE(DEPENDENCIES, PRESSURE, USER)": {
+    "prefix": "*GAP ELECTRICAL CONDUCTANCE",
+    "body": [
+      "*GAP ELECTRICAL CONDUCTANCE, DEPENDENCIES=${1}, PRESSURE=${2}, USER=${3}"
+    ],
+    "description": "GAP ELECTRICAL CONDUCTANCE with parameter(s) DEPENDENCIES, PRESSURE, USER.",
+    "scope": "source.inp"
+  }
+}

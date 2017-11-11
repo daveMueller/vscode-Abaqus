@@ -1,0 +1,10 @@
+{
+  "HEADING()": {
+    "prefix": "*HEADING",
+    "body": [
+      "*HEADING"
+    ],
+    "description": "HEADING without parameter(s).",
+    "scope": "source.inp"
+  }
+}

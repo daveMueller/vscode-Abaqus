@@ -1,0 +1,10 @@
+{
+  "EOS COMPACTION()": {
+    "prefix": "*EOS COMPACTION",
+    "body": [
+      "*EOS COMPACTION"
+    ],
+    "description": "EOS COMPACTION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "DYNAMIC()": {
+    "prefix": "*DYNAMIC",
+    "body": [
+      "*DYNAMIC"
+    ],
+    "description": "DYNAMIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DYNAMIC(SUBSPACE)": {
+    "prefix": "*DYNAMIC",
+    "body": [
+      "*DYNAMIC, SUBSPACE=${1}"
+    ],
+    "description": "DYNAMIC with parameter(s) SUBSPACE.",
+    "scope": "source.inp"
+  },
+  "DYNAMIC(EXPLICIT)": {
+    "prefix": "*DYNAMIC",
+    "body": [
+      "*DYNAMIC, EXPLICIT=${1}"
+    ],
+    "description": "DYNAMIC with parameter(s) EXPLICIT.",
+    "scope": "source.inp"
+  },
+  "DYNAMIC(EXPLICIT, DIRECT USER CONTROL, ADIABATIC, IMPROVED DT METHOD, SCALE FACTOR)": {
+    "prefix": "*DYNAMIC",
+    "body": [
+      "*DYNAMIC, EXPLICIT=${1}, DIRECT USER CONTROL=${2}, ADIABATIC=${3}, IMPROVED DT METHOD=${4}, SCALE FACTOR=${5}"
+    ],
+    "description": "DYNAMIC with parameter(s) EXPLICIT, DIRECT USER CONTROL, ADIABATIC, IMPROVED DT METHOD, SCALE FACTOR.",
+    "scope": "source.inp"
+  },
+  "DYNAMIC(EXPLICIT, ELEMENT BY ELEMENT, ADIABATIC, IMPROVED DT METHOD, SCALE FACTOR)": {
+    "prefix": "*DYNAMIC",
+    "body": [
+      "*DYNAMIC, EXPLICIT=${1}, ELEMENT BY ELEMENT=${2}, ADIABATIC=${3}, IMPROVED DT METHOD=${4}, SCALE FACTOR=${5}"
+    ],
+    "description": "DYNAMIC with parameter(s) EXPLICIT, ELEMENT BY ELEMENT, ADIABATIC, IMPROVED DT METHOD, SCALE FACTOR.",
+    "scope": "source.inp"
+  },
+  "DYNAMIC(EXPLICIT, FIXED TIME INCREMENTATION, ADIABATIC, IMPROVED DT METHOD, SCALE FACTOR)": {
+    "prefix": "*DYNAMIC",
+    "body": [
+      "*DYNAMIC, EXPLICIT=${1}, FIXED TIME INCREMENTATION=${2}, ADIABATIC=${3}, IMPROVED DT METHOD=${4}, SCALE FACTOR=${5}"
+    ],
+    "description": "DYNAMIC with parameter(s) EXPLICIT, FIXED TIME INCREMENTATION, ADIABATIC, IMPROVED DT METHOD, SCALE FACTOR.",
+    "scope": "source.inp"
+  },
+  "DYNAMIC(ADIABATIC, ALPHA, APPLICATION, BETA, DIRECT, GAMMA, HAFTOL, HALFINC SCALE FACTOR, IMPACT, INCREMENTATION, INITIAL, NOHAF, SINGULAR MASS, TIME INTEGRATOR)": {
+    "prefix": "*DYNAMIC",
+    "body": [
+      "*DYNAMIC, ADIABATIC=${1}, ALPHA=${2}, APPLICATION=${3}, BETA=${4}, DIRECT=${5}, GAMMA=${6}, HAFTOL=${7}, HALFINC SCALE FACTOR=${8}, IMPACT=${9}, INCREMENTATION=${10}, INITIAL=${11}, NOHAF=${12}, SINGULAR MASS=${13}, TIME INTEGRATOR=${14}"
+    ],
+    "description": "DYNAMIC with parameter(s) ADIABATIC, ALPHA, APPLICATION, BETA, DIRECT, GAMMA, HAFTOL, HALFINC SCALE FACTOR, IMPACT, INCREMENTATION, INITIAL, NOHAF, SINGULAR MASS, TIME INTEGRATOR.",
+    "scope": "source.inp"
+  }
+}

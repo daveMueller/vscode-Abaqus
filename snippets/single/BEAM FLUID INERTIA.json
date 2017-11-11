@@ -1,0 +1,26 @@
+{
+  "BEAM FLUID INERTIA()": {
+    "prefix": "*BEAM FLUID INERTIA",
+    "body": [
+      "*BEAM FLUID INERTIA"
+    ],
+    "description": "BEAM FLUID INERTIA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BEAM FLUID INERTIA(HALF)": {
+    "prefix": "*BEAM FLUID INERTIA",
+    "body": [
+      "*BEAM FLUID INERTIA, HALF=${1}"
+    ],
+    "description": "BEAM FLUID INERTIA with parameter(s) HALF.",
+    "scope": "source.inp"
+  },
+  "BEAM FLUID INERTIA(FULL)": {
+    "prefix": "*BEAM FLUID INERTIA",
+    "body": [
+      "*BEAM FLUID INERTIA, FULL=${1}"
+    ],
+    "description": "BEAM FLUID INERTIA with parameter(s) FULL.",
+    "scope": "source.inp"
+  }
+}

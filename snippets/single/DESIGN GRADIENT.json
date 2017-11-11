@@ -1,0 +1,10 @@
+{
+  "DESIGN GRADIENT(DEPENDENT, INDEPENDENT)": {
+    "prefix": "*DESIGN GRADIENT",
+    "body": [
+      "*DESIGN GRADIENT, DEPENDENT=${1}, INDEPENDENT=${2}"
+    ],
+    "description": "DESIGN GRADIENT with parameter(s) DEPENDENT, INDEPENDENT.",
+    "scope": "source.inp"
+  }
+}

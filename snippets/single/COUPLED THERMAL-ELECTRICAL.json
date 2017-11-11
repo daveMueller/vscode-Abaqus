@@ -1,0 +1,18 @@
+{
+  "COUPLED THERMAL-ELECTRICAL()": {
+    "prefix": "*COUPLED THERMAL-ELECTRICAL",
+    "body": [
+      "*COUPLED THERMAL-ELECTRICAL"
+    ],
+    "description": "COUPLED THERMAL-ELECTRICAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "COUPLED THERMAL-ELECTRICAL(DELTMX, END, MXDEM, STEADY STATE)": {
+    "prefix": "*COUPLED THERMAL-ELECTRICAL",
+    "body": [
+      "*COUPLED THERMAL-ELECTRICAL, DELTMX=${1}, END=${2}, MXDEM=${3}, STEADY STATE=${4}"
+    ],
+    "description": "COUPLED THERMAL-ELECTRICAL with parameter(s) DELTMX, END, MXDEM, STEADY STATE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "ELECTROMAGNETIC(LOW FREQUENCY, TIME HARMONIC)": {
+    "prefix": "*ELECTROMAGNETIC",
+    "body": [
+      "*ELECTROMAGNETIC, LOW FREQUENCY=${1}, TIME HARMONIC=${2}"
+    ],
+    "description": "ELECTROMAGNETIC with parameter(s) LOW FREQUENCY, TIME HARMONIC.",
+    "scope": "source.inp"
+  },
+  "ELECTROMAGNETIC(LOW FREQUENCY, TRANSIENT)": {
+    "prefix": "*ELECTROMAGNETIC",
+    "body": [
+      "*ELECTROMAGNETIC, LOW FREQUENCY=${1}, TRANSIENT=${2}"
+    ],
+    "description": "ELECTROMAGNETIC with parameter(s) LOW FREQUENCY, TRANSIENT.",
+    "scope": "source.inp"
+  },
+  "ELECTROMAGNETIC(LOW FREQUENCY, TIME HARMONIC, DIRECT, STABILIZATION)": {
+    "prefix": "*ELECTROMAGNETIC",
+    "body": [
+      "*ELECTROMAGNETIC, LOW FREQUENCY=${1}, TIME HARMONIC=${2}, DIRECT=${3}, STABILIZATION=${4}"
+    ],
+    "description": "ELECTROMAGNETIC with parameter(s) LOW FREQUENCY, TIME HARMONIC, DIRECT, STABILIZATION.",
+    "scope": "source.inp"
+  },
+  "ELECTROMAGNETIC(LOW FREQUENCY, TRANSIENT, DIRECT, STABILIZATION)": {
+    "prefix": "*ELECTROMAGNETIC",
+    "body": [
+      "*ELECTROMAGNETIC, LOW FREQUENCY=${1}, TRANSIENT=${2}, DIRECT=${3}, STABILIZATION=${4}"
+    ],
+    "description": "ELECTROMAGNETIC with parameter(s) LOW FREQUENCY, TRANSIENT, DIRECT, STABILIZATION.",
+    "scope": "source.inp"
+  }
+}

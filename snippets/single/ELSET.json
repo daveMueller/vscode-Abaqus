@@ -1,0 +1,18 @@
+{
+  "ELSET(ELSET)": {
+    "prefix": "*ELSET",
+    "body": [
+      "*ELSET, ELSET,=${1}"
+    ],
+    "description": "ELSET with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "ELSET(ELSET, GENERATE, INSTANCE, INTERNAL, UNSORTED)": {
+    "prefix": "*ELSET",
+    "body": [
+      "*ELSET, ELSET,=${1}, GENERATE=${2}, INSTANCE=${3}, INTERNAL=${4}, UNSORTED=${5}"
+    ],
+    "description": "ELSET with parameter(s) ELSET, GENERATE, INSTANCE, INTERNAL, UNSORTED.",
+    "scope": "source.inp"
+  }
+}

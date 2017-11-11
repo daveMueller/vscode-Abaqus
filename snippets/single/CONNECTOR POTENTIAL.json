@@ -1,0 +1,18 @@
+{
+  "CONNECTOR POTENTIAL()": {
+    "prefix": "*CONNECTOR POTENTIAL",
+    "body": [
+      "*CONNECTOR POTENTIAL"
+    ],
+    "description": "CONNECTOR POTENTIAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONNECTOR POTENTIAL(EXPONENT, OPERATOR)": {
+    "prefix": "*CONNECTOR POTENTIAL",
+    "body": [
+      "*CONNECTOR POTENTIAL, EXPONENT=${1}, OPERATOR=${2}"
+    ],
+    "description": "CONNECTOR POTENTIAL with parameter(s) EXPONENT, OPERATOR.",
+    "scope": "source.inp"
+  }
+}

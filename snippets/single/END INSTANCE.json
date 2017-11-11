@@ -1,0 +1,10 @@
+{
+  "END INSTANCE()": {
+    "prefix": "*END INSTANCE",
+    "body": [
+      "*END INSTANCE"
+    ],
+    "description": "END INSTANCE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

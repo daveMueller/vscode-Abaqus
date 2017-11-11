@@ -1,0 +1,18 @@
+{
+  "MODAL OUTPUT()": {
+    "prefix": "*MODAL OUTPUT",
+    "body": [
+      "*MODAL OUTPUT"
+    ],
+    "description": "MODAL OUTPUT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MODAL OUTPUT(VARIABLE)": {
+    "prefix": "*MODAL OUTPUT",
+    "body": [
+      "*MODAL OUTPUT, VARIABLE=${1}"
+    ],
+    "description": "MODAL OUTPUT with parameter(s) VARIABLE.",
+    "scope": "source.inp"
+  }
+}

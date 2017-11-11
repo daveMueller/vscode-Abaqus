@@ -1,0 +1,18 @@
+{
+  "CONCRETE COMPRESSION DAMAGE()": {
+    "prefix": "*CONCRETE COMPRESSION DAMAGE",
+    "body": [
+      "*CONCRETE COMPRESSION DAMAGE"
+    ],
+    "description": "CONCRETE COMPRESSION DAMAGE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONCRETE COMPRESSION DAMAGE(DEPENDENCIES, TENSION RECOVERY)": {
+    "prefix": "*CONCRETE COMPRESSION DAMAGE",
+    "body": [
+      "*CONCRETE COMPRESSION DAMAGE, DEPENDENCIES=${1}, TENSION RECOVERY=${2}"
+    ],
+    "description": "CONCRETE COMPRESSION DAMAGE with parameter(s) DEPENDENCIES, TENSION RECOVERY.",
+    "scope": "source.inp"
+  }
+}

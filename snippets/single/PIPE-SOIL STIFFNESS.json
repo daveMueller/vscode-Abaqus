@@ -1,0 +1,26 @@
+{
+  "PIPE-SOIL STIFFNESS()": {
+    "prefix": "*PIPE-SOIL STIFFNESS",
+    "body": [
+      "*PIPE-SOIL STIFFNESS"
+    ],
+    "description": "PIPE-SOIL STIFFNESS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PIPE-SOIL STIFFNESS(TYPE, DEPENDENCIES, DIRECTION)": {
+    "prefix": "*PIPE-SOIL STIFFNESS",
+    "body": [
+      "*PIPE-SOIL STIFFNESS, TYPE=${1}, DEPENDENCIES=${2}, DIRECTION=${3}"
+    ],
+    "description": "PIPE-SOIL STIFFNESS with parameter(s) TYPE, DEPENDENCIES, DIRECTION.",
+    "scope": "source.inp"
+  },
+  "PIPE-SOIL STIFFNESS(TYPE=USER, DEPENDENCIES, DIRECTION, PROPERTIES, VARIABLES)": {
+    "prefix": "*PIPE-SOIL STIFFNESS",
+    "body": [
+      "*PIPE-SOIL STIFFNESS, TYPE=USER, DEPENDENCIES=${1}, DIRECTION=${2}, PROPERTIES=${3}, VARIABLES=${4}"
+    ],
+    "description": "PIPE-SOIL STIFFNESS with parameter(s) TYPE=USER, DEPENDENCIES, DIRECTION, PROPERTIES, VARIABLES.",
+    "scope": "source.inp"
+  }
+}

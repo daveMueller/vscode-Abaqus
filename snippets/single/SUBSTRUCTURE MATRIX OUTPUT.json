@@ -1,0 +1,18 @@
+{
+  "SUBSTRUCTURE MATRIX OUTPUT()": {
+    "prefix": "*SUBSTRUCTURE MATRIX OUTPUT",
+    "body": [
+      "*SUBSTRUCTURE MATRIX OUTPUT"
+    ],
+    "description": "SUBSTRUCTURE MATRIX OUTPUT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SUBSTRUCTURE MATRIX OUTPUT(FILE NAME, GRAVITY LOAD, MASS, OUTPUT FILE, RECOVERY MATRIX, SLOAD, STIFFNESS)": {
+    "prefix": "*SUBSTRUCTURE MATRIX OUTPUT",
+    "body": [
+      "*SUBSTRUCTURE MATRIX OUTPUT, FILE NAME=${1}, GRAVITY LOAD=${2}, MASS=${3}, OUTPUT FILE=${4}, RECOVERY MATRIX=${5}, SLOAD=${6}, STIFFNESS=${7}"
+    ],
+    "description": "SUBSTRUCTURE MATRIX OUTPUT with parameter(s) FILE NAME, GRAVITY LOAD, MASS, OUTPUT FILE, RECOVERY MATRIX, SLOAD, STIFFNESS.",
+    "scope": "source.inp"
+  }
+}

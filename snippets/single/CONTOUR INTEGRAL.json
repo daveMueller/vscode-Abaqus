@@ -1,0 +1,18 @@
+{
+  "CONTOUR INTEGRAL(CONTOURS)": {
+    "prefix": "*CONTOUR INTEGRAL",
+    "body": [
+      "*CONTOUR INTEGRAL, CONTOURS=${1}"
+    ],
+    "description": "CONTOUR INTEGRAL with parameter(s) CONTOURS.",
+    "scope": "source.inp"
+  },
+  "CONTOUR INTEGRAL(CONTOURS, CRACK NAME, CRACK TIP NODES, DIRECTION, FREQUENCY, NORMAL, OUTPUT, RESIDUAL STRESS STEP, SYMM, TYPE, XFEM)": {
+    "prefix": "*CONTOUR INTEGRAL",
+    "body": [
+      "*CONTOUR INTEGRAL, CONTOURS=${1}, CRACK NAME=${2}, CRACK TIP NODES=${3}, DIRECTION=${4}, FREQUENCY=${5}, NORMAL=${6}, OUTPUT=${7}, RESIDUAL STRESS STEP=${8}, SYMM=${9}, TYPE=${10}, XFEM=${11}"
+    ],
+    "description": "CONTOUR INTEGRAL with parameter(s) CONTOURS, CRACK NAME, CRACK TIP NODES, DIRECTION, FREQUENCY, NORMAL, OUTPUT, RESIDUAL STRESS STEP, SYMM, TYPE, XFEM.",
+    "scope": "source.inp"
+  }
+}

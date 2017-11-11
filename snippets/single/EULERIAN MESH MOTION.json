@@ -1,0 +1,34 @@
+{
+  "EULERIAN MESH MOTION(ELSET)": {
+    "prefix": "*EULERIAN MESH MOTION",
+    "body": [
+      "*EULERIAN MESH MOTION, ELSET=${1}"
+    ],
+    "description": "EULERIAN MESH MOTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "EULERIAN MESH MOTION(ELSET, SURFACE)": {
+    "prefix": "*EULERIAN MESH MOTION",
+    "body": [
+      "*EULERIAN MESH MOTION, ELSET=${1}, SURFACE=${2}"
+    ],
+    "description": "EULERIAN MESH MOTION with parameter(s) ELSET, SURFACE.",
+    "scope": "source.inp"
+  },
+  "EULERIAN MESH MOTION(ELSET, ASPECT RATIO MAX, BUFFER, CENTER, CONTRACT, OP, ORIENTATION, VMAX FACTOR, VOLFRAC MIN)": {
+    "prefix": "*EULERIAN MESH MOTION",
+    "body": [
+      "*EULERIAN MESH MOTION, ELSET=${1}, ASPECT RATIO MAX=${2}, BUFFER=${3}, CENTER=${4}, CONTRACT=${5}, OP=${6}, ORIENTATION=${7}, VMAX FACTOR=${8}, VOLFRAC MIN=${9}"
+    ],
+    "description": "EULERIAN MESH MOTION with parameter(s) ELSET, ASPECT RATIO MAX, BUFFER, CENTER, CONTRACT, OP, ORIENTATION, VMAX FACTOR, VOLFRAC MIN.",
+    "scope": "source.inp"
+  },
+  "EULERIAN MESH MOTION(ELSET, SURFACE, ASPECT RATIO MAX, BUFFER, CENTER, CONTRACT, OP, ORIENTATION, VMAX FACTOR, VOLFRAC MIN)": {
+    "prefix": "*EULERIAN MESH MOTION",
+    "body": [
+      "*EULERIAN MESH MOTION, ELSET=${1}, SURFACE=${2}, ASPECT RATIO MAX=${3}, BUFFER=${4}, CENTER=${5}, CONTRACT=${6}, OP=${7}, ORIENTATION=${8}, VMAX FACTOR=${9}, VOLFRAC MIN=${10}"
+    ],
+    "description": "EULERIAN MESH MOTION with parameter(s) ELSET, SURFACE, ASPECT RATIO MAX, BUFFER, CENTER, CONTRACT, OP, ORIENTATION, VMAX FACTOR, VOLFRAC MIN.",
+    "scope": "source.inp"
+  }
+}

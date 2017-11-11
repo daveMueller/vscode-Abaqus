@@ -1,0 +1,10 @@
+{
+  "SIMPLE SHEAR TEST DATA()": {
+    "prefix": "*SIMPLE SHEAR TEST DATA",
+    "body": [
+      "*SIMPLE SHEAR TEST DATA"
+    ],
+    "description": "SIMPLE SHEAR TEST DATA without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "CYCLIC HARDENING()": {
+    "prefix": "*CYCLIC HARDENING",
+    "body": [
+      "*CYCLIC HARDENING"
+    ],
+    "description": "CYCLIC HARDENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CYCLIC HARDENING(DEPENDENCIES, RATE)": {
+    "prefix": "*CYCLIC HARDENING",
+    "body": [
+      "*CYCLIC HARDENING, DEPENDENCIES=${1}, RATE=${2}"
+    ],
+    "description": "CYCLIC HARDENING with parameter(s) DEPENDENCIES, RATE.",
+    "scope": "source.inp"
+  },
+  "CYCLIC HARDENING(DEPENDENCIES, PARAMETERS)": {
+    "prefix": "*CYCLIC HARDENING",
+    "body": [
+      "*CYCLIC HARDENING, DEPENDENCIES=${1}, PARAMETERS=${2}"
+    ],
+    "description": "CYCLIC HARDENING with parameter(s) DEPENDENCIES, PARAMETERS.",
+    "scope": "source.inp"
+  },
+  "CYCLIC HARDENING(DEPENDENCIES, PARAMETERS, USER, PROPERTIES)": {
+    "prefix": "*CYCLIC HARDENING",
+    "body": [
+      "*CYCLIC HARDENING, DEPENDENCIES=${1}, PARAMETERS=${2}, USER=${3}, PROPERTIES=${4}"
+    ],
+    "description": "CYCLIC HARDENING with parameter(s) DEPENDENCIES, PARAMETERS, USER, PROPERTIES.",
+    "scope": "source.inp"
+  }
+}

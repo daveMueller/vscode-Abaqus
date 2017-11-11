@@ -1,0 +1,34 @@
+{
+  "UNIAXIAL TEST DATA()": {
+    "prefix": "*UNIAXIAL TEST DATA",
+    "body": [
+      "*UNIAXIAL TEST DATA"
+    ],
+    "description": "UNIAXIAL TEST DATA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "UNIAXIAL TEST DATA(DIRECTION)": {
+    "prefix": "*UNIAXIAL TEST DATA",
+    "body": [
+      "*UNIAXIAL TEST DATA, DIRECTION=${1}"
+    ],
+    "description": "UNIAXIAL TEST DATA with parameter(s) DIRECTION.",
+    "scope": "source.inp"
+  },
+  "UNIAXIAL TEST DATA(SMOOTH, DEPENDENCIES)": {
+    "prefix": "*UNIAXIAL TEST DATA",
+    "body": [
+      "*UNIAXIAL TEST DATA, SMOOTH=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "UNIAXIAL TEST DATA with parameter(s) SMOOTH, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "UNIAXIAL TEST DATA(DIRECTION, DEPENDENCIES)": {
+    "prefix": "*UNIAXIAL TEST DATA",
+    "body": [
+      "*UNIAXIAL TEST DATA, DIRECTION=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "UNIAXIAL TEST DATA with parameter(s) DIRECTION, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

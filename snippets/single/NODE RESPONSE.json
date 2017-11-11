@@ -1,0 +1,18 @@
+{
+  "NODE RESPONSE()": {
+    "prefix": "*NODE RESPONSE",
+    "body": [
+      "*NODE RESPONSE"
+    ],
+    "description": "NODE RESPONSE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NODE RESPONSE(NSET)": {
+    "prefix": "*NODE RESPONSE",
+    "body": [
+      "*NODE RESPONSE, NSET=${1}"
+    ],
+    "description": "NODE RESPONSE with parameter(s) NSET.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "POROUS ELASTIC()": {
+    "prefix": "*POROUS ELASTIC",
+    "body": [
+      "*POROUS ELASTIC"
+    ],
+    "description": "POROUS ELASTIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "POROUS ELASTIC(DEPENDENCIES, SHEAR)": {
+    "prefix": "*POROUS ELASTIC",
+    "body": [
+      "*POROUS ELASTIC, DEPENDENCIES=${1}, SHEAR=${2}"
+    ],
+    "description": "POROUS ELASTIC with parameter(s) DEPENDENCIES, SHEAR.",
+    "scope": "source.inp"
+  }
+}

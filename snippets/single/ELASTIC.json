@@ -1,0 +1,18 @@
+{
+  "ELASTIC()": {
+    "prefix": "*ELASTIC",
+    "body": [
+      "*ELASTIC"
+    ],
+    "description": "ELASTIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ELASTIC(DEPENDENCIES, MODULI, TYPE)": {
+    "prefix": "*ELASTIC",
+    "body": [
+      "*ELASTIC, DEPENDENCIES=${1}, MODULI=${2}, TYPE=${3}"
+    ],
+    "description": "ELASTIC with parameter(s) DEPENDENCIES, MODULI, TYPE.",
+    "scope": "source.inp"
+  }
+}

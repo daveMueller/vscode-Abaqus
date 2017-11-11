@@ -1,0 +1,66 @@
+{
+  "INCIDENT WAVE INTERACTION(PROPERTY, UNDEX)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, UNDEX=${2}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, UNDEX.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION(PROPERTY, PRESSURE AMPLITUDE)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, PRESSURE AMPLITUDE=${2}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, PRESSURE AMPLITUDE.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION(PROPERTY, CONWEP)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, CONWEP=${2}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, CONWEP.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION(PROPERTY, ACCELERATION AMPLITUDE)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, ACCELERATION AMPLITUDE=${2}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, ACCELERATION AMPLITUDE.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION(PROPERTY, UNDEX, IMAGINARY, REAL)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, UNDEX=${2}, IMAGINARY=${3}, REAL=${4}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, UNDEX, IMAGINARY, REAL.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION(PROPERTY, PRESSURE AMPLITUDE, IMAGINARY, REAL)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, PRESSURE AMPLITUDE=${2}, IMAGINARY=${3}, REAL=${4}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, PRESSURE AMPLITUDE, IMAGINARY, REAL.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION(PROPERTY, CONWEP, IMAGINARY, REAL)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, CONWEP=${2}, IMAGINARY=${3}, REAL=${4}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, CONWEP, IMAGINARY, REAL.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE INTERACTION(PROPERTY, ACCELERATION AMPLITUDE, IMAGINARY, REAL)": {
+    "prefix": "*INCIDENT WAVE INTERACTION",
+    "body": [
+      "*INCIDENT WAVE INTERACTION, PROPERTY=${1}, ACCELERATION AMPLITUDE=${2}, IMAGINARY=${3}, REAL=${4}"
+    ],
+    "description": "INCIDENT WAVE INTERACTION with parameter(s) PROPERTY, ACCELERATION AMPLITUDE, IMAGINARY, REAL.",
+    "scope": "source.inp"
+  }
+}

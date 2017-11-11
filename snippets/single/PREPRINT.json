@@ -1,0 +1,18 @@
+{
+  "PREPRINT()": {
+    "prefix": "*PREPRINT",
+    "body": [
+      "*PREPRINT"
+    ],
+    "description": "PREPRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PREPRINT(CONTACT, ECHO, HISTORY, MODEL, PARSUBSTITUTION, PARVALUES, MASS PROPERTY)": {
+    "prefix": "*PREPRINT",
+    "body": [
+      "*PREPRINT, CONTACT=${1}, ECHO=${2}, HISTORY=${3}, MODEL=${4}, PARSUBSTITUTION=${5}, PARVALUES=${6}, MASS PROPERTY=${7}"
+    ],
+    "description": "PREPRINT with parameter(s) CONTACT, ECHO, HISTORY, MODEL, PARSUBSTITUTION, PARVALUES, MASS PROPERTY.",
+    "scope": "source.inp"
+  }
+}

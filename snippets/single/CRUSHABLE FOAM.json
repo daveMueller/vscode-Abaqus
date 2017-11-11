@@ -1,0 +1,18 @@
+{
+  "CRUSHABLE FOAM()": {
+    "prefix": "*CRUSHABLE FOAM",
+    "body": [
+      "*CRUSHABLE FOAM"
+    ],
+    "description": "CRUSHABLE FOAM without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CRUSHABLE FOAM(DEPENDENCIES, HARDENING)": {
+    "prefix": "*CRUSHABLE FOAM",
+    "body": [
+      "*CRUSHABLE FOAM, DEPENDENCIES=${1}, HARDENING=${2}"
+    ],
+    "description": "CRUSHABLE FOAM with parameter(s) DEPENDENCIES, HARDENING.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "KAPPA()": {
+    "prefix": "*KAPPA",
+    "body": [
+      "*KAPPA"
+    ],
+    "description": "KAPPA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "KAPPA(DEPENDENCIES, TYPE)": {
+    "prefix": "*KAPPA",
+    "body": [
+      "*KAPPA, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "KAPPA with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

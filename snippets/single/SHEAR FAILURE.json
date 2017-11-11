@@ -1,0 +1,18 @@
+{
+  "SHEAR FAILURE()": {
+    "prefix": "*SHEAR FAILURE",
+    "body": [
+      "*SHEAR FAILURE"
+    ],
+    "description": "SHEAR FAILURE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SHEAR FAILURE(DEPENDENCIES, ELEMENT DELETION, TYPE)": {
+    "prefix": "*SHEAR FAILURE",
+    "body": [
+      "*SHEAR FAILURE, DEPENDENCIES=${1}, ELEMENT DELETION=${2}, TYPE=${3}"
+    ],
+    "description": "SHEAR FAILURE with parameter(s) DEPENDENCIES, ELEMENT DELETION, TYPE.",
+    "scope": "source.inp"
+  }
+}

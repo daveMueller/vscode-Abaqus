@@ -1,0 +1,18 @@
+{
+  "SUBSTRUCTURE PROPERTY(ELSET)": {
+    "prefix": "*SUBSTRUCTURE PROPERTY",
+    "body": [
+      "*SUBSTRUCTURE PROPERTY, ELSET=${1}"
+    ],
+    "description": "SUBSTRUCTURE PROPERTY with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "SUBSTRUCTURE PROPERTY(ELSET, POSITION TOL)": {
+    "prefix": "*SUBSTRUCTURE PROPERTY",
+    "body": [
+      "*SUBSTRUCTURE PROPERTY, ELSET=${1}, POSITION TOL=${2}"
+    ],
+    "description": "SUBSTRUCTURE PROPERTY with parameter(s) ELSET, POSITION TOL.",
+    "scope": "source.inp"
+  }
+}

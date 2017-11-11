@@ -1,0 +1,18 @@
+{
+  "CAST IRON COMPRESSION HARDENING()": {
+    "prefix": "*CAST IRON COMPRESSION HARDENING",
+    "body": [
+      "*CAST IRON COMPRESSION HARDENING"
+    ],
+    "description": "CAST IRON COMPRESSION HARDENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CAST IRON COMPRESSION HARDENING(DEPENDENCIES)": {
+    "prefix": "*CAST IRON COMPRESSION HARDENING",
+    "body": [
+      "*CAST IRON COMPRESSION HARDENING, DEPENDENCIES=${1}"
+    ],
+    "description": "CAST IRON COMPRESSION HARDENING with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

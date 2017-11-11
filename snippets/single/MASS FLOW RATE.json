@@ -1,0 +1,18 @@
+{
+  "MASS FLOW RATE()": {
+    "prefix": "*MASS FLOW RATE",
+    "body": [
+      "*MASS FLOW RATE"
+    ],
+    "description": "MASS FLOW RATE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MASS FLOW RATE(AMPLITUDE, INPUT, OP, USER)": {
+    "prefix": "*MASS FLOW RATE",
+    "body": [
+      "*MASS FLOW RATE, AMPLITUDE=${1}, INPUT=${2}, OP=${3}, USER=${4}"
+    ],
+    "description": "MASS FLOW RATE with parameter(s) AMPLITUDE, INPUT, OP, USER.",
+    "scope": "source.inp"
+  }
+}

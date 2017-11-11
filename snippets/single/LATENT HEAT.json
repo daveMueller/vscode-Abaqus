@@ -1,0 +1,18 @@
+{
+  "LATENT HEAT()": {
+    "prefix": "*LATENT HEAT",
+    "body": [
+      "*LATENT HEAT"
+    ],
+    "description": "LATENT HEAT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "LATENT HEAT(PORE FLUID)": {
+    "prefix": "*LATENT HEAT",
+    "body": [
+      "*LATENT HEAT, PORE FLUID=${1}"
+    ],
+    "description": "LATENT HEAT with parameter(s) PORE FLUID.",
+    "scope": "source.inp"
+  }
+}

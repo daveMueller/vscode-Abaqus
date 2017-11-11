@@ -1,0 +1,18 @@
+{
+  "BRITTLE CRACKING()": {
+    "prefix": "*BRITTLE CRACKING",
+    "body": [
+      "*BRITTLE CRACKING"
+    ],
+    "description": "BRITTLE CRACKING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BRITTLE CRACKING(DEPENDENCIES, TYPE)": {
+    "prefix": "*BRITTLE CRACKING",
+    "body": [
+      "*BRITTLE CRACKING, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "BRITTLE CRACKING with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

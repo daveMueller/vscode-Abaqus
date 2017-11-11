@@ -1,0 +1,18 @@
+{
+  "CECURRENT()": {
+    "prefix": "*CECURRENT",
+    "body": [
+      "*CECURRENT"
+    ],
+    "description": "CECURRENT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CECURRENT(AMPLITUDE, OP)": {
+    "prefix": "*CECURRENT",
+    "body": [
+      "*CECURRENT, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "CECURRENT with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

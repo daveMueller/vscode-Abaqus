@@ -1,0 +1,50 @@
+{
+  "EXTREME ELEMENT VALUE(ELSET, ABS)": {
+    "prefix": "*EXTREME ELEMENT VALUE",
+    "body": [
+      "*EXTREME ELEMENT VALUE, ELSET=${1}, ABS=${2}"
+    ],
+    "description": "EXTREME ELEMENT VALUE with parameter(s) ELSET, ABS.",
+    "scope": "source.inp"
+  },
+  "EXTREME ELEMENT VALUE(ELSET, MAX)": {
+    "prefix": "*EXTREME ELEMENT VALUE",
+    "body": [
+      "*EXTREME ELEMENT VALUE, ELSET=${1}, MAX=${2}"
+    ],
+    "description": "EXTREME ELEMENT VALUE with parameter(s) ELSET, MAX.",
+    "scope": "source.inp"
+  },
+  "EXTREME ELEMENT VALUE(ELSET, MIN)": {
+    "prefix": "*EXTREME ELEMENT VALUE",
+    "body": [
+      "*EXTREME ELEMENT VALUE, ELSET=${1}, MIN=${2}"
+    ],
+    "description": "EXTREME ELEMENT VALUE with parameter(s) ELSET, MIN.",
+    "scope": "source.inp"
+  },
+  "EXTREME ELEMENT VALUE(ELSET, ABS, OUTPUT)": {
+    "prefix": "*EXTREME ELEMENT VALUE",
+    "body": [
+      "*EXTREME ELEMENT VALUE, ELSET=${1}, ABS=${2}, OUTPUT=${3}"
+    ],
+    "description": "EXTREME ELEMENT VALUE with parameter(s) ELSET, ABS, OUTPUT.",
+    "scope": "source.inp"
+  },
+  "EXTREME ELEMENT VALUE(ELSET, MAX, OUTPUT)": {
+    "prefix": "*EXTREME ELEMENT VALUE",
+    "body": [
+      "*EXTREME ELEMENT VALUE, ELSET=${1}, MAX=${2}, OUTPUT=${3}"
+    ],
+    "description": "EXTREME ELEMENT VALUE with parameter(s) ELSET, MAX, OUTPUT.",
+    "scope": "source.inp"
+  },
+  "EXTREME ELEMENT VALUE(ELSET, MIN, OUTPUT)": {
+    "prefix": "*EXTREME ELEMENT VALUE",
+    "body": [
+      "*EXTREME ELEMENT VALUE, ELSET=${1}, MIN=${2}, OUTPUT=${3}"
+    ],
+    "description": "EXTREME ELEMENT VALUE with parameter(s) ELSET, MIN, OUTPUT.",
+    "scope": "source.inp"
+  }
+}

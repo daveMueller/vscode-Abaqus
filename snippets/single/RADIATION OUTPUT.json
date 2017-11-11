@@ -1,0 +1,42 @@
+{
+  "RADIATION OUTPUT()": {
+    "prefix": "*RADIATION OUTPUT",
+    "body": [
+      "*RADIATION OUTPUT"
+    ],
+    "description": "RADIATION OUTPUT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RADIATION OUTPUT(VARIABLE)": {
+    "prefix": "*RADIATION OUTPUT",
+    "body": [
+      "*RADIATION OUTPUT, VARIABLE=${1}"
+    ],
+    "description": "RADIATION OUTPUT with parameter(s) VARIABLE.",
+    "scope": "source.inp"
+  },
+  "RADIATION OUTPUT(VARIABLE, CAVITY)": {
+    "prefix": "*RADIATION OUTPUT",
+    "body": [
+      "*RADIATION OUTPUT, VARIABLE=${1}, CAVITY=${2}"
+    ],
+    "description": "RADIATION OUTPUT with parameter(s) VARIABLE, CAVITY.",
+    "scope": "source.inp"
+  },
+  "RADIATION OUTPUT(VARIABLE, ELSET)": {
+    "prefix": "*RADIATION OUTPUT",
+    "body": [
+      "*RADIATION OUTPUT, VARIABLE=${1}, ELSET=${2}"
+    ],
+    "description": "RADIATION OUTPUT with parameter(s) VARIABLE, ELSET.",
+    "scope": "source.inp"
+  },
+  "RADIATION OUTPUT(VARIABLE, SURFACE)": {
+    "prefix": "*RADIATION OUTPUT",
+    "body": [
+      "*RADIATION OUTPUT, VARIABLE=${1}, SURFACE=${2}"
+    ],
+    "description": "RADIATION OUTPUT with parameter(s) VARIABLE, SURFACE.",
+    "scope": "source.inp"
+  }
+}

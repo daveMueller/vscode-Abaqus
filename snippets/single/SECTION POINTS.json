@@ -1,0 +1,10 @@
+{
+  "SECTION POINTS()": {
+    "prefix": "*SECTION POINTS",
+    "body": [
+      "*SECTION POINTS"
+    ],
+    "description": "SECTION POINTS without parameter(s).",
+    "scope": "source.inp"
+  }
+}

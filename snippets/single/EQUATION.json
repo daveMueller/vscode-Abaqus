@@ -1,0 +1,18 @@
+{
+  "EQUATION()": {
+    "prefix": "*EQUATION",
+    "body": [
+      "*EQUATION"
+    ],
+    "description": "EQUATION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EQUATION(INPUT)": {
+    "prefix": "*EQUATION",
+    "body": [
+      "*EQUATION, INPUT=${1}"
+    ],
+    "description": "EQUATION with parameter(s) INPUT.",
+    "scope": "source.inp"
+  }
+}

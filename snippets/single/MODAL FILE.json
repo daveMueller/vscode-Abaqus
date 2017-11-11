@@ -1,0 +1,18 @@
+{
+  "MODAL FILE()": {
+    "prefix": "*MODAL FILE",
+    "body": [
+      "*MODAL FILE"
+    ],
+    "description": "MODAL FILE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MODAL FILE(FREQUENCY)": {
+    "prefix": "*MODAL FILE",
+    "body": [
+      "*MODAL FILE, FREQUENCY=${1}"
+    ],
+    "description": "MODAL FILE with parameter(s) FREQUENCY.",
+    "scope": "source.inp"
+  }
+}

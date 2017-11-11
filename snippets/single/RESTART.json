@@ -1,0 +1,98 @@
+{
+  "RESTART(READ)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}"
+    ],
+    "description": "RESTART with parameter(s) READ.",
+    "scope": "source.inp"
+  },
+  "RESTART(WRITE)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, WRITE=${1}"
+    ],
+    "description": "RESTART with parameter(s) WRITE.",
+    "scope": "source.inp"
+  },
+  "RESTART(READ, WRITE)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}, WRITE=${2}"
+    ],
+    "description": "RESTART with parameter(s) READ, WRITE.",
+    "scope": "source.inp"
+  },
+  "RESTART(READ, END STEP, INC, STEP)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}, END STEP=${2}, INC=${3}, STEP=${4}"
+    ],
+    "description": "RESTART with parameter(s) READ, END STEP, INC, STEP.",
+    "scope": "source.inp"
+  },
+  "RESTART(READ, STEP, END STEP, INTERVAL)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}, STEP=${2}, END STEP=${3}, INTERVAL=${4}"
+    ],
+    "description": "RESTART with parameter(s) READ, STEP, END STEP, INTERVAL.",
+    "scope": "source.inp"
+  },
+  "RESTART(READ, CYCLE, END STEP, INC, ITERATION, STEP)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}, CYCLE=${2}, END STEP=${3}, INC=${4}, ITERATION=${5}, STEP=${6}"
+    ],
+    "description": "RESTART with parameter(s) READ, CYCLE, END STEP, INC, ITERATION, STEP.",
+    "scope": "source.inp"
+  },
+  "RESTART(WRITE, FREQUENCY, NUMBER INTERVAL)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, WRITE=${1}, FREQUENCY=${2}, NUMBER INTERVAL=${3}"
+    ],
+    "description": "RESTART with parameter(s) WRITE, FREQUENCY, NUMBER INTERVAL.",
+    "scope": "source.inp"
+  },
+  "RESTART(WRITE, NUMBER INTERVAL, TIME MARKS, OVERLAY, SINGLE)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, WRITE=${1}, NUMBER INTERVAL=${2}, TIME MARKS=${3}, OVERLAY=${4}, SINGLE=${5}"
+    ],
+    "description": "RESTART with parameter(s) WRITE, NUMBER INTERVAL, TIME MARKS, OVERLAY, SINGLE.",
+    "scope": "source.inp"
+  },
+  "RESTART(WRITE, FREQUENCY, NUMBER INTERVAL, TIME MARKS, OVERLAY)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, WRITE=${1}, FREQUENCY=${2}, NUMBER INTERVAL=${3}, TIME MARKS=${4}, OVERLAY=${5}"
+    ],
+    "description": "RESTART with parameter(s) WRITE, FREQUENCY, NUMBER INTERVAL, TIME MARKS, OVERLAY.",
+    "scope": "source.inp"
+  },
+  "RESTART(READ, WRITE, END STEP, INC, STEP, FREQUENCY, NUMBER INTERVAL)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}, WRITE=${2}, END STEP=${3}, INC=${4}, STEP=${5}, FREQUENCY=${6}, NUMBER INTERVAL=${7}"
+    ],
+    "description": "RESTART with parameter(s) READ, WRITE, END STEP, INC, STEP, FREQUENCY, NUMBER INTERVAL.",
+    "scope": "source.inp"
+  },
+  "RESTART(READ, WRITE, STEP, END STEP, INTERVAL, NUMBER INTERVAL, TIME MARKS, OVERLAY, SINGLE)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}, WRITE=${2}, STEP=${3}, END STEP=${4}, INTERVAL=${5}, NUMBER INTERVAL=${6}, TIME MARKS=${7}, OVERLAY=${8}, SINGLE=${9}"
+    ],
+    "description": "RESTART with parameter(s) READ, WRITE, STEP, END STEP, INTERVAL, NUMBER INTERVAL, TIME MARKS, OVERLAY, SINGLE.",
+    "scope": "source.inp"
+  },
+  "RESTART(READ, WRITE, CYCLE, END STEP, INC, ITERATION, STEP, FREQUENCY, NUMBER INTERVAL, TIME MARKS, OVERLAY)": {
+    "prefix": "*RESTART",
+    "body": [
+      "*RESTART, READ=${1}, WRITE=${2}, CYCLE=${3}, END STEP=${4}, INC=${5}, ITERATION=${6}, STEP=${7}, FREQUENCY=${8}, NUMBER INTERVAL=${9}, TIME MARKS=${10}, OVERLAY=${11}"
+    ],
+    "description": "RESTART with parameter(s) READ, WRITE, CYCLE, END STEP, INC, ITERATION, STEP, FREQUENCY, NUMBER INTERVAL, TIME MARKS, OVERLAY.",
+    "scope": "source.inp"
+  }
+}

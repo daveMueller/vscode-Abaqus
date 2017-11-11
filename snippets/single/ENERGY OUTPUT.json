@@ -1,0 +1,18 @@
+{
+  "ENERGY OUTPUT()": {
+    "prefix": "*ENERGY OUTPUT",
+    "body": [
+      "*ENERGY OUTPUT"
+    ],
+    "description": "ENERGY OUTPUT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ENERGY OUTPUT(ELSET, VARIABLE, PER ELEMENT SET, PER SECTION)": {
+    "prefix": "*ENERGY OUTPUT",
+    "body": [
+      "*ENERGY OUTPUT, ELSET=${1}, VARIABLE=${2}, PER ELEMENT SET=${3}, PER SECTION=${4}"
+    ],
+    "description": "ENERGY OUTPUT with parameter(s) ELSET, VARIABLE, PER ELEMENT SET, PER SECTION.",
+    "scope": "source.inp"
+  }
+}

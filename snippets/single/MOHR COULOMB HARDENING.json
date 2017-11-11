@@ -1,0 +1,18 @@
+{
+  "MOHR COULOMB HARDENING()": {
+    "prefix": "*MOHR COULOMB HARDENING",
+    "body": [
+      "*MOHR COULOMB HARDENING"
+    ],
+    "description": "MOHR COULOMB HARDENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MOHR COULOMB HARDENING(DEPENDENCIES)": {
+    "prefix": "*MOHR COULOMB HARDENING",
+    "body": [
+      "*MOHR COULOMB HARDENING, DEPENDENCIES=${1}"
+    ],
+    "description": "MOHR COULOMB HARDENING with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

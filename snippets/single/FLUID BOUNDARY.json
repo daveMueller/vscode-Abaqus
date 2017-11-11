@@ -1,0 +1,18 @@
+{
+  "FLUID BOUNDARY(TYPE)": {
+    "prefix": "*FLUID BOUNDARY",
+    "body": [
+      "*FLUID BOUNDARY, TYPE=${1}"
+    ],
+    "description": "FLUID BOUNDARY with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "FLUID BOUNDARY(TYPE, AMPLITUDE, DISTRIBUTION, OP)": {
+    "prefix": "*FLUID BOUNDARY",
+    "body": [
+      "*FLUID BOUNDARY, TYPE=${1}, AMPLITUDE=${2}, DISTRIBUTION=${3}, OP=${4}"
+    ],
+    "description": "FLUID BOUNDARY with parameter(s) TYPE, AMPLITUDE, DISTRIBUTION, OP.",
+    "scope": "source.inp"
+  }
+}

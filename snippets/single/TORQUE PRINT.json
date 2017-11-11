@@ -1,0 +1,18 @@
+{
+  "TORQUE PRINT()": {
+    "prefix": "*TORQUE PRINT",
+    "body": [
+      "*TORQUE PRINT"
+    ],
+    "description": "TORQUE PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TORQUE PRINT(FREQUENCY)": {
+    "prefix": "*TORQUE PRINT",
+    "body": [
+      "*TORQUE PRINT, FREQUENCY=${1}"
+    ],
+    "description": "TORQUE PRINT with parameter(s) FREQUENCY.",
+    "scope": "source.inp"
+  }
+}

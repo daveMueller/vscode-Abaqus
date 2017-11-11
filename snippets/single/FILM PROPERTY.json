@@ -1,0 +1,18 @@
+{
+  "FILM PROPERTY(NAME)": {
+    "prefix": "*FILM PROPERTY",
+    "body": [
+      "*FILM PROPERTY, NAME=${1}"
+    ],
+    "description": "FILM PROPERTY with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "FILM PROPERTY(NAME, DEPENDENCIES)": {
+    "prefix": "*FILM PROPERTY",
+    "body": [
+      "*FILM PROPERTY, NAME=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "FILM PROPERTY with parameter(s) NAME, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

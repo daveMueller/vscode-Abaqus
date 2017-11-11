@@ -1,0 +1,18 @@
+{
+  "GAP CONDUCTANCE()": {
+    "prefix": "*GAP CONDUCTANCE",
+    "body": [
+      "*GAP CONDUCTANCE"
+    ],
+    "description": "GAP CONDUCTANCE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GAP CONDUCTANCE(DEPENDENCIES, PRESSURE, USER)": {
+    "prefix": "*GAP CONDUCTANCE",
+    "body": [
+      "*GAP CONDUCTANCE, DEPENDENCIES=${1}, PRESSURE=${2}, USER=${3}"
+    ],
+    "description": "GAP CONDUCTANCE with parameter(s) DEPENDENCIES, PRESSURE, USER.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "TRANSVERSE SHEAR STIFFNESS()": {
+    "prefix": "*TRANSVERSE SHEAR STIFFNESS",
+    "body": [
+      "*TRANSVERSE SHEAR STIFFNESS"
+    ],
+    "description": "TRANSVERSE SHEAR STIFFNESS without parameter(s).",
+    "scope": "source.inp"
+  }
+}

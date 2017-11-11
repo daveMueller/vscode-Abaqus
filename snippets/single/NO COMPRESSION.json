@@ -1,0 +1,10 @@
+{
+  "NO COMPRESSION()": {
+    "prefix": "*NO COMPRESSION",
+    "body": [
+      "*NO COMPRESSION"
+    ],
+    "description": "NO COMPRESSION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

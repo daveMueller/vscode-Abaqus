@@ -1,0 +1,26 @@
+{
+  "IMPERFECTION()": {
+    "prefix": "*IMPERFECTION",
+    "body": [
+      "*IMPERFECTION"
+    ],
+    "description": "IMPERFECTION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "IMPERFECTION(STEP, FILE, INC, NSET)": {
+    "prefix": "*IMPERFECTION",
+    "body": [
+      "*IMPERFECTION, STEP=${1}, FILE=${2}, INC=${3}, NSET=${4}"
+    ],
+    "description": "IMPERFECTION with parameter(s) STEP, FILE, INC, NSET.",
+    "scope": "source.inp"
+  },
+  "IMPERFECTION(INPUT, SYSTEM)": {
+    "prefix": "*IMPERFECTION",
+    "body": [
+      "*IMPERFECTION, INPUT=${1}, SYSTEM=${2}"
+    ],
+    "description": "IMPERFECTION with parameter(s) INPUT, SYSTEM.",
+    "scope": "source.inp"
+  }
+}

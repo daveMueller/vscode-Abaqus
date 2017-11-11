@@ -1,0 +1,18 @@
+{
+  "GASKET CONTACT AREA()": {
+    "prefix": "*GASKET CONTACT AREA",
+    "body": [
+      "*GASKET CONTACT AREA"
+    ],
+    "description": "GASKET CONTACT AREA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GASKET CONTACT AREA(DEPENDENCIES)": {
+    "prefix": "*GASKET CONTACT AREA",
+    "body": [
+      "*GASKET CONTACT AREA, DEPENDENCIES=${1}"
+    ],
+    "description": "GASKET CONTACT AREA with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

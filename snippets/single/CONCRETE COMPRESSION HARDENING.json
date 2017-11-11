@@ -1,0 +1,18 @@
+{
+  "CONCRETE COMPRESSION HARDENING()": {
+    "prefix": "*CONCRETE COMPRESSION HARDENING",
+    "body": [
+      "*CONCRETE COMPRESSION HARDENING"
+    ],
+    "description": "CONCRETE COMPRESSION HARDENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONCRETE COMPRESSION HARDENING(DEPENDENCIES)": {
+    "prefix": "*CONCRETE COMPRESSION HARDENING",
+    "body": [
+      "*CONCRETE COMPRESSION HARDENING, DEPENDENCIES=${1}"
+    ],
+    "description": "CONCRETE COMPRESSION HARDENING with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

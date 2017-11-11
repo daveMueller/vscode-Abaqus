@@ -1,0 +1,34 @@
+{
+  "IMPEDANCE(PROPERTY)": {
+    "prefix": "*IMPEDANCE",
+    "body": [
+      "*IMPEDANCE, PROPERTY=${1}"
+    ],
+    "description": "IMPEDANCE with parameter(s) PROPERTY.",
+    "scope": "source.inp"
+  },
+  "IMPEDANCE(NONREFLECTING)": {
+    "prefix": "*IMPEDANCE",
+    "body": [
+      "*IMPEDANCE, NONREFLECTING=${1}"
+    ],
+    "description": "IMPEDANCE with parameter(s) NONREFLECTING.",
+    "scope": "source.inp"
+  },
+  "IMPEDANCE(PROPERTY, OP)": {
+    "prefix": "*IMPEDANCE",
+    "body": [
+      "*IMPEDANCE, PROPERTY=${1}, OP=${2}"
+    ],
+    "description": "IMPEDANCE with parameter(s) PROPERTY, OP.",
+    "scope": "source.inp"
+  },
+  "IMPEDANCE(NONREFLECTING, OP)": {
+    "prefix": "*IMPEDANCE",
+    "body": [
+      "*IMPEDANCE, NONREFLECTING=${1}, OP=${2}"
+    ],
+    "description": "IMPEDANCE with parameter(s) NONREFLECTING, OP.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "NFILL()": {
+    "prefix": "*NFILL",
+    "body": [
+      "*NFILL"
+    ],
+    "description": "NFILL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NFILL(BIAS, NSET, SINGULAR, TWO STEP)": {
+    "prefix": "*NFILL",
+    "body": [
+      "*NFILL, BIAS=${1}, NSET=${2}, SINGULAR=${3}, TWO STEP=${4}"
+    ],
+    "description": "NFILL with parameter(s) BIAS, NSET, SINGULAR, TWO STEP.",
+    "scope": "source.inp"
+  }
+}

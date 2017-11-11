@@ -1,0 +1,10 @@
+{
+  "BEAM SECTION GENERATE()": {
+    "prefix": "*BEAM SECTION GENERATE",
+    "body": [
+      "*BEAM SECTION GENERATE"
+    ],
+    "description": "BEAM SECTION GENERATE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

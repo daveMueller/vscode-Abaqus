@@ -1,0 +1,50 @@
+{
+  "NODE OUTPUT(TRACER SET)": {
+    "prefix": "*NODE OUTPUT",
+    "body": [
+      "*NODE OUTPUT, TRACER SET=${1}"
+    ],
+    "description": "NODE OUTPUT with parameter(s) TRACER SET.",
+    "scope": "source.inp"
+  },
+  "NODE OUTPUT(NSET)": {
+    "prefix": "*NODE OUTPUT",
+    "body": [
+      "*NODE OUTPUT, NSET=${1}"
+    ],
+    "description": "NODE OUTPUT with parameter(s) NSET.",
+    "scope": "source.inp"
+  },
+  "NODE OUTPUT(NSET, VARIABLE)": {
+    "prefix": "*NODE OUTPUT",
+    "body": [
+      "*NODE OUTPUT, NSET=${1}, VARIABLE=${2}"
+    ],
+    "description": "NODE OUTPUT with parameter(s) NSET, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "NODE OUTPUT(TRACER SET, VARIABLE)": {
+    "prefix": "*NODE OUTPUT",
+    "body": [
+      "*NODE OUTPUT, TRACER SET=${1}, VARIABLE=${2}"
+    ],
+    "description": "NODE OUTPUT with parameter(s) TRACER SET, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "NODE OUTPUT(TRACER SET, VARIABLE, EXTERIOR, NSET, GLOBAL)": {
+    "prefix": "*NODE OUTPUT",
+    "body": [
+      "*NODE OUTPUT, TRACER SET=${1}, VARIABLE=${2}, EXTERIOR=${3}, NSET=${4}, GLOBAL=${5}"
+    ],
+    "description": "NODE OUTPUT with parameter(s) TRACER SET, VARIABLE, EXTERIOR, NSET, GLOBAL.",
+    "scope": "source.inp"
+  },
+  "NODE OUTPUT(NSET, VARIABLE, EXTERIOR, TRACER SET, GLOBAL)": {
+    "prefix": "*NODE OUTPUT",
+    "body": [
+      "*NODE OUTPUT, NSET=${1}, VARIABLE=${2}, EXTERIOR=${3}, TRACER SET=${4}, GLOBAL=${5}"
+    ],
+    "description": "NODE OUTPUT with parameter(s) NSET, VARIABLE, EXTERIOR, TRACER SET, GLOBAL.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "FLUID INFLATOR(NAME, PROPERTY)": {
+    "prefix": "*FLUID INFLATOR",
+    "body": [
+      "*FLUID INFLATOR, NAME=${1}, PROPERTY=${2}"
+    ],
+    "description": "FLUID INFLATOR with parameter(s) NAME, PROPERTY.",
+    "scope": "source.inp"
+  }
+}

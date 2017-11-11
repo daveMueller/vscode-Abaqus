@@ -1,0 +1,18 @@
+{
+  "TRACER PARTICLE(TRACER SET)": {
+    "prefix": "*TRACER PARTICLE",
+    "body": [
+      "*TRACER PARTICLE, TRACER SET=${1}"
+    ],
+    "description": "TRACER PARTICLE with parameter(s) TRACER SET.",
+    "scope": "source.inp"
+  },
+  "TRACER PARTICLE(TRACER SET, PARTICLE BIRTH STAGES)": {
+    "prefix": "*TRACER PARTICLE",
+    "body": [
+      "*TRACER PARTICLE, TRACER SET=${1}, PARTICLE BIRTH STAGES=${2}"
+    ],
+    "description": "TRACER PARTICLE with parameter(s) TRACER SET, PARTICLE BIRTH STAGES.",
+    "scope": "source.inp"
+  }
+}

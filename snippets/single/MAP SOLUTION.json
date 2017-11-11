@@ -1,0 +1,18 @@
+{
+  "MAP SOLUTION()": {
+    "prefix": "*MAP SOLUTION",
+    "body": [
+      "*MAP SOLUTION"
+    ],
+    "description": "MAP SOLUTION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MAP SOLUTION(INC, STEP, UNBALANCED STRESS)": {
+    "prefix": "*MAP SOLUTION",
+    "body": [
+      "*MAP SOLUTION, INC=${1}, STEP=${2}, UNBALANCED STRESS=${3}"
+    ],
+    "description": "MAP SOLUTION with parameter(s) INC, STEP, UNBALANCED STRESS.",
+    "scope": "source.inp"
+  }
+}

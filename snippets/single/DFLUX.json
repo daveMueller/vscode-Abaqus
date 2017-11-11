@@ -1,0 +1,18 @@
+{
+  "DFLUX()": {
+    "prefix": "*DFLUX",
+    "body": [
+      "*DFLUX"
+    ],
+    "description": "DFLUX without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DFLUX(AMPLITUDE, OP)": {
+    "prefix": "*DFLUX",
+    "body": [
+      "*DFLUX, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "DFLUX with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "FLUID EXCHANGE(NAME, PROPERTY)": {
+    "prefix": "*FLUID EXCHANGE",
+    "body": [
+      "*FLUID EXCHANGE, NAME=${1}, PROPERTY=${2}"
+    ],
+    "description": "FLUID EXCHANGE with parameter(s) NAME, PROPERTY.",
+    "scope": "source.inp"
+  },
+  "FLUID EXCHANGE(NAME, PROPERTY, CAVITY PRESSURE, CONSTANTS, EFFECTIVE AREA, SURFACE)": {
+    "prefix": "*FLUID EXCHANGE",
+    "body": [
+      "*FLUID EXCHANGE, NAME=${1}, PROPERTY=${2}, CAVITY PRESSURE=${3}, CONSTANTS=${4}, EFFECTIVE AREA=${5}, SURFACE=${6}"
+    ],
+    "description": "FLUID EXCHANGE with parameter(s) NAME, PROPERTY, CAVITY PRESSURE, CONSTANTS, EFFECTIVE AREA, SURFACE.",
+    "scope": "source.inp"
+  }
+}

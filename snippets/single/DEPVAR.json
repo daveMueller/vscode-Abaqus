@@ -1,0 +1,26 @@
+{
+  "DEPVAR()": {
+    "prefix": "*DEPVAR",
+    "body": [
+      "*DEPVAR"
+    ],
+    "description": "DEPVAR without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DEPVAR(DELETE)": {
+    "prefix": "*DEPVAR",
+    "body": [
+      "*DEPVAR, DELETE=${1}"
+    ],
+    "description": "DEPVAR with parameter(s) DELETE.",
+    "scope": "source.inp"
+  },
+  "DEPVAR(CONVERT)": {
+    "prefix": "*DEPVAR",
+    "body": [
+      "*DEPVAR, CONVERT=${1}"
+    ],
+    "description": "DEPVAR with parameter(s) CONVERT.",
+    "scope": "source.inp"
+  }
+}

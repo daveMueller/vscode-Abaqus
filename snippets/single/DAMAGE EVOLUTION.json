@@ -1,0 +1,18 @@
+{
+  "DAMAGE EVOLUTION(TYPE)": {
+    "prefix": "*DAMAGE EVOLUTION",
+    "body": [
+      "*DAMAGE EVOLUTION, TYPE=${1}"
+    ],
+    "description": "DAMAGE EVOLUTION with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "DAMAGE EVOLUTION(TYPE, DEGRADATION, DEPENDENCIES, FAILURE INDEX, MIXED MODE BEHAVIOR, MODE MIX RATIO, POWER, SOFTENING)": {
+    "prefix": "*DAMAGE EVOLUTION",
+    "body": [
+      "*DAMAGE EVOLUTION, TYPE=${1}, DEGRADATION=${2}, DEPENDENCIES=${3}, FAILURE INDEX=${4}, MIXED MODE BEHAVIOR=${5}, MODE MIX RATIO=${6}, POWER=${7}, SOFTENING=${8}"
+    ],
+    "description": "DAMAGE EVOLUTION with parameter(s) TYPE, DEGRADATION, DEPENDENCIES, FAILURE INDEX, MIXED MODE BEHAVIOR, MODE MIX RATIO, POWER, SOFTENING.",
+    "scope": "source.inp"
+  }
+}

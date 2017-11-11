@@ -1,0 +1,130 @@
+{
+  "VISCOELASTIC(FREQUENCY)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, FREQUENCY=${1}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) FREQUENCY.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=${1}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(FREQUENCY=CREEP TEST DATA)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, FREQUENCY=CREEP TEST DATA"
+    ],
+    "description": "VISCOELASTIC with parameter(s) FREQUENCY=CREEP TEST DATA.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(FREQUENCY=RELAXATION TEST DATA)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, FREQUENCY=RELAXATION TEST DATA"
+    ],
+    "description": "VISCOELASTIC with parameter(s) FREQUENCY=RELAXATION TEST DATA.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME=CREEP TEST DATA)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=CREEP TEST DATA"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME=CREEP TEST DATA.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME=RELAXATION TEST DATA)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=RELAXATION TEST DATA"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME=RELAXATION TEST DATA.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME=FREQUENCY DATA)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=FREQUENCY DATA"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME=FREQUENCY DATA.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(NONLINEAR, LAW, NETWORKID, SRATIO)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, NONLINEAR=${1}, LAW=${2}, NETWORKID=${3}, SRATIO=${4}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) NONLINEAR, LAW, NETWORKID, SRATIO.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(FREQUENCY, DEPENDENCIES, PRELOAD, TYPE)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, FREQUENCY=${1}, DEPENDENCIES=${2}, PRELOAD=${3}, TYPE=${4}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) FREQUENCY, DEPENDENCIES, PRELOAD, TYPE.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME, DEPENDENCIES, PRELOAD, TYPE)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=${1}, DEPENDENCIES=${2}, PRELOAD=${3}, TYPE=${4}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME, DEPENDENCIES, PRELOAD, TYPE.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(NONLINEAR, LAW, NETWORKID, SRATIO, DEPENDENCIES, PRELOAD, TYPE)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, NONLINEAR=${1}, LAW=${2}, NETWORKID=${3}, SRATIO=${4}, DEPENDENCIES=${5}, PRELOAD=${6}, TYPE=${7}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) NONLINEAR, LAW, NETWORKID, SRATIO, DEPENDENCIES, PRELOAD, TYPE.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(FREQUENCY=CREEP TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, FREQUENCY=CREEP TEST DATA, DEPENDENCIES=${1}, PRELOAD=${2}, TYPE=${3}, ERRTOL=${4}, NMAX=${5}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) FREQUENCY=CREEP TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME=CREEP TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=CREEP TEST DATA, DEPENDENCIES=${1}, PRELOAD=${2}, TYPE=${3}, ERRTOL=${4}, NMAX=${5}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME=CREEP TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(FREQUENCY=RELAXATION TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, FREQUENCY=RELAXATION TEST DATA, DEPENDENCIES=${1}, PRELOAD=${2}, TYPE=${3}, ERRTOL=${4}, NMAX=${5}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) FREQUENCY=RELAXATION TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME=RELAXATION TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=RELAXATION TEST DATA, DEPENDENCIES=${1}, PRELOAD=${2}, TYPE=${3}, ERRTOL=${4}, NMAX=${5}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME=RELAXATION TEST DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX.",
+    "scope": "source.inp"
+  },
+  "VISCOELASTIC(TIME=FREQUENCY DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX)": {
+    "prefix": "*VISCOELASTIC",
+    "body": [
+      "*VISCOELASTIC, TIME=FREQUENCY DATA, DEPENDENCIES=${1}, PRELOAD=${2}, TYPE=${3}, ERRTOL=${4}, NMAX=${5}"
+    ],
+    "description": "VISCOELASTIC with parameter(s) TIME=FREQUENCY DATA, DEPENDENCIES, PRELOAD, TYPE, ERRTOL, NMAX.",
+    "scope": "source.inp"
+  }
+}

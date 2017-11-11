@@ -1,0 +1,18 @@
+{
+  "INCREMENTATION OUTPUT()": {
+    "prefix": "*INCREMENTATION OUTPUT",
+    "body": [
+      "*INCREMENTATION OUTPUT"
+    ],
+    "description": "INCREMENTATION OUTPUT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "INCREMENTATION OUTPUT(VARIABLE)": {
+    "prefix": "*INCREMENTATION OUTPUT",
+    "body": [
+      "*INCREMENTATION OUTPUT, VARIABLE=${1}"
+    ],
+    "description": "INCREMENTATION OUTPUT with parameter(s) VARIABLE.",
+    "scope": "source.inp"
+  }
+}

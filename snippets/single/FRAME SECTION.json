@@ -1,0 +1,18 @@
+{
+  "FRAME SECTION(ELSET)": {
+    "prefix": "*FRAME SECTION",
+    "body": [
+      "*FRAME SECTION, ELSET=${1}"
+    ],
+    "description": "FRAME SECTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "FRAME SECTION(ELSET, BUCKLING, DENSITY, DEPENDENCIES, PINNED, PLASTIC DEFAULTS, SECTION, YIELD STRESS, ZERO)": {
+    "prefix": "*FRAME SECTION",
+    "body": [
+      "*FRAME SECTION, ELSET=${1}, BUCKLING=${2}, DENSITY=${3}, DEPENDENCIES=${4}, PINNED=${5}, PLASTIC DEFAULTS=${6}, SECTION=${7}, YIELD STRESS=${8}, ZERO=${9}"
+    ],
+    "description": "FRAME SECTION with parameter(s) ELSET, BUCKLING, DENSITY, DEPENDENCIES, PINNED, PLASTIC DEFAULTS, SECTION, YIELD STRESS, ZERO.",
+    "scope": "source.inp"
+  }
+}

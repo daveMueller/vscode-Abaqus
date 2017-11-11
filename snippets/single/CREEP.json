@@ -1,0 +1,18 @@
+{
+  "CREEP()": {
+    "prefix": "*CREEP",
+    "body": [
+      "*CREEP"
+    ],
+    "description": "CREEP without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CREEP(DEPENDENCIES, LAW, TIME)": {
+    "prefix": "*CREEP",
+    "body": [
+      "*CREEP, DEPENDENCIES=${1}, LAW=${2}, TIME=${3}"
+    ],
+    "description": "CREEP with parameter(s) DEPENDENCIES, LAW, TIME.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "AQUA()": {
+    "prefix": "*AQUA",
+    "body": [
+      "*AQUA"
+    ],
+    "description": "AQUA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "AQUA(INPUT)": {
+    "prefix": "*AQUA",
+    "body": [
+      "*AQUA, INPUT=${1}"
+    ],
+    "description": "AQUA with parameter(s) INPUT.",
+    "scope": "source.inp"
+  }
+}

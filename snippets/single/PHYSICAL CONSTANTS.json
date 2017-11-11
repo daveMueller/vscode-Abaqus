@@ -1,0 +1,18 @@
+{
+  "PHYSICAL CONSTANTS()": {
+    "prefix": "*PHYSICAL CONSTANTS",
+    "body": [
+      "*PHYSICAL CONSTANTS"
+    ],
+    "description": "PHYSICAL CONSTANTS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PHYSICAL CONSTANTS(ABSOLUTE ZERO, STEFAN BOLTZMANN, UNIVERSAL GAS CONSTANT, SPL REFERENCE PRESSURE)": {
+    "prefix": "*PHYSICAL CONSTANTS",
+    "body": [
+      "*PHYSICAL CONSTANTS, ABSOLUTE ZERO=${1}, STEFAN BOLTZMANN=${2}, UNIVERSAL GAS CONSTANT=${3}, SPL REFERENCE PRESSURE=${4}"
+    ],
+    "description": "PHYSICAL CONSTANTS with parameter(s) ABSOLUTE ZERO, STEFAN BOLTZMANN, UNIVERSAL GAS CONSTANT, SPL REFERENCE PRESSURE.",
+    "scope": "source.inp"
+  }
+}

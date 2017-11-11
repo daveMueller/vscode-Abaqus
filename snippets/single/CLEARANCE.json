@@ -1,0 +1,26 @@
+{
+  "CLEARANCE(CPSET, MASTER, SLAVE)": {
+    "prefix": "*CLEARANCE",
+    "body": [
+      "*CLEARANCE, CPSET=${1}, MASTER=${2}, SLAVE=${3}"
+    ],
+    "description": "CLEARANCE with parameter(s) CPSET, MASTER, SLAVE.",
+    "scope": "source.inp"
+  },
+  "CLEARANCE(CPSET, MASTER, SLAVE, VALUE)": {
+    "prefix": "*CLEARANCE",
+    "body": [
+      "*CLEARANCE, CPSET=${1}, MASTER=${2}, SLAVE=${3}, VALUE=${4}"
+    ],
+    "description": "CLEARANCE with parameter(s) CPSET, MASTER, SLAVE, VALUE.",
+    "scope": "source.inp"
+  },
+  "CLEARANCE(CPSET, MASTER, SLAVE, TABULAR, BOLT, INPUT)": {
+    "prefix": "*CLEARANCE",
+    "body": [
+      "*CLEARANCE, CPSET=${1}, MASTER=${2}, SLAVE=${3}, TABULAR=${4}, BOLT=${5}, INPUT=${6}"
+    ],
+    "description": "CLEARANCE with parameter(s) CPSET, MASTER, SLAVE, TABULAR, BOLT, INPUT.",
+    "scope": "source.inp"
+  }
+}

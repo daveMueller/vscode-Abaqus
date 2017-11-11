@@ -1,0 +1,10 @@
+{
+  "CONTACT PROPERTY ASSIGNMENT()": {
+    "prefix": "*CONTACT PROPERTY ASSIGNMENT",
+    "body": [
+      "*CONTACT PROPERTY ASSIGNMENT"
+    ],
+    "description": "CONTACT PROPERTY ASSIGNMENT without parameter(s).",
+    "scope": "source.inp"
+  }
+}

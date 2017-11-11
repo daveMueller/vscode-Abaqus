@@ -1,0 +1,18 @@
+{
+  "NONLINEAR BH(DIR)": {
+    "prefix": "*NONLINEAR BH",
+    "body": [
+      "*NONLINEAR BH, DIR=${1}"
+    ],
+    "description": "NONLINEAR BH with parameter(s) DIR.",
+    "scope": "source.inp"
+  },
+  "NONLINEAR BH(DIR, DEPENDENCIES)": {
+    "prefix": "*NONLINEAR BH",
+    "body": [
+      "*NONLINEAR BH, DIR=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "NONLINEAR BH with parameter(s) DIR, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

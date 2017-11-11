@@ -1,0 +1,18 @@
+{
+  "USER DEFINED FIELD()": {
+    "prefix": "*USER DEFINED FIELD",
+    "body": [
+      "*USER DEFINED FIELD"
+    ],
+    "description": "USER DEFINED FIELD without parameter(s).",
+    "scope": "source.inp"
+  },
+  "USER DEFINED FIELD(PROPERTIES)": {
+    "prefix": "*USER DEFINED FIELD",
+    "body": [
+      "*USER DEFINED FIELD, PROPERTIES=${1}"
+    ],
+    "description": "USER DEFINED FIELD with parameter(s) PROPERTIES.",
+    "scope": "source.inp"
+  }
+}

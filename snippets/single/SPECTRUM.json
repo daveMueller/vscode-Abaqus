@@ -1,0 +1,34 @@
+{
+  "SPECTRUM(NAME)": {
+    "prefix": "*SPECTRUM",
+    "body": [
+      "*SPECTRUM, NAME=${1}"
+    ],
+    "description": "SPECTRUM with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "SPECTRUM(NAME, G, INPUT, TYPE)": {
+    "prefix": "*SPECTRUM",
+    "body": [
+      "*SPECTRUM, NAME=${1}, G=${2}, INPUT=${3}, TYPE=${4}"
+    ],
+    "description": "SPECTRUM with parameter(s) NAME, G, INPUT, TYPE.",
+    "scope": "source.inp"
+  },
+  "SPECTRUM(CREATE, AMPLITUDE, NAME, TIME INCREMENT)": {
+    "prefix": "*SPECTRUM",
+    "body": [
+      "*SPECTRUM, CREATE=${1}, AMPLITUDE=${2}, NAME=${3}, TIME INCREMENT=${4}"
+    ],
+    "description": "SPECTRUM with parameter(s) CREATE, AMPLITUDE, NAME, TIME INCREMENT.",
+    "scope": "source.inp"
+  },
+  "SPECTRUM(CREATE, AMPLITUDE, NAME, TIME INCREMENT, G, TYPE, ABSOLUTE, RELATIVE, DAMPING GENERATE, EVENT TYPE, FILE)": {
+    "prefix": "*SPECTRUM",
+    "body": [
+      "*SPECTRUM, CREATE=${1}, AMPLITUDE=${2}, NAME=${3}, TIME INCREMENT=${4}, G=${5}, TYPE=${6}, ABSOLUTE=${7}, RELATIVE=${8}, DAMPING GENERATE=${9}, EVENT TYPE=${10}, FILE=${11}"
+    ],
+    "description": "SPECTRUM with parameter(s) CREATE, AMPLITUDE, NAME, TIME INCREMENT, G, TYPE, ABSOLUTE, RELATIVE, DAMPING GENERATE, EVENT TYPE, FILE.",
+    "scope": "source.inp"
+  }
+}

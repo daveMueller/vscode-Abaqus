@@ -1,0 +1,18 @@
+{
+  "NONSTRUCTURAL MASS(ELSET, UNITS)": {
+    "prefix": "*NONSTRUCTURAL MASS",
+    "body": [
+      "*NONSTRUCTURAL MASS, ELSET=${1}, UNITS=${2}"
+    ],
+    "description": "NONSTRUCTURAL MASS with parameter(s) ELSET, UNITS.",
+    "scope": "source.inp"
+  },
+  "NONSTRUCTURAL MASS(ELSET, UNITS, DISTRIBUTION)": {
+    "prefix": "*NONSTRUCTURAL MASS",
+    "body": [
+      "*NONSTRUCTURAL MASS, ELSET=${1}, UNITS=${2}, DISTRIBUTION=${3}"
+    ],
+    "description": "NONSTRUCTURAL MASS with parameter(s) ELSET, UNITS, DISTRIBUTION.",
+    "scope": "source.inp"
+  }
+}

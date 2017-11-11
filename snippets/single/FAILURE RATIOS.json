@@ -1,0 +1,18 @@
+{
+  "FAILURE RATIOS()": {
+    "prefix": "*FAILURE RATIOS",
+    "body": [
+      "*FAILURE RATIOS"
+    ],
+    "description": "FAILURE RATIOS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FAILURE RATIOS(DEPENDENCIES)": {
+    "prefix": "*FAILURE RATIOS",
+    "body": [
+      "*FAILURE RATIOS, DEPENDENCIES=${1}"
+    ],
+    "description": "FAILURE RATIOS with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "FLUID EXPANSION()": {
+    "prefix": "*FLUID EXPANSION",
+    "body": [
+      "*FLUID EXPANSION"
+    ],
+    "description": "FLUID EXPANSION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FLUID EXPANSION(DEPENDENCIES, ZERO)": {
+    "prefix": "*FLUID EXPANSION",
+    "body": [
+      "*FLUID EXPANSION, DEPENDENCIES=${1}, ZERO=${2}"
+    ],
+    "description": "FLUID EXPANSION with parameter(s) DEPENDENCIES, ZERO.",
+    "scope": "source.inp"
+  }
+}

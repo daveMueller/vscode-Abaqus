@@ -1,0 +1,18 @@
+{
+  "SLOAD()": {
+    "prefix": "*SLOAD",
+    "body": [
+      "*SLOAD"
+    ],
+    "description": "SLOAD without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SLOAD(AMPLITUDE, OP)": {
+    "prefix": "*SLOAD",
+    "body": [
+      "*SLOAD, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "SLOAD with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

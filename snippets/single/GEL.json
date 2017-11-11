@@ -1,0 +1,10 @@
+{
+  "GEL()": {
+    "prefix": "*GEL",
+    "body": [
+      "*GEL"
+    ],
+    "description": "GEL without parameter(s).",
+    "scope": "source.inp"
+  }
+}

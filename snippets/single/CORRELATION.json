@@ -1,0 +1,26 @@
+{
+  "CORRELATION(PSD)": {
+    "prefix": "*CORRELATION",
+    "body": [
+      "*CORRELATION, PSD=${1}"
+    ],
+    "description": "CORRELATION with parameter(s) PSD.",
+    "scope": "source.inp"
+  },
+  "CORRELATION(PSD, COMPLEX, INPUT, USER)": {
+    "prefix": "*CORRELATION",
+    "body": [
+      "*CORRELATION, PSD=${1}, COMPLEX=${2}, INPUT=${3}, USER=${4}"
+    ],
+    "description": "CORRELATION with parameter(s) PSD, COMPLEX, INPUT, USER.",
+    "scope": "source.inp"
+  },
+  "CORRELATION(TYPE=MOVING NOISE, INPUT, USER)": {
+    "prefix": "*CORRELATION",
+    "body": [
+      "*CORRELATION, TYPE=MOVING NOISE, INPUT=${1}, USER=${2}"
+    ],
+    "description": "CORRELATION with parameter(s) TYPE, INPUT, USER.",
+    "scope": "source.inp"
+  }
+}

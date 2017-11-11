@@ -1,0 +1,18 @@
+{
+  "CONTACT RESPONSE()": {
+    "prefix": "*CONTACT RESPONSE",
+    "body": [
+      "*CONTACT RESPONSE"
+    ],
+    "description": "CONTACT RESPONSE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONTACT RESPONSE(MASTER, NSET, SLAVE)": {
+    "prefix": "*CONTACT RESPONSE",
+    "body": [
+      "*CONTACT RESPONSE, MASTER=${1}, NSET=${2}, SLAVE=${3}"
+    ],
+    "description": "CONTACT RESPONSE with parameter(s) MASTER, NSET, SLAVE.",
+    "scope": "source.inp"
+  }
+}

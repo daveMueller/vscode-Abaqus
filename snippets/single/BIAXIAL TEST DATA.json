@@ -1,0 +1,18 @@
+{
+  "BIAXIAL TEST DATA()": {
+    "prefix": "*BIAXIAL TEST DATA",
+    "body": [
+      "*BIAXIAL TEST DATA"
+    ],
+    "description": "BIAXIAL TEST DATA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BIAXIAL TEST DATA(SMOOTH, DEPENDENCIES)": {
+    "prefix": "*BIAXIAL TEST DATA",
+    "body": [
+      "*BIAXIAL TEST DATA, SMOOTH=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "BIAXIAL TEST DATA with parameter(s) SMOOTH, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

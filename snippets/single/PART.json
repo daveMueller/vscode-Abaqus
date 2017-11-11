@@ -1,0 +1,10 @@
+{
+  "PART(NAME)": {
+    "prefix": "*PART",
+    "body": [
+      "*PART, NAME=${1}"
+    ],
+    "description": "PART with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

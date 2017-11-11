@@ -1,0 +1,18 @@
+{
+  "FILTER(NAME)": {
+    "prefix": "*FILTER",
+    "body": [
+      "*FILTER, NAME=${1}"
+    ],
+    "description": "FILTER with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "FILTER(NAME, HALT, INVARIANT, LIMIT, OPERATOR, START CONDITION, TYPE)": {
+    "prefix": "*FILTER",
+    "body": [
+      "*FILTER, NAME=${1}, HALT=${2}, INVARIANT=${3}, LIMIT=${4}, OPERATOR=${5}, START CONDITION=${6}, TYPE=${7}"
+    ],
+    "description": "FILTER with parameter(s) NAME, HALT, INVARIANT, LIMIT, OPERATOR, START CONDITION, TYPE.",
+    "scope": "source.inp"
+  }
+}

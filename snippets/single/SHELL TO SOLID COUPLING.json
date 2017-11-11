@@ -1,0 +1,18 @@
+{
+  "SHELL TO SOLID COUPLING(CONSTRAINT NAME)": {
+    "prefix": "*SHELL TO SOLID COUPLING",
+    "body": [
+      "*SHELL TO SOLID COUPLING, CONSTRAINT NAME=${1}"
+    ],
+    "description": "SHELL TO SOLID COUPLING with parameter(s) CONSTRAINT NAME.",
+    "scope": "source.inp"
+  },
+  "SHELL TO SOLID COUPLING(CONSTRAINT NAME, INFLUENCE DISTANCE, POSITION TOLERANCE)": {
+    "prefix": "*SHELL TO SOLID COUPLING",
+    "body": [
+      "*SHELL TO SOLID COUPLING, CONSTRAINT NAME=${1}, INFLUENCE DISTANCE=${2}, POSITION TOLERANCE=${3}"
+    ],
+    "description": "SHELL TO SOLID COUPLING with parameter(s) CONSTRAINT NAME, INFLUENCE DISTANCE, POSITION TOLERANCE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "SURFACE(NAME)": {
+    "prefix": "*SURFACE",
+    "body": [
+      "*SURFACE, NAME=${1}"
+    ],
+    "description": "SURFACE with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "SURFACE(NAME, PROPERTY)": {
+    "prefix": "*SURFACE",
+    "body": [
+      "*SURFACE, NAME=${1}, PROPERTY=${2}"
+    ],
+    "description": "SURFACE with parameter(s) NAME, PROPERTY.",
+    "scope": "source.inp"
+  },
+  "SURFACE(NAME, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE)": {
+    "prefix": "*SURFACE",
+    "body": [
+      "*SURFACE, NAME=${1}, COMBINE=${2}, CROP=${3}, DEFINITION=${4}, FILLET RADIUS=${5}, INTERNAL=${6}, REGION TYPE=${7}, TRIM=${8}, TYPE=${9}"
+    ],
+    "description": "SURFACE with parameter(s) NAME, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE.",
+    "scope": "source.inp"
+  },
+  "SURFACE(NAME, PROPERTY, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE)": {
+    "prefix": "*SURFACE",
+    "body": [
+      "*SURFACE, NAME=${1}, PROPERTY=${2}, COMBINE=${3}, CROP=${4}, DEFINITION=${5}, FILLET RADIUS=${6}, INTERNAL=${7}, REGION TYPE=${8}, TRIM=${9}, TYPE=${10}"
+    ],
+    "description": "SURFACE with parameter(s) NAME, PROPERTY, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE.",
+    "scope": "source.inp"
+  },
+  "SURFACE(NAME, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE, MAX RATIO, NO OFFSET, NO THICK, SCALE THICK)": {
+    "prefix": "*SURFACE",
+    "body": [
+      "*SURFACE, NAME=${1}, COMBINE=${2}, CROP=${3}, DEFINITION=${4}, FILLET RADIUS=${5}, INTERNAL=${6}, REGION TYPE=${7}, TRIM=${8}, TYPE=${9}, MAX RATIO=${10}, NO OFFSET=${11}, NO THICK=${12}, SCALE THICK=${13}"
+    ],
+    "description": "SURFACE with parameter(s) NAME, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE, MAX RATIO, NO OFFSET, NO THICK, SCALE THICK.",
+    "scope": "source.inp"
+  },
+  "SURFACE(NAME, PROPERTY, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE, MAX RATIO, NO OFFSET, NO THICK, SCALE THICK)": {
+    "prefix": "*SURFACE",
+    "body": [
+      "*SURFACE, NAME=${1}, PROPERTY=${2}, COMBINE=${3}, CROP=${4}, DEFINITION=${5}, FILLET RADIUS=${6}, INTERNAL=${7}, REGION TYPE=${8}, TRIM=${9}, TYPE=${10}, MAX RATIO=${11}, NO OFFSET=${12}, NO THICK=${13}, SCALE THICK=${14}"
+    ],
+    "description": "SURFACE with parameter(s) NAME, PROPERTY, COMBINE, CROP, DEFINITION, FILLET RADIUS, INTERNAL, REGION TYPE, TRIM, TYPE, MAX RATIO, NO OFFSET, NO THICK, SCALE THICK.",
+    "scope": "source.inp"
+  }
+}

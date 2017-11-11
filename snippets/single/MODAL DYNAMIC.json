@@ -1,0 +1,18 @@
+{
+  "MODAL DYNAMIC()": {
+    "prefix": "*MODAL DYNAMIC",
+    "body": [
+      "*MODAL DYNAMIC"
+    ],
+    "description": "MODAL DYNAMIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MODAL DYNAMIC(CONTINUE)": {
+    "prefix": "*MODAL DYNAMIC",
+    "body": [
+      "*MODAL DYNAMIC, CONTINUE=${1}"
+    ],
+    "description": "MODAL DYNAMIC with parameter(s) CONTINUE.",
+    "scope": "source.inp"
+  }
+}

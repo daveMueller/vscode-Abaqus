@@ -1,0 +1,18 @@
+{
+  "FLUID INFLATOR ACTIVATION()": {
+    "prefix": "*FLUID INFLATOR ACTIVATION",
+    "body": [
+      "*FLUID INFLATOR ACTIVATION"
+    ],
+    "description": "FLUID INFLATOR ACTIVATION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FLUID INFLATOR ACTIVATION(INFLATION TIME AMPLITUDE, MASS FLOW AMPLITUDE, OP)": {
+    "prefix": "*FLUID INFLATOR ACTIVATION",
+    "body": [
+      "*FLUID INFLATOR ACTIVATION, INFLATION TIME AMPLITUDE=${1}, MASS FLOW AMPLITUDE=${2}, OP=${3}"
+    ],
+    "description": "FLUID INFLATOR ACTIVATION with parameter(s) INFLATION TIME AMPLITUDE, MASS FLOW AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

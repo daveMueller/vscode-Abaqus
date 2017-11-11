@@ -1,0 +1,18 @@
+{
+  "SECTION FILE(NAME, SURFACE)": {
+    "prefix": "*SECTION FILE",
+    "body": [
+      "*SECTION FILE, NAME=${1}, SURFACE=${2}"
+    ],
+    "description": "SECTION FILE with parameter(s) NAME, SURFACE.",
+    "scope": "source.inp"
+  },
+  "SECTION FILE(NAME, SURFACE, AXES, FREQUENCY, UPDATE)": {
+    "prefix": "*SECTION FILE",
+    "body": [
+      "*SECTION FILE, NAME=${1}, SURFACE=${2}, AXES=${3}, FREQUENCY=${4}, UPDATE=${5}"
+    ],
+    "description": "SECTION FILE with parameter(s) NAME, SURFACE, AXES, FREQUENCY, UPDATE.",
+    "scope": "source.inp"
+  }
+}

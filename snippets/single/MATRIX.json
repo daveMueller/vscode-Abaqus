@@ -1,0 +1,18 @@
+{
+  "MATRIX(TYPE)": {
+    "prefix": "*MATRIX",
+    "body": [
+      "*MATRIX, TYPE=${1}"
+    ],
+    "description": "MATRIX with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "MATRIX(TYPE, INPUT)": {
+    "prefix": "*MATRIX",
+    "body": [
+      "*MATRIX, TYPE=${1}, INPUT=${2}"
+    ],
+    "description": "MATRIX with parameter(s) TYPE, INPUT.",
+    "scope": "source.inp"
+  }
+}

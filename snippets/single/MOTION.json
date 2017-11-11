@@ -1,0 +1,34 @@
+{
+  "MOTION()": {
+    "prefix": "*MOTION",
+    "body": [
+      "*MOTION"
+    ],
+    "description": "MOTION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MOTION(AMPLITUDE, TYPE, ROTATION)": {
+    "prefix": "*MOTION",
+    "body": [
+      "*MOTION, AMPLITUDE=${1}, TYPE=${2}, ROTATION=${3}"
+    ],
+    "description": "MOTION with parameter(s) AMPLITUDE, TYPE, ROTATION.",
+    "scope": "source.inp"
+  },
+  "MOTION(AMPLITUDE, TYPE, TRANSLATION)": {
+    "prefix": "*MOTION",
+    "body": [
+      "*MOTION, AMPLITUDE=${1}, TYPE=${2}, TRANSLATION=${3}"
+    ],
+    "description": "MOTION with parameter(s) AMPLITUDE, TYPE, TRANSLATION.",
+    "scope": "source.inp"
+  },
+  "MOTION(AMPLITUDE, TYPE, USER)": {
+    "prefix": "*MOTION",
+    "body": [
+      "*MOTION, AMPLITUDE=${1}, TYPE=${2}, USER=${3}"
+    ],
+    "description": "MOTION with parameter(s) AMPLITUDE, TYPE, USER.",
+    "scope": "source.inp"
+  }
+}

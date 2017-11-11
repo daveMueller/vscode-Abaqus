@@ -1,0 +1,18 @@
+{
+  "FLUID BULK MODULUS()": {
+    "prefix": "*FLUID BULK MODULUS",
+    "body": [
+      "*FLUID BULK MODULUS"
+    ],
+    "description": "FLUID BULK MODULUS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FLUID BULK MODULUS(DEPENDENCIES)": {
+    "prefix": "*FLUID BULK MODULUS",
+    "body": [
+      "*FLUID BULK MODULUS, DEPENDENCIES=${1}"
+    ],
+    "description": "FLUID BULK MODULUS with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

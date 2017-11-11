@@ -1,0 +1,18 @@
+{
+  "SFILM()": {
+    "prefix": "*SFILM",
+    "body": [
+      "*SFILM"
+    ],
+    "description": "SFILM without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SFILM(AMPLITUDE, FILM AMPLITUDE, OP)": {
+    "prefix": "*SFILM",
+    "body": [
+      "*SFILM, AMPLITUDE=${1}, FILM AMPLITUDE=${2}, OP=${3}"
+    ],
+    "description": "SFILM with parameter(s) AMPLITUDE, FILM AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

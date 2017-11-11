@@ -1,0 +1,18 @@
+{
+  "CAP HARDENING()": {
+    "prefix": "*CAP HARDENING",
+    "body": [
+      "*CAP HARDENING"
+    ],
+    "description": "CAP HARDENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CAP HARDENING(DEPENDENCIES, SCALESTRESS)": {
+    "prefix": "*CAP HARDENING",
+    "body": [
+      "*CAP HARDENING, DEPENDENCIES=${1}, SCALESTRESS=${2}"
+    ],
+    "description": "CAP HARDENING with parameter(s) DEPENDENCIES, SCALESTRESS.",
+    "scope": "source.inp"
+  }
+}

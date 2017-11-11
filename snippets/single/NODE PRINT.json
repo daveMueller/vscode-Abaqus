@@ -1,0 +1,18 @@
+{
+  "NODE PRINT()": {
+    "prefix": "*NODE PRINT",
+    "body": [
+      "*NODE PRINT"
+    ],
+    "description": "NODE PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NODE PRINT(FREQUENCY, GLOBAL, LAST MODE, MODE, NSET, SUMMARY, TOTALS)": {
+    "prefix": "*NODE PRINT",
+    "body": [
+      "*NODE PRINT, FREQUENCY=${1}, GLOBAL=${2}, LAST MODE=${3}, MODE=${4}, NSET=${5}, SUMMARY=${6}, TOTALS=${7}"
+    ],
+    "description": "NODE PRINT with parameter(s) FREQUENCY, GLOBAL, LAST MODE, MODE, NSET, SUMMARY, TOTALS.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "SHEAR RETENTION()": {
+    "prefix": "*SHEAR RETENTION",
+    "body": [
+      "*SHEAR RETENTION"
+    ],
+    "description": "SHEAR RETENTION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SHEAR RETENTION(DEPENDENCIES)": {
+    "prefix": "*SHEAR RETENTION",
+    "body": [
+      "*SHEAR RETENTION, DEPENDENCIES=${1}"
+    ],
+    "description": "SHEAR RETENTION with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "IMPORT NSET()": {
+    "prefix": "*IMPORT NSET",
+    "body": [
+      "*IMPORT NSET"
+    ],
+    "description": "IMPORT NSET without parameter(s).",
+    "scope": "source.inp"
+  }
+}

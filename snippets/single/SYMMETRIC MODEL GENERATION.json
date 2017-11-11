@@ -1,0 +1,50 @@
+{
+  "SYMMETRIC MODEL GENERATION(PERIODIC)": {
+    "prefix": "*SYMMETRIC MODEL GENERATION",
+    "body": [
+      "*SYMMETRIC MODEL GENERATION, PERIODIC=${1}"
+    ],
+    "description": "SYMMETRIC MODEL GENERATION with parameter(s) PERIODIC.",
+    "scope": "source.inp"
+  },
+  "SYMMETRIC MODEL GENERATION(REFLECT)": {
+    "prefix": "*SYMMETRIC MODEL GENERATION",
+    "body": [
+      "*SYMMETRIC MODEL GENERATION, REFLECT=${1}"
+    ],
+    "description": "SYMMETRIC MODEL GENERATION with parameter(s) REFLECT.",
+    "scope": "source.inp"
+  },
+  "SYMMETRIC MODEL GENERATION(REVOLVE)": {
+    "prefix": "*SYMMETRIC MODEL GENERATION",
+    "body": [
+      "*SYMMETRIC MODEL GENERATION, REVOLVE=${1}"
+    ],
+    "description": "SYMMETRIC MODEL GENERATION with parameter(s) REVOLVE.",
+    "scope": "source.inp"
+  },
+  "SYMMETRIC MODEL GENERATION(PERIODIC, ELEMENT OFFSET, FILE NAME, NODE OFFSET, TOLERANCE)": {
+    "prefix": "*SYMMETRIC MODEL GENERATION",
+    "body": [
+      "*SYMMETRIC MODEL GENERATION, PERIODIC=${1}, ELEMENT OFFSET=${2}, FILE NAME=${3}, NODE OFFSET=${4}, TOLERANCE=${5}"
+    ],
+    "description": "SYMMETRIC MODEL GENERATION with parameter(s) PERIODIC, ELEMENT OFFSET, FILE NAME, NODE OFFSET, TOLERANCE.",
+    "scope": "source.inp"
+  },
+  "SYMMETRIC MODEL GENERATION(REFLECT, ELEMENT OFFSET, FILE NAME, NODE OFFSET, TOLERANCE)": {
+    "prefix": "*SYMMETRIC MODEL GENERATION",
+    "body": [
+      "*SYMMETRIC MODEL GENERATION, REFLECT=${1}, ELEMENT OFFSET=${2}, FILE NAME=${3}, NODE OFFSET=${4}, TOLERANCE=${5}"
+    ],
+    "description": "SYMMETRIC MODEL GENERATION with parameter(s) REFLECT, ELEMENT OFFSET, FILE NAME, NODE OFFSET, TOLERANCE.",
+    "scope": "source.inp"
+  },
+  "SYMMETRIC MODEL GENERATION(REVOLVE, ELEMENT OFFSET, FILE NAME, NODE OFFSET, TOLERANCE)": {
+    "prefix": "*SYMMETRIC MODEL GENERATION",
+    "body": [
+      "*SYMMETRIC MODEL GENERATION, REVOLVE=${1}, ELEMENT OFFSET=${2}, FILE NAME=${3}, NODE OFFSET=${4}, TOLERANCE=${5}"
+    ],
+    "description": "SYMMETRIC MODEL GENERATION with parameter(s) REVOLVE, ELEMENT OFFSET, FILE NAME, NODE OFFSET, TOLERANCE.",
+    "scope": "source.inp"
+  }
+}

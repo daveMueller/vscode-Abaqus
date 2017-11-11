@@ -1,0 +1,18 @@
+{
+  "M2()": {
+    "prefix": "*M2",
+    "body": [
+      "*M2"
+    ],
+    "description": "M2 without parameter(s).",
+    "scope": "source.inp"
+  },
+  "M2(DEPENDENCIES, ELASTIC, LINEAR)": {
+    "prefix": "*M2",
+    "body": [
+      "*M2, DEPENDENCIES=${1}, ELASTIC=${2}, LINEAR=${3}"
+    ],
+    "description": "M2 with parameter(s) DEPENDENCIES, ELASTIC, LINEAR.",
+    "scope": "source.inp"
+  }
+}

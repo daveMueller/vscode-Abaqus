@@ -1,0 +1,10 @@
+{
+  "DISTRIBUTION TABLE(NAME)": {
+    "prefix": "*DISTRIBUTION TABLE",
+    "body": [
+      "*DISTRIBUTION TABLE, NAME=${1}"
+    ],
+    "description": "DISTRIBUTION TABLE with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "MODAL PRINT()": {
+    "prefix": "*MODAL PRINT",
+    "body": [
+      "*MODAL PRINT"
+    ],
+    "description": "MODAL PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MODAL PRINT(FREQUENCY)": {
+    "prefix": "*MODAL PRINT",
+    "body": [
+      "*MODAL PRINT, FREQUENCY=${1}"
+    ],
+    "description": "MODAL PRINT with parameter(s) FREQUENCY.",
+    "scope": "source.inp"
+  }
+}

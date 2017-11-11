@@ -1,0 +1,18 @@
+{
+  "CONNECTOR BEHAVIOR(NAME)": {
+    "prefix": "*CONNECTOR BEHAVIOR",
+    "body": [
+      "*CONNECTOR BEHAVIOR, NAME=${1}"
+    ],
+    "description": "CONNECTOR BEHAVIOR with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR BEHAVIOR(NAME, EXTRAPOLATION, INTEGRATION, REGULARIZE, RTOL)": {
+    "prefix": "*CONNECTOR BEHAVIOR",
+    "body": [
+      "*CONNECTOR BEHAVIOR, NAME=${1}, EXTRAPOLATION=${2}, INTEGRATION=${3}, REGULARIZE=${4}, RTOL=${5}"
+    ],
+    "description": "CONNECTOR BEHAVIOR with parameter(s) NAME, EXTRAPOLATION, INTEGRATION, REGULARIZE, RTOL.",
+    "scope": "source.inp"
+  }
+}

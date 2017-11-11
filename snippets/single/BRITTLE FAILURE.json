@@ -1,0 +1,18 @@
+{
+  "BRITTLE FAILURE()": {
+    "prefix": "*BRITTLE FAILURE",
+    "body": [
+      "*BRITTLE FAILURE"
+    ],
+    "description": "BRITTLE FAILURE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BRITTLE FAILURE(CRACKS, DEPENDENCIES)": {
+    "prefix": "*BRITTLE FAILURE",
+    "body": [
+      "*BRITTLE FAILURE, CRACKS=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "BRITTLE FAILURE with parameter(s) CRACKS, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

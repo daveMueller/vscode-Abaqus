@@ -1,0 +1,18 @@
+{
+  "EMBEDDED ELEMENT()": {
+    "prefix": "*EMBEDDED ELEMENT",
+    "body": [
+      "*EMBEDDED ELEMENT"
+    ],
+    "description": "EMBEDDED ELEMENT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EMBEDDED ELEMENT(ABSOLUTE EXTERIOR TOLERANCE, EXTERIOR TOLERANCE, HOST ELSET, ROUNDOFF TOLERANCE)": {
+    "prefix": "*EMBEDDED ELEMENT",
+    "body": [
+      "*EMBEDDED ELEMENT, ABSOLUTE EXTERIOR TOLERANCE=${1}, EXTERIOR TOLERANCE=${2}, HOST ELSET=${3}, ROUNDOFF TOLERANCE=${4}"
+    ],
+    "description": "EMBEDDED ELEMENT with parameter(s) ABSOLUTE EXTERIOR TOLERANCE, EXTERIOR TOLERANCE, HOST ELSET, ROUNDOFF TOLERANCE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "DIRECT CYCLIC()": {
+    "prefix": "*DIRECT CYCLIC",
+    "body": [
+      "*DIRECT CYCLIC"
+    ],
+    "description": "DIRECT CYCLIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DIRECT CYCLIC(CETOL, CONTINUE, DELTMX, FATIGUE, TIME POINTS)": {
+    "prefix": "*DIRECT CYCLIC",
+    "body": [
+      "*DIRECT CYCLIC, CETOL=${1}, CONTINUE=${2}, DELTMX=${3}, FATIGUE=${4}, TIME POINTS=${5}"
+    ],
+    "description": "DIRECT CYCLIC with parameter(s) CETOL, CONTINUE, DELTMX, FATIGUE, TIME POINTS.",
+    "scope": "source.inp"
+  }
+}

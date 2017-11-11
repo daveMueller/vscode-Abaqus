@@ -1,0 +1,18 @@
+{
+  "REBAR(ELEMENT, MATERIAL, NAME)": {
+    "prefix": "*REBAR",
+    "body": [
+      "*REBAR, ELEMENT=${1}, MATERIAL=${2}, NAME=${3}"
+    ],
+    "description": "REBAR with parameter(s) ELEMENT, MATERIAL, NAME.",
+    "scope": "source.inp"
+  },
+  "REBAR(ELEMENT, MATERIAL, NAME, GEOMETRY, ISODIRECTION, ORIENTATION, SINGLE)": {
+    "prefix": "*REBAR",
+    "body": [
+      "*REBAR, ELEMENT=${1}, MATERIAL=${2}, NAME=${3}, GEOMETRY=${4}, ISODIRECTION=${5}, ORIENTATION=${6}, SINGLE=${7}"
+    ],
+    "description": "REBAR with parameter(s) ELEMENT, MATERIAL, NAME, GEOMETRY, ISODIRECTION, ORIENTATION, SINGLE.",
+    "scope": "source.inp"
+  }
+}

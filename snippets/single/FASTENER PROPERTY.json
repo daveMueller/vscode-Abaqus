@@ -1,0 +1,18 @@
+{
+  "FASTENER PROPERTY(NAME)": {
+    "prefix": "*FASTENER PROPERTY",
+    "body": [
+      "*FASTENER PROPERTY, NAME=${1}"
+    ],
+    "description": "FASTENER PROPERTY with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "FASTENER PROPERTY(NAME, MASS)": {
+    "prefix": "*FASTENER PROPERTY",
+    "body": [
+      "*FASTENER PROPERTY, NAME=${1}, MASS=${2}"
+    ],
+    "description": "FASTENER PROPERTY with parameter(s) NAME, MASS.",
+    "scope": "source.inp"
+  }
+}

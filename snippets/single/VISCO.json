@@ -1,0 +1,18 @@
+{
+  "VISCO()": {
+    "prefix": "*VISCO",
+    "body": [
+      "*VISCO"
+    ],
+    "description": "VISCO without parameter(s).",
+    "scope": "source.inp"
+  },
+  "VISCO(ALLSDTOL, CETOL, CONTINUE, CREEP, FACTOR, STABILIZE)": {
+    "prefix": "*VISCO",
+    "body": [
+      "*VISCO, ALLSDTOL=${1}, CETOL=${2}, CONTINUE=${3}, CREEP=${4}, FACTOR=${5}, STABILIZE=${6}"
+    ],
+    "description": "VISCO with parameter(s) ALLSDTOL, CETOL, CONTINUE, CREEP, FACTOR, STABILIZE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "CONNECTOR FAILURE(COMPONENT)": {
+    "prefix": "*CONNECTOR FAILURE",
+    "body": [
+      "*CONNECTOR FAILURE, COMPONENT=${1}"
+    ],
+    "description": "CONNECTOR FAILURE with parameter(s) COMPONENT.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR FAILURE(COMPONENT, RELEASE)": {
+    "prefix": "*CONNECTOR FAILURE",
+    "body": [
+      "*CONNECTOR FAILURE, COMPONENT=${1}, RELEASE=${2}"
+    ],
+    "description": "CONNECTOR FAILURE with parameter(s) COMPONENT, RELEASE.",
+    "scope": "source.inp"
+  }
+}

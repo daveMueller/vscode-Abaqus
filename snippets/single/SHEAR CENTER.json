@@ -1,0 +1,10 @@
+{
+  "SHEAR CENTER()": {
+    "prefix": "*SHEAR CENTER",
+    "body": [
+      "*SHEAR CENTER"
+    ],
+    "description": "SHEAR CENTER without parameter(s).",
+    "scope": "source.inp"
+  }
+}

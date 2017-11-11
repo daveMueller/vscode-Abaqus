@@ -1,0 +1,18 @@
+{
+  "NMAP(NSET, TYPE)": {
+    "prefix": "*NMAP",
+    "body": [
+      "*NMAP, NSET=${1}, TYPE=${2}"
+    ],
+    "description": "NMAP with parameter(s) NSET, TYPE.",
+    "scope": "source.inp"
+  },
+  "NMAP(NSET, TYPE, DEFINITION)": {
+    "prefix": "*NMAP",
+    "body": [
+      "*NMAP, NSET=${1}, TYPE=${2}, DEFINITION=${3}"
+    ],
+    "description": "NMAP with parameter(s) NSET, TYPE, DEFINITION.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "DENSITY()": {
+    "prefix": "*DENSITY",
+    "body": [
+      "*DENSITY"
+    ],
+    "description": "DENSITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DENSITY(DEPENDENCIES, PORE FLUID)": {
+    "prefix": "*DENSITY",
+    "body": [
+      "*DENSITY, DEPENDENCIES=${1}, PORE FLUID=${2}"
+    ],
+    "description": "DENSITY with parameter(s) DEPENDENCIES, PORE FLUID.",
+    "scope": "source.inp"
+  }
+}

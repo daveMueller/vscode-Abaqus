@@ -1,0 +1,18 @@
+{
+  "ORNL()": {
+    "prefix": "*ORNL",
+    "body": [
+      "*ORNL"
+    ],
+    "description": "ORNL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ORNL(A, H, MATERIAL, RESET)": {
+    "prefix": "*ORNL",
+    "body": [
+      "*ORNL, A=${1}, H=${2}, MATERIAL=${3}, RESET=${4}"
+    ],
+    "description": "ORNL with parameter(s) A, H, MATERIAL, RESET.",
+    "scope": "source.inp"
+  }
+}

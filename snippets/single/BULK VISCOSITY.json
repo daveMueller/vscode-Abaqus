@@ -1,0 +1,10 @@
+{
+  "BULK VISCOSITY()": {
+    "prefix": "*BULK VISCOSITY",
+    "body": [
+      "*BULK VISCOSITY"
+    ],
+    "description": "BULK VISCOSITY without parameter(s).",
+    "scope": "source.inp"
+  }
+}

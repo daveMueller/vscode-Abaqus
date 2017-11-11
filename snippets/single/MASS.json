@@ -1,0 +1,18 @@
+{
+  "MASS(ELSET)": {
+    "prefix": "*MASS",
+    "body": [
+      "*MASS, ELSET=${1}"
+    ],
+    "description": "MASS with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "MASS(ELSET, ALPHA, COMPOSITE, ORIENTATION, TYPE)": {
+    "prefix": "*MASS",
+    "body": [
+      "*MASS, ELSET=${1}, ALPHA=${2}, COMPOSITE=${3}, ORIENTATION=${4}, TYPE=${5}"
+    ],
+    "description": "MASS with parameter(s) ELSET, ALPHA, COMPOSITE, ORIENTATION, TYPE.",
+    "scope": "source.inp"
+  }
+}

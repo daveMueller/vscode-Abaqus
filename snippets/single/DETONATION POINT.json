@@ -1,0 +1,10 @@
+{
+  "DETONATION POINT()": {
+    "prefix": "*DETONATION POINT",
+    "body": [
+      "*DETONATION POINT"
+    ],
+    "description": "DETONATION POINT without parameter(s).",
+    "scope": "source.inp"
+  }
+}

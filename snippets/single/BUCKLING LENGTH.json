@@ -1,0 +1,10 @@
+{
+  "BUCKLING LENGTH()": {
+    "prefix": "*BUCKLING LENGTH",
+    "body": [
+      "*BUCKLING LENGTH"
+    ],
+    "description": "BUCKLING LENGTH without parameter(s).",
+    "scope": "source.inp"
+  }
+}

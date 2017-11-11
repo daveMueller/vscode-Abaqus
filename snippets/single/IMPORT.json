@@ -1,0 +1,42 @@
+{
+  "IMPORT(UPDATE)": {
+    "prefix": "*IMPORT",
+    "body": [
+      "*IMPORT, UPDATE=${1}"
+    ],
+    "description": "IMPORT with parameter(s) UPDATE.",
+    "scope": "source.inp"
+  },
+  "IMPORT(UPDATE, STATE, STEP)": {
+    "prefix": "*IMPORT",
+    "body": [
+      "*IMPORT, UPDATE=${1}, STATE=${2}, STEP=${3}"
+    ],
+    "description": "IMPORT with parameter(s) UPDATE, STATE, STEP.",
+    "scope": "source.inp"
+  },
+  "IMPORT(UPDATE, INCREMENT, STATE, STEP)": {
+    "prefix": "*IMPORT",
+    "body": [
+      "*IMPORT, UPDATE=${1}, INCREMENT=${2}, STATE=${3}, STEP=${4}"
+    ],
+    "description": "IMPORT with parameter(s) UPDATE, INCREMENT, STATE, STEP.",
+    "scope": "source.inp"
+  },
+  "IMPORT(UPDATE, INTERVAL, STATE, STEP)": {
+    "prefix": "*IMPORT",
+    "body": [
+      "*IMPORT, UPDATE=${1}, INTERVAL=${2}, STATE=${3}, STEP=${4}"
+    ],
+    "description": "IMPORT with parameter(s) UPDATE, INTERVAL, STATE, STEP.",
+    "scope": "source.inp"
+  },
+  "IMPORT(UPDATE, ITERATION, STATE, STEP)": {
+    "prefix": "*IMPORT",
+    "body": [
+      "*IMPORT, UPDATE=${1}, ITERATION=${2}, STATE=${3}, STEP=${4}"
+    ],
+    "description": "IMPORT with parameter(s) UPDATE, ITERATION, STATE, STEP.",
+    "scope": "source.inp"
+  }
+}

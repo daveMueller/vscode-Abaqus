@@ -1,0 +1,18 @@
+{
+  "D EM POTENTIAL()": {
+    "prefix": "*D EM POTENTIAL",
+    "body": [
+      "*D EM POTENTIAL"
+    ],
+    "description": "D EM POTENTIAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "D EM POTENTIAL(AMPLITUDE, OP)": {
+    "prefix": "*D EM POTENTIAL",
+    "body": [
+      "*D EM POTENTIAL, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "D EM POTENTIAL with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

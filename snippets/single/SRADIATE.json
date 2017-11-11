@@ -1,0 +1,18 @@
+{
+  "SRADIATE()": {
+    "prefix": "*SRADIATE",
+    "body": [
+      "*SRADIATE"
+    ],
+    "description": "SRADIATE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SRADIATE(AMPLITUDE, OP)": {
+    "prefix": "*SRADIATE",
+    "body": [
+      "*SRADIATE, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "SRADIATE with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  }
+}

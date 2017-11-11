@@ -1,0 +1,10 @@
+{
+  "INELASTIC HEAT FRACTION()": {
+    "prefix": "*INELASTIC HEAT FRACTION",
+    "body": [
+      "*INELASTIC HEAT FRACTION"
+    ],
+    "description": "INELASTIC HEAT FRACTION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

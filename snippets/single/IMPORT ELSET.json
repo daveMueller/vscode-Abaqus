@@ -1,0 +1,10 @@
+{
+  "IMPORT ELSET()": {
+    "prefix": "*IMPORT ELSET",
+    "body": [
+      "*IMPORT ELSET"
+    ],
+    "description": "IMPORT ELSET without parameter(s).",
+    "scope": "source.inp"
+  }
+}

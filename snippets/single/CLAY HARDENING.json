@@ -1,0 +1,18 @@
+{
+  "CLAY HARDENING()": {
+    "prefix": "*CLAY HARDENING",
+    "body": [
+      "*CLAY HARDENING"
+    ],
+    "description": "CLAY HARDENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CLAY HARDENING(DEPENDENCIES)": {
+    "prefix": "*CLAY HARDENING",
+    "body": [
+      "*CLAY HARDENING, DEPENDENCIES=${1}"
+    ],
+    "description": "CLAY HARDENING with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

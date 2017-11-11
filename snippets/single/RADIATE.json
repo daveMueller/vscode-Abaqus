@@ -1,0 +1,18 @@
+{
+  "RADIATE()": {
+    "prefix": "*RADIATE",
+    "body": [
+      "*RADIATE"
+    ],
+    "description": "RADIATE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RADIATE(AMPLITUDE, OP, REGION TYPE, )": {
+    "prefix": "*RADIATE",
+    "body": [
+      "*RADIATE, AMPLITUDE=${1}, OP=${2}, REGION TYPE=${3}, =${4}"
+    ],
+    "description": "RADIATE with parameter(s) AMPLITUDE, OP, REGION TYPE, .",
+    "scope": "source.inp"
+  }
+}

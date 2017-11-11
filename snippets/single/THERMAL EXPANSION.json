@@ -1,0 +1,18 @@
+{
+  "THERMAL EXPANSION()": {
+    "prefix": "*THERMAL EXPANSION",
+    "body": [
+      "*THERMAL EXPANSION"
+    ],
+    "description": "THERMAL EXPANSION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "THERMAL EXPANSION(DEPENDENCIES)": {
+    "prefix": "*THERMAL EXPANSION",
+    "body": [
+      "*THERMAL EXPANSION, DEPENDENCIES=${1}"
+    ],
+    "description": "THERMAL EXPANSION with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

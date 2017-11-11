@@ -1,0 +1,18 @@
+{
+  "ELCOPY(ELEMENT SHIFT, OLD SET, SHIFT NODES)": {
+    "prefix": "*ELCOPY",
+    "body": [
+      "*ELCOPY, ELEMENT SHIFT=${1}, OLD SET=${2}, SHIFT NODES=${3}"
+    ],
+    "description": "ELCOPY with parameter(s) ELEMENT SHIFT, OLD SET, SHIFT NODES.",
+    "scope": "source.inp"
+  },
+  "ELCOPY(ELEMENT SHIFT, OLD SET, SHIFT NODES, NEW SET, REFLECT)": {
+    "prefix": "*ELCOPY",
+    "body": [
+      "*ELCOPY, ELEMENT SHIFT=${1}, OLD SET=${2}, SHIFT NODES=${3}, NEW SET=${4}, REFLECT=${5}"
+    ],
+    "description": "ELCOPY with parameter(s) ELEMENT SHIFT, OLD SET, SHIFT NODES, NEW SET, REFLECT.",
+    "scope": "source.inp"
+  }
+}

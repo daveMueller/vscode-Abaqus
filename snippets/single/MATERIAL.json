@@ -1,0 +1,18 @@
+{
+  "MATERIAL(NAME)": {
+    "prefix": "*MATERIAL",
+    "body": [
+      "*MATERIAL, NAME=${1}"
+    ],
+    "description": "MATERIAL with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "MATERIAL(NAME, RTOL, SRATE FACTOR, STRAIN RATE REGULARIZATION)": {
+    "prefix": "*MATERIAL",
+    "body": [
+      "*MATERIAL, NAME=${1}, RTOL=${2}, SRATE FACTOR=${3}, STRAIN RATE REGULARIZATION=${4}"
+    ],
+    "description": "MATERIAL with parameter(s) NAME, RTOL, SRATE FACTOR, STRAIN RATE REGULARIZATION.",
+    "scope": "source.inp"
+  }
+}

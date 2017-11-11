@@ -1,0 +1,18 @@
+{
+  "CAP PLASTICITY()": {
+    "prefix": "*CAP PLASTICITY",
+    "body": [
+      "*CAP PLASTICITY"
+    ],
+    "description": "CAP PLASTICITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CAP PLASTICITY(DEPENDENCIES)": {
+    "prefix": "*CAP PLASTICITY",
+    "body": [
+      "*CAP PLASTICITY, DEPENDENCIES=${1}"
+    ],
+    "description": "CAP PLASTICITY with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

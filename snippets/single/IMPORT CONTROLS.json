@@ -1,0 +1,10 @@
+{
+  "IMPORT CONTROLS(NORMAL TOL)": {
+    "prefix": "*IMPORT CONTROLS",
+    "body": [
+      "*IMPORT CONTROLS, NORMAL TOL=${1}"
+    ],
+    "description": "IMPORT CONTROLS with parameter(s) NORMAL TOL.",
+    "scope": "source.inp"
+  }
+}

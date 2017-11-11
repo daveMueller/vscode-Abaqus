@@ -1,0 +1,18 @@
+{
+  "CONCRETE TENSION STIFFENING()": {
+    "prefix": "*CONCRETE TENSION STIFFENING",
+    "body": [
+      "*CONCRETE TENSION STIFFENING"
+    ],
+    "description": "CONCRETE TENSION STIFFENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONCRETE TENSION STIFFENING(DEPENDENCIES, TYPE)": {
+    "prefix": "*CONCRETE TENSION STIFFENING",
+    "body": [
+      "*CONCRETE TENSION STIFFENING, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "CONCRETE TENSION STIFFENING with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

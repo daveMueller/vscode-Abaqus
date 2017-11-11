@@ -1,0 +1,10 @@
+{
+  "CONTACT EXCLUSIONS()": {
+    "prefix": "*CONTACT EXCLUSIONS",
+    "body": [
+      "*CONTACT EXCLUSIONS"
+    ],
+    "description": "CONTACT EXCLUSIONS without parameter(s).",
+    "scope": "source.inp"
+  }
+}

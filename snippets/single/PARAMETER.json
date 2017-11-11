@@ -1,0 +1,18 @@
+{
+  "PARAMETER()": {
+    "prefix": "*PARAMETER",
+    "body": [
+      "*PARAMETER"
+    ],
+    "description": "PARAMETER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PARAMETER(DEPENDENT, INDEPENDENT, TABLE)": {
+    "prefix": "*PARAMETER",
+    "body": [
+      "*PARAMETER, DEPENDENT=${1}, INDEPENDENT=${2}, TABLE=${3}"
+    ],
+    "description": "PARAMETER with parameter(s) DEPENDENT, INDEPENDENT, TABLE.",
+    "scope": "source.inp"
+  }
+}

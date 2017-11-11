@@ -1,0 +1,10 @@
+{
+  "USER OUTPUT VARIABLES()": {
+    "prefix": "*USER OUTPUT VARIABLES",
+    "body": [
+      "*USER OUTPUT VARIABLES"
+    ],
+    "description": "USER OUTPUT VARIABLES without parameter(s).",
+    "scope": "source.inp"
+  }
+}

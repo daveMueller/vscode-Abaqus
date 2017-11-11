@@ -1,0 +1,10 @@
+{
+  "DEFORMATION PLASTICITY()": {
+    "prefix": "*DEFORMATION PLASTICITY",
+    "body": [
+      "*DEFORMATION PLASTICITY"
+    ],
+    "description": "DEFORMATION PLASTICITY without parameter(s).",
+    "scope": "source.inp"
+  }
+}

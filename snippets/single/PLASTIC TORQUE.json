@@ -1,0 +1,10 @@
+{
+  "PLASTIC TORQUE()": {
+    "prefix": "*PLASTIC TORQUE",
+    "body": [
+      "*PLASTIC TORQUE"
+    ],
+    "description": "PLASTIC TORQUE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

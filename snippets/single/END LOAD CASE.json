@@ -1,0 +1,10 @@
+{
+  "END LOAD CASE()": {
+    "prefix": "*END LOAD CASE",
+    "body": [
+      "*END LOAD CASE"
+    ],
+    "description": "END LOAD CASE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

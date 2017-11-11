@@ -1,0 +1,10 @@
+{
+  "GAP(ELSET)": {
+    "prefix": "*GAP",
+    "body": [
+      "*GAP, ELSET=${1}"
+    ],
+    "description": "GAP with parameter(s) ELSET.",
+    "scope": "source.inp"
+  }
+}

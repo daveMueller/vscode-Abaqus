@@ -1,0 +1,10 @@
+{
+  "DAMAGE STABILIZATION()": {
+    "prefix": "*DAMAGE STABILIZATION",
+    "body": [
+      "*DAMAGE STABILIZATION"
+    ],
+    "description": "DAMAGE STABILIZATION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

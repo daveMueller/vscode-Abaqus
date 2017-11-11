@@ -1,0 +1,18 @@
+{
+  "RELEASE()": {
+    "prefix": "*RELEASE",
+    "body": [
+      "*RELEASE"
+    ],
+    "description": "RELEASE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RELEASE(INPUT)": {
+    "prefix": "*RELEASE",
+    "body": [
+      "*RELEASE, INPUT=${1}"
+    ],
+    "description": "RELEASE with parameter(s) INPUT.",
+    "scope": "source.inp"
+  }
+}

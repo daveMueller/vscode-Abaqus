@@ -1,0 +1,18 @@
+{
+  "MEMBRANE SECTION(ELSET, MATERIAL)": {
+    "prefix": "*MEMBRANE SECTION",
+    "body": [
+      "*MEMBRANE SECTION, ELSET=${1}, MATERIAL=${2}"
+    ],
+    "description": "MEMBRANE SECTION with parameter(s) ELSET, MATERIAL.",
+    "scope": "source.inp"
+  },
+  "MEMBRANE SECTION(ELSET, MATERIAL, CONTROLS, DENSITY, MEMBRANE THICKNESS, NODAL THICKNESS, ORIENTATION, POISSON)": {
+    "prefix": "*MEMBRANE SECTION",
+    "body": [
+      "*MEMBRANE SECTION, ELSET=${1}, MATERIAL=${2}, CONTROLS=${3}, DENSITY=${4}, MEMBRANE THICKNESS=${5}, NODAL THICKNESS=${6}, ORIENTATION=${7}, POISSON=${8}"
+    ],
+    "description": "MEMBRANE SECTION with parameter(s) ELSET, MATERIAL, CONTROLS, DENSITY, MEMBRANE THICKNESS, NODAL THICKNESS, ORIENTATION, POISSON.",
+    "scope": "source.inp"
+  }
+}

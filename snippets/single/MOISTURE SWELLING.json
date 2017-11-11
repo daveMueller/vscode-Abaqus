@@ -1,0 +1,10 @@
+{
+  "MOISTURE SWELLING()": {
+    "prefix": "*MOISTURE SWELLING",
+    "body": [
+      "*MOISTURE SWELLING"
+    ],
+    "description": "MOISTURE SWELLING without parameter(s).",
+    "scope": "source.inp"
+  }
+}

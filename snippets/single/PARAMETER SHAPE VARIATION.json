@@ -1,0 +1,26 @@
+{
+  "PARAMETER SHAPE VARIATION(PARAMETER)": {
+    "prefix": "*PARAMETER SHAPE VARIATION",
+    "body": [
+      "*PARAMETER SHAPE VARIATION, PARAMETER=${1}"
+    ],
+    "description": "PARAMETER SHAPE VARIATION with parameter(s) PARAMETER.",
+    "scope": "source.inp"
+  },
+  "PARAMETER SHAPE VARIATION(PARAMETER, INPUT, SYSTEM)": {
+    "prefix": "*PARAMETER SHAPE VARIATION",
+    "body": [
+      "*PARAMETER SHAPE VARIATION, PARAMETER=${1}, INPUT=${2}, SYSTEM=${3}"
+    ],
+    "description": "PARAMETER SHAPE VARIATION with parameter(s) PARAMETER, INPUT, SYSTEM.",
+    "scope": "source.inp"
+  },
+  "PARAMETER SHAPE VARIATION(PARAMETER, STEP, FILE, INC, MODE, NSET)": {
+    "prefix": "*PARAMETER SHAPE VARIATION",
+    "body": [
+      "*PARAMETER SHAPE VARIATION, PARAMETER=${1}, STEP=${2}, FILE=${3}, INC=${4}, MODE=${5}, NSET=${6}"
+    ],
+    "description": "PARAMETER SHAPE VARIATION with parameter(s) PARAMETER, STEP, FILE, INC, MODE, NSET.",
+    "scope": "source.inp"
+  }
+}

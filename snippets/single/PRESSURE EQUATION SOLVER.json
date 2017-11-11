@@ -1,0 +1,18 @@
+{
+  "PRESSURE EQUATION SOLVER()": {
+    "prefix": "*PRESSURE EQUATION SOLVER",
+    "body": [
+      "*PRESSURE EQUATION SOLVER"
+    ],
+    "description": "PRESSURE EQUATION SOLVER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PRESSURE EQUATION SOLVER(CONVERGENCE, DIAGNOSTICS, TYPE)": {
+    "prefix": "*PRESSURE EQUATION SOLVER",
+    "body": [
+      "*PRESSURE EQUATION SOLVER, CONVERGENCE=${1}, DIAGNOSTICS=${2}, TYPE=${3}"
+    ],
+    "description": "PRESSURE EQUATION SOLVER with parameter(s) CONVERGENCE, DIAGNOSTICS, TYPE.",
+    "scope": "source.inp"
+  }
+}

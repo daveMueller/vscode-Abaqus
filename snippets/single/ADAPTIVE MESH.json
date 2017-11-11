@@ -1,0 +1,18 @@
+{
+  "ADAPTIVE MESH(ELSET, OP)": {
+    "prefix": "*ADAPTIVE MESH",
+    "body": [
+      "*ADAPTIVE MESH, ELSET=${1}, OP=${2}"
+    ],
+    "description": "ADAPTIVE MESH with parameter(s) ELSET, OP.",
+    "scope": "source.inp"
+  },
+  "ADAPTIVE MESH(ELSET, OP, CONTROLS, FREQUENCY, INITIAL MESH SWEEPS, MESH SWEEPS)": {
+    "prefix": "*ADAPTIVE MESH",
+    "body": [
+      "*ADAPTIVE MESH, ELSET=${1}, OP=${2}, CONTROLS=${3}, FREQUENCY=${4}, INITIAL MESH SWEEPS=${5}, MESH SWEEPS=${6}"
+    ],
+    "description": "ADAPTIVE MESH with parameter(s) ELSET, OP, CONTROLS, FREQUENCY, INITIAL MESH SWEEPS, MESH SWEEPS.",
+    "scope": "source.inp"
+  }
+}

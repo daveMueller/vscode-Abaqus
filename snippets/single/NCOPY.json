@@ -1,0 +1,50 @@
+{
+  "NCOPY(CHANGE NUMBER, OLD SET, POLE)": {
+    "prefix": "*NCOPY",
+    "body": [
+      "*NCOPY, CHANGE NUMBER=${1}, OLD SET=${2}, POLE=${3}"
+    ],
+    "description": "NCOPY with parameter(s) CHANGE NUMBER, OLD SET, POLE.",
+    "scope": "source.inp"
+  },
+  "NCOPY(CHANGE NUMBER, OLD SET, SHIFT)": {
+    "prefix": "*NCOPY",
+    "body": [
+      "*NCOPY, CHANGE NUMBER=${1}, OLD SET=${2}, SHIFT=${3}"
+    ],
+    "description": "NCOPY with parameter(s) CHANGE NUMBER, OLD SET, SHIFT.",
+    "scope": "source.inp"
+  },
+  "NCOPY(CHANGE NUMBER, OLD SET, REFLECT)": {
+    "prefix": "*NCOPY",
+    "body": [
+      "*NCOPY, CHANGE NUMBER=${1}, OLD SET=${2}, REFLECT=${3}"
+    ],
+    "description": "NCOPY with parameter(s) CHANGE NUMBER, OLD SET, REFLECT.",
+    "scope": "source.inp"
+  },
+  "NCOPY(CHANGE NUMBER, OLD SET, POLE, MULTIPLE, NEW SET)": {
+    "prefix": "*NCOPY",
+    "body": [
+      "*NCOPY, CHANGE NUMBER=${1}, OLD SET=${2}, POLE=${3}, MULTIPLE=${4}, NEW SET=${5}"
+    ],
+    "description": "NCOPY with parameter(s) CHANGE NUMBER, OLD SET, POLE, MULTIPLE, NEW SET.",
+    "scope": "source.inp"
+  },
+  "NCOPY(CHANGE NUMBER, OLD SET, SHIFT, MULTIPLE, NEW SET)": {
+    "prefix": "*NCOPY",
+    "body": [
+      "*NCOPY, CHANGE NUMBER=${1}, OLD SET=${2}, SHIFT=${3}, MULTIPLE=${4}, NEW SET=${5}"
+    ],
+    "description": "NCOPY with parameter(s) CHANGE NUMBER, OLD SET, SHIFT, MULTIPLE, NEW SET.",
+    "scope": "source.inp"
+  },
+  "NCOPY(CHANGE NUMBER, OLD SET, REFLECT, MULTIPLE, NEW SET)": {
+    "prefix": "*NCOPY",
+    "body": [
+      "*NCOPY, CHANGE NUMBER=${1}, OLD SET=${2}, REFLECT=${3}, MULTIPLE=${4}, NEW SET=${5}"
+    ],
+    "description": "NCOPY with parameter(s) CHANGE NUMBER, OLD SET, REFLECT, MULTIPLE, NEW SET.",
+    "scope": "source.inp"
+  }
+}

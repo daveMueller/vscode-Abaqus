@@ -1,0 +1,26 @@
+{
+  "MATRIX ASSEMBLE()": {
+    "prefix": "*MATRIX ASSEMBLE",
+    "body": [
+      "*MATRIX ASSEMBLE"
+    ],
+    "description": "MATRIX ASSEMBLE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MATRIX ASSEMBLE(MASS, STIFFNESS, STRUCTURAL DAMPING, VISCOUS DAMPING)": {
+    "prefix": "*MATRIX ASSEMBLE",
+    "body": [
+      "*MATRIX ASSEMBLE, MASS=${1}, STIFFNESS=${2}, STRUCTURAL DAMPING=${3}, VISCOUS DAMPING=${4}"
+    ],
+    "description": "MATRIX ASSEMBLE with parameter(s) MASS, STIFFNESS, STRUCTURAL DAMPING, VISCOUS DAMPING.",
+    "scope": "source.inp"
+  },
+  "MATRIX ASSEMBLE(MASS, STIFFNESS, STRUCTURAL DAMPING, VISCOUS DAMPING, NSET)": {
+    "prefix": "*MATRIX ASSEMBLE",
+    "body": [
+      "*MATRIX ASSEMBLE, MASS=${1}, STIFFNESS=${2}, STRUCTURAL DAMPING=${3}, VISCOUS DAMPING=${4}, NSET=${5}"
+    ],
+    "description": "MATRIX ASSEMBLE with parameter(s) MASS, STIFFNESS, STRUCTURAL DAMPING, VISCOUS DAMPING, NSET.",
+    "scope": "source.inp"
+  }
+}

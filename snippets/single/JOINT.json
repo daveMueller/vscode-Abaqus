@@ -1,0 +1,18 @@
+{
+  "JOINT(ELSET)": {
+    "prefix": "*JOINT",
+    "body": [
+      "*JOINT, ELSET=${1}"
+    ],
+    "description": "JOINT with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "JOINT(ELSET, ORIENTATION)": {
+    "prefix": "*JOINT",
+    "body": [
+      "*JOINT, ELSET=${1}, ORIENTATION=${2}"
+    ],
+    "description": "JOINT with parameter(s) ELSET, ORIENTATION.",
+    "scope": "source.inp"
+  }
+}

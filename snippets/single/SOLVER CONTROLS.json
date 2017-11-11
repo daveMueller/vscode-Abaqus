@@ -1,0 +1,18 @@
+{
+  "SOLVER CONTROLS()": {
+    "prefix": "*SOLVER CONTROLS",
+    "body": [
+      "*SOLVER CONTROLS"
+    ],
+    "description": "SOLVER CONTROLS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SOLVER CONTROLS(CONSTRAINT OPTIMIZATION, RESET)": {
+    "prefix": "*SOLVER CONTROLS",
+    "body": [
+      "*SOLVER CONTROLS, CONSTRAINT OPTIMIZATION=${1}, RESET=${2}"
+    ],
+    "description": "SOLVER CONTROLS with parameter(s) CONSTRAINT OPTIMIZATION, RESET.",
+    "scope": "source.inp"
+  }
+}

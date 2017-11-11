@@ -1,0 +1,34 @@
+{
+  "DSECHARGE()": {
+    "prefix": "*DSECHARGE",
+    "body": [
+      "*DSECHARGE"
+    ],
+    "description": "DSECHARGE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DSECHARGE(AMPLITUDE, OP)": {
+    "prefix": "*DSECHARGE",
+    "body": [
+      "*DSECHARGE, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "DSECHARGE with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  },
+  "DSECHARGE(AMPLITUDE, OP, IMAGINARY)": {
+    "prefix": "*DSECHARGE",
+    "body": [
+      "*DSECHARGE, AMPLITUDE=${1}, OP=${2}, IMAGINARY=${3}"
+    ],
+    "description": "DSECHARGE with parameter(s) AMPLITUDE, OP, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "DSECHARGE(AMPLITUDE, OP, REAL)": {
+    "prefix": "*DSECHARGE",
+    "body": [
+      "*DSECHARGE, AMPLITUDE=${1}, OP=${2}, REAL=${3}"
+    ],
+    "description": "DSECHARGE with parameter(s) AMPLITUDE, OP, REAL.",
+    "scope": "source.inp"
+  }
+}

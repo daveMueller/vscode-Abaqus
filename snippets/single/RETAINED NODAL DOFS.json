@@ -1,0 +1,18 @@
+{
+  "RETAINED NODAL DOFS()": {
+    "prefix": "*RETAINED NODAL DOFS",
+    "body": [
+      "*RETAINED NODAL DOFS"
+    ],
+    "description": "RETAINED NODAL DOFS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RETAINED NODAL DOFS(SORTED)": {
+    "prefix": "*RETAINED NODAL DOFS",
+    "body": [
+      "*RETAINED NODAL DOFS, SORTED=${1}"
+    ],
+    "description": "RETAINED NODAL DOFS with parameter(s) SORTED.",
+    "scope": "source.inp"
+  }
+}

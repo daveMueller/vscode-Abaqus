@@ -1,0 +1,66 @@
+{
+  "ACOUSTIC MEDIUM()": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM"
+    ],
+    "description": "ACOUSTIC MEDIUM without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC MEDIUM(DEPENDENCIES)": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM, DEPENDENCIES=${1}"
+    ],
+    "description": "ACOUSTIC MEDIUM with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC MEDIUM(BULK MODULUS, DEPENDENCIES)": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM, BULK MODULUS=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "ACOUSTIC MEDIUM with parameter(s) BULK MODULUS, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC MEDIUM(CAVITATION LIMIT, DEPENDENCIES)": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM, CAVITATION LIMIT=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "ACOUSTIC MEDIUM with parameter(s) CAVITATION LIMIT, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC MEDIUM(COMPLEX BULK MODULUS, DEPENDENCIES)": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM, COMPLEX BULK MODULUS=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "ACOUSTIC MEDIUM with parameter(s) COMPLEX BULK MODULUS, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC MEDIUM(COMPLEX DENSITY, DEPENDENCIES)": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM, COMPLEX DENSITY=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "ACOUSTIC MEDIUM with parameter(s) COMPLEX DENSITY, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC MEDIUM(POROUS MODEL, DEPENDENCIES)": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM, POROUS MODEL=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "ACOUSTIC MEDIUM with parameter(s) POROUS MODEL, DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC MEDIUM(VOLUMETRIC DRAG, DEPENDENCIES)": {
+    "prefix": "*ACOUSTIC MEDIUM",
+    "body": [
+      "*ACOUSTIC MEDIUM, VOLUMETRIC DRAG=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "ACOUSTIC MEDIUM with parameter(s) VOLUMETRIC DRAG, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

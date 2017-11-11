@@ -1,0 +1,10 @@
+{
+  "CONNECTOR CONSTITUTIVE REFERENCE()": {
+    "prefix": "*CONNECTOR CONSTITUTIVE REFERENCE",
+    "body": [
+      "*CONNECTOR CONSTITUTIVE REFERENCE"
+    ],
+    "description": "CONNECTOR CONSTITUTIVE REFERENCE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

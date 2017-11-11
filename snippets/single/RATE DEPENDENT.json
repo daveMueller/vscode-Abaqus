@@ -1,0 +1,18 @@
+{
+  "RATE DEPENDENT()": {
+    "prefix": "*RATE DEPENDENT",
+    "body": [
+      "*RATE DEPENDENT"
+    ],
+    "description": "RATE DEPENDENT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RATE DEPENDENT(DEPENDENCIES, TYPE)": {
+    "prefix": "*RATE DEPENDENT",
+    "body": [
+      "*RATE DEPENDENT, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "RATE DEPENDENT with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

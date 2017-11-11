@@ -1,0 +1,18 @@
+{
+  "NORMAL()": {
+    "prefix": "*NORMAL",
+    "body": [
+      "*NORMAL"
+    ],
+    "description": "NORMAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "NORMAL(TYPE)": {
+    "prefix": "*NORMAL",
+    "body": [
+      "*NORMAL, TYPE=${1}"
+    ],
+    "description": "NORMAL with parameter(s) TYPE.",
+    "scope": "source.inp"
+  }
+}

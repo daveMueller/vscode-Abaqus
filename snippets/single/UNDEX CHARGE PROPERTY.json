@@ -1,0 +1,10 @@
+{
+  "UNDEX CHARGE PROPERTY()": {
+    "prefix": "*UNDEX CHARGE PROPERTY",
+    "body": [
+      "*UNDEX CHARGE PROPERTY"
+    ],
+    "description": "UNDEX CHARGE PROPERTY without parameter(s).",
+    "scope": "source.inp"
+  }
+}

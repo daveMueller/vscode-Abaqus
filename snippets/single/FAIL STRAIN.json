@@ -1,0 +1,18 @@
+{
+  "FAIL STRAIN()": {
+    "prefix": "*FAIL STRAIN",
+    "body": [
+      "*FAIL STRAIN"
+    ],
+    "description": "FAIL STRAIN without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FAIL STRAIN(DEPENDENCIES)": {
+    "prefix": "*FAIL STRAIN",
+    "body": [
+      "*FAIL STRAIN, DEPENDENCIES=${1}"
+    ],
+    "description": "FAIL STRAIN with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

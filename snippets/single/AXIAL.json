@@ -1,0 +1,18 @@
+{
+  "AXIAL()": {
+    "prefix": "*AXIAL",
+    "body": [
+      "*AXIAL"
+    ],
+    "description": "AXIAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "AXIAL(DEPENDENCIES, ELASTIC, LINEAR)": {
+    "prefix": "*AXIAL",
+    "body": [
+      "*AXIAL, DEPENDENCIES=${1}, ELASTIC=${2}, LINEAR=${3}"
+    ],
+    "description": "AXIAL with parameter(s) DEPENDENCIES, ELASTIC, LINEAR.",
+    "scope": "source.inp"
+  }
+}

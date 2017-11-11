@@ -1,0 +1,18 @@
+{
+  "SUBSTRUCTURE DELETE(TYPE)": {
+    "prefix": "*SUBSTRUCTURE DELETE",
+    "body": [
+      "*SUBSTRUCTURE DELETE, TYPE=${1}"
+    ],
+    "description": "SUBSTRUCTURE DELETE with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "SUBSTRUCTURE DELETE(TYPE, LIBRARY)": {
+    "prefix": "*SUBSTRUCTURE DELETE",
+    "body": [
+      "*SUBSTRUCTURE DELETE, TYPE=${1}, LIBRARY=${2}"
+    ],
+    "description": "SUBSTRUCTURE DELETE with parameter(s) TYPE, LIBRARY.",
+    "scope": "source.inp"
+  }
+}

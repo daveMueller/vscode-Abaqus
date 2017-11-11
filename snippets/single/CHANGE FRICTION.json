@@ -1,0 +1,34 @@
+{
+  "CHANGE FRICTION(ELSET)": {
+    "prefix": "*CHANGE FRICTION",
+    "body": [
+      "*CHANGE FRICTION, ELSET=${1}"
+    ],
+    "description": "CHANGE FRICTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "CHANGE FRICTION(INTERACTION)": {
+    "prefix": "*CHANGE FRICTION",
+    "body": [
+      "*CHANGE FRICTION, INTERACTION=${1}"
+    ],
+    "description": "CHANGE FRICTION with parameter(s) INTERACTION.",
+    "scope": "source.inp"
+  },
+  "CHANGE FRICTION(ELSET, AMPLITUDE, RESET)": {
+    "prefix": "*CHANGE FRICTION",
+    "body": [
+      "*CHANGE FRICTION, ELSET=${1}, AMPLITUDE=${2}, RESET=${3}"
+    ],
+    "description": "CHANGE FRICTION with parameter(s) ELSET, AMPLITUDE, RESET.",
+    "scope": "source.inp"
+  },
+  "CHANGE FRICTION(INTERACTION, AMPLITUDE, RESET)": {
+    "prefix": "*CHANGE FRICTION",
+    "body": [
+      "*CHANGE FRICTION, INTERACTION=${1}, AMPLITUDE=${2}, RESET=${3}"
+    ],
+    "description": "CHANGE FRICTION with parameter(s) INTERACTION, AMPLITUDE, RESET.",
+    "scope": "source.inp"
+  }
+}

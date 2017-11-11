@@ -1,0 +1,18 @@
+{
+  "CONDUCTIVITY()": {
+    "prefix": "*CONDUCTIVITY",
+    "body": [
+      "*CONDUCTIVITY"
+    ],
+    "description": "CONDUCTIVITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONDUCTIVITY(DEPENDENCIES, PORE FLUID, TYPE)": {
+    "prefix": "*CONDUCTIVITY",
+    "body": [
+      "*CONDUCTIVITY, DEPENDENCIES=${1}, PORE FLUID=${2}, TYPE=${3}"
+    ],
+    "description": "CONDUCTIVITY with parameter(s) DEPENDENCIES, PORE FLUID, TYPE.",
+    "scope": "source.inp"
+  }
+}

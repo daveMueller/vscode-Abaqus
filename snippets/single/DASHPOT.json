@@ -1,0 +1,18 @@
+{
+  "DASHPOT(ELSET)": {
+    "prefix": "*DASHPOT",
+    "body": [
+      "*DASHPOT, ELSET=${1}"
+    ],
+    "description": "DASHPOT with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "DASHPOT(ELSET, DEPENDENCIES, NONLINEAR, ORIENTATION, RTOL)": {
+    "prefix": "*DASHPOT",
+    "body": [
+      "*DASHPOT, ELSET=${1}, DEPENDENCIES=${2}, NONLINEAR=${3}, ORIENTATION=${4}, RTOL=${5}"
+    ],
+    "description": "DASHPOT with parameter(s) ELSET, DEPENDENCIES, NONLINEAR, ORIENTATION, RTOL.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "SLIDE LINE(ELSET, TYPE)": {
+    "prefix": "*SLIDE LINE",
+    "body": [
+      "*SLIDE LINE, ELSET=${1}, TYPE=${2}"
+    ],
+    "description": "SLIDE LINE with parameter(s) ELSET, TYPE.",
+    "scope": "source.inp"
+  },
+  "SLIDE LINE(ELSET, TYPE, EXTENSION ZONE, GENERATE, SMOOTH)": {
+    "prefix": "*SLIDE LINE",
+    "body": [
+      "*SLIDE LINE, ELSET=${1}, TYPE=${2}, EXTENSION ZONE=${3}, GENERATE=${4}, SMOOTH=${5}"
+    ],
+    "description": "SLIDE LINE with parameter(s) ELSET, TYPE, EXTENSION ZONE, GENERATE, SMOOTH.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "RIGID SURFACE(ELSET, NAME, REF NODE, TYPE)": {
+    "prefix": "*RIGID SURFACE",
+    "body": [
+      "*RIGID SURFACE, ELSET=${1}, NAME=${2}, REF NODE=${3}, TYPE=${4}"
+    ],
+    "description": "RIGID SURFACE with parameter(s) ELSET, NAME, REF NODE, TYPE.",
+    "scope": "source.inp"
+  },
+  "RIGID SURFACE(ELSET, NAME, REF NODE, TYPE, FILLET RADIUS)": {
+    "prefix": "*RIGID SURFACE",
+    "body": [
+      "*RIGID SURFACE, ELSET=${1}, NAME=${2}, REF NODE=${3}, TYPE=${4}, FILLET RADIUS=${5}"
+    ],
+    "description": "RIGID SURFACE with parameter(s) ELSET, NAME, REF NODE, TYPE, FILLET RADIUS.",
+    "scope": "source.inp"
+  }
+}

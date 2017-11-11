@@ -1,0 +1,18 @@
+{
+  "CONTACT PRINT()": {
+    "prefix": "*CONTACT PRINT",
+    "body": [
+      "*CONTACT PRINT"
+    ],
+    "description": "CONTACT PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONTACT PRINT(FREQUENCY, MASTER, NSET, SLAVE, SUMMARY, TOTALS)": {
+    "prefix": "*CONTACT PRINT",
+    "body": [
+      "*CONTACT PRINT, FREQUENCY=${1}, MASTER=${2}, NSET=${3}, SLAVE=${4}, SUMMARY=${5}, TOTALS=${6}"
+    ],
+    "description": "CONTACT PRINT with parameter(s) FREQUENCY, MASTER, NSET, SLAVE, SUMMARY, TOTALS.",
+    "scope": "source.inp"
+  }
+}

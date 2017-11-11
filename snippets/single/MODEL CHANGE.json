@@ -1,0 +1,50 @@
+{
+  "MODEL CHANGE(ACTIVATE)": {
+    "prefix": "*MODEL CHANGE",
+    "body": [
+      "*MODEL CHANGE, ACTIVATE=${1}"
+    ],
+    "description": "MODEL CHANGE with parameter(s) ACTIVATE.",
+    "scope": "source.inp"
+  },
+  "MODEL CHANGE(REMOVE)": {
+    "prefix": "*MODEL CHANGE",
+    "body": [
+      "*MODEL CHANGE, REMOVE=${1}"
+    ],
+    "description": "MODEL CHANGE with parameter(s) REMOVE.",
+    "scope": "source.inp"
+  },
+  "MODEL CHANGE(ADD)": {
+    "prefix": "*MODEL CHANGE",
+    "body": [
+      "*MODEL CHANGE, ADD=${1}"
+    ],
+    "description": "MODEL CHANGE with parameter(s) ADD.",
+    "scope": "source.inp"
+  },
+  "MODEL CHANGE(ACTIVATE, TYPE)": {
+    "prefix": "*MODEL CHANGE",
+    "body": [
+      "*MODEL CHANGE, ACTIVATE=${1}, TYPE=${2}"
+    ],
+    "description": "MODEL CHANGE with parameter(s) ACTIVATE, TYPE.",
+    "scope": "source.inp"
+  },
+  "MODEL CHANGE(REMOVE, TYPE)": {
+    "prefix": "*MODEL CHANGE",
+    "body": [
+      "*MODEL CHANGE, REMOVE=${1}, TYPE=${2}"
+    ],
+    "description": "MODEL CHANGE with parameter(s) REMOVE, TYPE.",
+    "scope": "source.inp"
+  },
+  "MODEL CHANGE(ADD, TYPE)": {
+    "prefix": "*MODEL CHANGE",
+    "body": [
+      "*MODEL CHANGE, ADD=${1}, TYPE=${2}"
+    ],
+    "description": "MODEL CHANGE with parameter(s) ADD, TYPE.",
+    "scope": "source.inp"
+  }
+}

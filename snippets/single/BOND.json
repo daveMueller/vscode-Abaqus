@@ -1,0 +1,10 @@
+{
+  "BOND()": {
+    "prefix": "*BOND",
+    "body": [
+      "*BOND"
+    ],
+    "description": "BOND without parameter(s).",
+    "scope": "source.inp"
+  }
+}

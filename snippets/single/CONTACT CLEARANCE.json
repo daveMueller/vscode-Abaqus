@@ -1,0 +1,18 @@
+{
+  "CONTACT CLEARANCE(NAME)": {
+    "prefix": "*CONTACT CLEARANCE",
+    "body": [
+      "*CONTACT CLEARANCE, NAME=${1}"
+    ],
+    "description": "CONTACT CLEARANCE with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "CONTACT CLEARANCE(NAME, ADJUST, CLEARANCE, SEARCH ABOVE, SEARCH BELOW, SEARCH NSET)": {
+    "prefix": "*CONTACT CLEARANCE",
+    "body": [
+      "*CONTACT CLEARANCE, NAME=${1}, ADJUST=${2}, CLEARANCE=${3}, SEARCH ABOVE=${4}, SEARCH BELOW=${5}, SEARCH NSET=${6}"
+    ],
+    "description": "CONTACT CLEARANCE with parameter(s) NAME, ADJUST, CLEARANCE, SEARCH ABOVE, SEARCH BELOW, SEARCH NSET.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "CONTACT DAMPING(DEFINITION)": {
+    "prefix": "*CONTACT DAMPING",
+    "body": [
+      "*CONTACT DAMPING, DEFINITION=${1}"
+    ],
+    "description": "CONTACT DAMPING with parameter(s) DEFINITION.",
+    "scope": "source.inp"
+  },
+  "CONTACT DAMPING(DEFINITION, TANGENT FRACTION)": {
+    "prefix": "*CONTACT DAMPING",
+    "body": [
+      "*CONTACT DAMPING, DEFINITION=${1}, TANGENT FRACTION=${2}"
+    ],
+    "description": "CONTACT DAMPING with parameter(s) DEFINITION, TANGENT FRACTION.",
+    "scope": "source.inp"
+  }
+}

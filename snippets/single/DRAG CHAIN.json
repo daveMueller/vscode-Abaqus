@@ -1,0 +1,10 @@
+{
+  "DRAG CHAIN(ELSET)": {
+    "prefix": "*DRAG CHAIN",
+    "body": [
+      "*DRAG CHAIN, ELSET=${1}"
+    ],
+    "description": "DRAG CHAIN with parameter(s) ELSET.",
+    "scope": "source.inp"
+  }
+}

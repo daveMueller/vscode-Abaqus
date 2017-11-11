@@ -1,0 +1,18 @@
+{
+  "HYPOELASTIC()": {
+    "prefix": "*HYPOELASTIC",
+    "body": [
+      "*HYPOELASTIC"
+    ],
+    "description": "HYPOELASTIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "HYPOELASTIC(USER)": {
+    "prefix": "*HYPOELASTIC",
+    "body": [
+      "*HYPOELASTIC, USER=${1}"
+    ],
+    "description": "HYPOELASTIC with parameter(s) USER.",
+    "scope": "source.inp"
+  }
+}

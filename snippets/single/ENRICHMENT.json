@@ -1,0 +1,18 @@
+{
+  "ENRICHMENT(ELSET, NAME)": {
+    "prefix": "*ENRICHMENT",
+    "body": [
+      "*ENRICHMENT, ELSET=${1}, NAME=${2}"
+    ],
+    "description": "ENRICHMENT with parameter(s) ELSET, NAME.",
+    "scope": "source.inp"
+  },
+  "ENRICHMENT(ELSET, NAME, ENRICHMENT RADIUS, INTERACTION, TYPE)": {
+    "prefix": "*ENRICHMENT",
+    "body": [
+      "*ENRICHMENT, ELSET=${1}, NAME=${2}, ENRICHMENT, RADIUS=${3}, INTERACTION=${4}, TYPE=${5}"
+    ],
+    "description": "ENRICHMENT with parameter(s) ELSET, NAME, ENRICHMENT RADIUS, INTERACTION, TYPE.",
+    "scope": "source.inp"
+  }
+}

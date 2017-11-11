@@ -1,0 +1,10 @@
+{
+  "INCIDENT WAVE REFLECTION()": {
+    "prefix": "*INCIDENT WAVE REFLECTION",
+    "body": [
+      "*INCIDENT WAVE REFLECTION"
+    ],
+    "description": "INCIDENT WAVE REFLECTION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

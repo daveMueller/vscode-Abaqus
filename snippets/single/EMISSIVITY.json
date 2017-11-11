@@ -1,0 +1,18 @@
+{
+  "EMISSIVITY()": {
+    "prefix": "*EMISSIVITY",
+    "body": [
+      "*EMISSIVITY"
+    ],
+    "description": "EMISSIVITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EMISSIVITY(DEPENDENCIES)": {
+    "prefix": "*EMISSIVITY",
+    "body": [
+      "*EMISSIVITY, DEPENDENCIES=${1}"
+    ],
+    "description": "EMISSIVITY with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

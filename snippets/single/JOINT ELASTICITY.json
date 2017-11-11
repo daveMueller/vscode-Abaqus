@@ -1,0 +1,18 @@
+{
+  "JOINT ELASTICITY(MODULI, NDIM)": {
+    "prefix": "*JOINT ELASTICITY",
+    "body": [
+      "*JOINT ELASTICITY, MODULI=${1}, NDIM=${2}"
+    ],
+    "description": "JOINT ELASTICITY with parameter(s) MODULI, NDIM.",
+    "scope": "source.inp"
+  },
+  "JOINT ELASTICITY(MODULI, NDIM, DEPENDENCIES)": {
+    "prefix": "*JOINT ELASTICITY",
+    "body": [
+      "*JOINT ELASTICITY, MODULI=${1}, NDIM=${2}, DEPENDENCIES=${3}"
+    ],
+    "description": "JOINT ELASTICITY with parameter(s) MODULI, NDIM, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

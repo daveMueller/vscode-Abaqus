@@ -1,0 +1,18 @@
+{
+  "VISCOUS()": {
+    "prefix": "*VISCOUS",
+    "body": [
+      "*VISCOUS"
+    ],
+    "description": "VISCOUS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "VISCOUS(DEPENDENCIES, LAW, TIME)": {
+    "prefix": "*VISCOUS",
+    "body": [
+      "*VISCOUS, DEPENDENCIES=${1}, LAW=${2}, TIME=${3}"
+    ],
+    "description": "VISCOUS with parameter(s) DEPENDENCIES, LAW, TIME.",
+    "scope": "source.inp"
+  }
+}

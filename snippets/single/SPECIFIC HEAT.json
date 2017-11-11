@@ -1,0 +1,18 @@
+{
+  "SPECIFIC HEAT()": {
+    "prefix": "*SPECIFIC HEAT",
+    "body": [
+      "*SPECIFIC HEAT"
+    ],
+    "description": "SPECIFIC HEAT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SPECIFIC HEAT(DEPENDENCIES, PORE FLUID, TYPE)": {
+    "prefix": "*SPECIFIC HEAT",
+    "body": [
+      "*SPECIFIC HEAT, DEPENDENCIES=${1}, PORE FLUID=${2}, TYPE=${3}"
+    ],
+    "description": "SPECIFIC HEAT with parameter(s) DEPENDENCIES, PORE FLUID, TYPE.",
+    "scope": "source.inp"
+  }
+}

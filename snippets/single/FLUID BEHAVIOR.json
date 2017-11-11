@@ -1,0 +1,18 @@
+{
+  "FLUID BEHAVIOR(NAME)": {
+    "prefix": "*FLUID BEHAVIOR",
+    "body": [
+      "*FLUID BEHAVIOR, NAME=${1}"
+    ],
+    "description": "FLUID BEHAVIOR with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "FLUID BEHAVIOR(NAME, USER)": {
+    "prefix": "*FLUID BEHAVIOR",
+    "body": [
+      "*FLUID BEHAVIOR, NAME=${1}, USER=${2}"
+    ],
+    "description": "FLUID BEHAVIOR with parameter(s) NAME, USER.",
+    "scope": "source.inp"
+  }
+}

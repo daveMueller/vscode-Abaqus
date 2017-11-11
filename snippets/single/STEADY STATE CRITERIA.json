@@ -1,0 +1,10 @@
+{
+  "STEADY STATE CRITERIA()": {
+    "prefix": "*STEADY STATE CRITERIA",
+    "body": [
+      "*STEADY STATE CRITERIA"
+    ],
+    "description": "STEADY STATE CRITERIA without parameter(s).",
+    "scope": "source.inp"
+  }
+}

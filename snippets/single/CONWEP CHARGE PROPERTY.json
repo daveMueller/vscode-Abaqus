@@ -1,0 +1,10 @@
+{
+  "CONWEP CHARGE PROPERTY()": {
+    "prefix": "*CONWEP CHARGE PROPERTY",
+    "body": [
+      "*CONWEP CHARGE PROPERTY"
+    ],
+    "description": "CONWEP CHARGE PROPERTY without parameter(s).",
+    "scope": "source.inp"
+  }
+}

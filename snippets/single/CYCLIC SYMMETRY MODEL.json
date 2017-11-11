@@ -1,0 +1,10 @@
+{
+  "CYCLIC SYMMETRY MODEL(N)": {
+    "prefix": "*CYCLIC SYMMETRY MODEL",
+    "body": [
+      "*CYCLIC SYMMETRY MODEL, N=${1}"
+    ],
+    "description": "CYCLIC SYMMETRY MODEL with parameter(s) N.",
+    "scope": "source.inp"
+  }
+}

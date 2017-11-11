@@ -1,0 +1,10 @@
+{
+  "GAP RADIATION()": {
+    "prefix": "*GAP RADIATION",
+    "body": [
+      "*GAP RADIATION"
+    ],
+    "description": "GAP RADIATION without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "DECURRENT()": {
+    "prefix": "*DECURRENT",
+    "body": [
+      "*DECURRENT"
+    ],
+    "description": "DECURRENT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DECURRENT(AMPLITUDE, OP)": {
+    "prefix": "*DECURRENT",
+    "body": [
+      "*DECURRENT, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "DECURRENT with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  },
+  "DECURRENT(AMPLITUDE, OP, IMAGINARY)": {
+    "prefix": "*DECURRENT",
+    "body": [
+      "*DECURRENT, AMPLITUDE=${1}, OP=${2}, IMAGINARY=${3}"
+    ],
+    "description": "DECURRENT with parameter(s) AMPLITUDE, OP, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "DECURRENT(AMPLITUDE, OP, REAL)": {
+    "prefix": "*DECURRENT",
+    "body": [
+      "*DECURRENT, AMPLITUDE=${1}, OP=${2}, REAL=${3}"
+    ],
+    "description": "DECURRENT with parameter(s) AMPLITUDE, OP, REAL.",
+    "scope": "source.inp"
+  }
+}

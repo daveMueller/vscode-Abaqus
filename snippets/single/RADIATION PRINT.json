@@ -1,0 +1,42 @@
+{
+  "RADIATION PRINT()": {
+    "prefix": "*RADIATION PRINT",
+    "body": [
+      "*RADIATION PRINT"
+    ],
+    "description": "RADIATION PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RADIATION PRINT(FREQUENCY, SUMMARY, TOTALS)": {
+    "prefix": "*RADIATION PRINT",
+    "body": [
+      "*RADIATION PRINT, FREQUENCY=${1}, SUMMARY=${2}, TOTALS=${3}"
+    ],
+    "description": "RADIATION PRINT with parameter(s) FREQUENCY, SUMMARY, TOTALS.",
+    "scope": "source.inp"
+  },
+  "RADIATION PRINT(FREQUENCY, SUMMARY, TOTALS, CAVITY)": {
+    "prefix": "*RADIATION PRINT",
+    "body": [
+      "*RADIATION PRINT, FREQUENCY=${1}, SUMMARY=${2}, TOTALS=${3}, CAVITY=${4}"
+    ],
+    "description": "RADIATION PRINT with parameter(s) FREQUENCY, SUMMARY, TOTALS, CAVITY.",
+    "scope": "source.inp"
+  },
+  "RADIATION PRINT(FREQUENCY, SUMMARY, TOTALS, ELSET)": {
+    "prefix": "*RADIATION PRINT",
+    "body": [
+      "*RADIATION PRINT, FREQUENCY=${1}, SUMMARY=${2}, TOTALS=${3}, ELSET=${4}"
+    ],
+    "description": "RADIATION PRINT with parameter(s) FREQUENCY, SUMMARY, TOTALS, ELSET.",
+    "scope": "source.inp"
+  },
+  "RADIATION PRINT(FREQUENCY, SUMMARY, TOTALS, SURFACE)": {
+    "prefix": "*RADIATION PRINT",
+    "body": [
+      "*RADIATION PRINT, FREQUENCY=${1}, SUMMARY=${2}, TOTALS=${3}, SURFACE=${4}"
+    ],
+    "description": "RADIATION PRINT with parameter(s) FREQUENCY, SUMMARY, TOTALS, SURFACE.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "DAMPING()": {
+    "prefix": "*DAMPING",
+    "body": [
+      "*DAMPING"
+    ],
+    "description": "DAMPING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DAMPING(ALPHA, BETA, COMPOSITE, DEPENDENCIES, STRUCTURAL)": {
+    "prefix": "*DAMPING",
+    "body": [
+      "*DAMPING, ALPHA=${1}, BETA=${2}, COMPOSITE=${3}, DEPENDENCIES=${4}, STRUCTURAL=${5}"
+    ],
+    "description": "DAMPING with parameter(s) ALPHA, BETA, COMPOSITE, DEPENDENCIES, STRUCTURAL.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "RANDOM RESPONSE()": {
+    "prefix": "*RANDOM RESPONSE",
+    "body": [
+      "*RANDOM RESPONSE"
+    ],
+    "description": "RANDOM RESPONSE without parameter(s).",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "KINEMATIC COUPLING(REF NODE)": {
+    "prefix": "*KINEMATIC COUPLING",
+    "body": [
+      "*KINEMATIC COUPLING, REF NODE=${1}"
+    ],
+    "description": "KINEMATIC COUPLING with parameter(s) REF NODE.",
+    "scope": "source.inp"
+  },
+  "KINEMATIC COUPLING(REF NODE, ORIENTATION)": {
+    "prefix": "*KINEMATIC COUPLING",
+    "body": [
+      "*KINEMATIC COUPLING, REF NODE=${1}, ORIENTATION=${2}"
+    ],
+    "description": "KINEMATIC COUPLING with parameter(s) REF NODE, ORIENTATION.",
+    "scope": "source.inp"
+  }
+}

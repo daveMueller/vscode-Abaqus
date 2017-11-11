@@ -1,0 +1,10 @@
+{
+  "CYCLED PLASTIC()": {
+    "prefix": "*CYCLED PLASTIC",
+    "body": [
+      "*CYCLED PLASTIC"
+    ],
+    "description": "CYCLED PLASTIC without parameter(s).",
+    "scope": "source.inp"
+  }
+}

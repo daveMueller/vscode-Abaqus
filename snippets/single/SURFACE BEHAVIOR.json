@@ -1,0 +1,34 @@
+{
+  "SURFACE BEHAVIOR()": {
+    "prefix": "*SURFACE BEHAVIOR",
+    "body": [
+      "*SURFACE BEHAVIOR"
+    ],
+    "description": "SURFACE BEHAVIOR without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SURFACE BEHAVIOR(NO SEPARATION, PRESSURE-OVERCLOSURE, AUGMENTED LAGRANGE)": {
+    "prefix": "*SURFACE BEHAVIOR",
+    "body": [
+      "*SURFACE BEHAVIOR, NO SEPARATION=${1}, PRESSURE-OVERCLOSURE=${2}, AUGMENTED LAGRANGE=${3}"
+    ],
+    "description": "SURFACE BEHAVIOR with parameter(s) NO SEPARATION, PRESSURE-OVERCLOSURE, AUGMENTED LAGRANGE.",
+    "scope": "source.inp"
+  },
+  "SURFACE BEHAVIOR(NO SEPARATION, PRESSURE-OVERCLOSURE, PENALTY)": {
+    "prefix": "*SURFACE BEHAVIOR",
+    "body": [
+      "*SURFACE BEHAVIOR, NO SEPARATION=${1}, PRESSURE-OVERCLOSURE=${2}, PENALTY=${3}"
+    ],
+    "description": "SURFACE BEHAVIOR with parameter(s) NO SEPARATION, PRESSURE-OVERCLOSURE, PENALTY.",
+    "scope": "source.inp"
+  },
+  "SURFACE BEHAVIOR(NO SEPARATION, PRESSURE-OVERCLOSURE, DIRECT)": {
+    "prefix": "*SURFACE BEHAVIOR",
+    "body": [
+      "*SURFACE BEHAVIOR, NO SEPARATION=${1}, PRESSURE-OVERCLOSURE=${2}, DIRECT=${3}"
+    ],
+    "description": "SURFACE BEHAVIOR with parameter(s) NO SEPARATION, PRESSURE-OVERCLOSURE, DIRECT.",
+    "scope": "source.inp"
+  }
+}

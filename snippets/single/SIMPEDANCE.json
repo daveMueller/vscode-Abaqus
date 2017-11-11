@@ -1,0 +1,34 @@
+{
+  "SIMPEDANCE(PROPERTY)": {
+    "prefix": "*SIMPEDANCE",
+    "body": [
+      "*SIMPEDANCE, PROPERTY=${1}"
+    ],
+    "description": "SIMPEDANCE with parameter(s) PROPERTY.",
+    "scope": "source.inp"
+  },
+  "SIMPEDANCE(NONREFLECTING)": {
+    "prefix": "*SIMPEDANCE",
+    "body": [
+      "*SIMPEDANCE, NONREFLECTING=${1}"
+    ],
+    "description": "SIMPEDANCE with parameter(s) NONREFLECTING.",
+    "scope": "source.inp"
+  },
+  "SIMPEDANCE(PROPERTY, OP)": {
+    "prefix": "*SIMPEDANCE",
+    "body": [
+      "*SIMPEDANCE, PROPERTY=${1}, OP=${2}"
+    ],
+    "description": "SIMPEDANCE with parameter(s) PROPERTY, OP.",
+    "scope": "source.inp"
+  },
+  "SIMPEDANCE(NONREFLECTING, OP)": {
+    "prefix": "*SIMPEDANCE",
+    "body": [
+      "*SIMPEDANCE, NONREFLECTING=${1}, OP=${2}"
+    ],
+    "description": "SIMPEDANCE with parameter(s) NONREFLECTING, OP.",
+    "scope": "source.inp"
+  }
+}

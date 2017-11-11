@@ -1,0 +1,18 @@
+{
+  "ELEMENT MATRIX OUTPUT(ELSET)": {
+    "prefix": "*ELEMENT MATRIX OUTPUT",
+    "body": [
+      "*ELEMENT MATRIX OUTPUT, ELSET=${1}"
+    ],
+    "description": "ELEMENT MATRIX OUTPUT with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "ELEMENT MATRIX OUTPUT(ELSET, DLOAD, FILE NAME, FREQUENCY, MASS, OUTPUT FILE, STIFFNESS)": {
+    "prefix": "*ELEMENT MATRIX OUTPUT",
+    "body": [
+      "*ELEMENT MATRIX OUTPUT, ELSET=${1}, DLOAD=${2}, FILE NAME=${3}, FREQUENCY=${4}, MASS=${5}, OUTPUT FILE=${6}, STIFFNESS=${7}"
+    ],
+    "description": "ELEMENT MATRIX OUTPUT with parameter(s) ELSET, DLOAD, FILE NAME, FREQUENCY, MASS, OUTPUT FILE, STIFFNESS.",
+    "scope": "source.inp"
+  }
+}

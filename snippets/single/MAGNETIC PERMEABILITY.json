@@ -1,0 +1,18 @@
+{
+  "MAGNETIC PERMEABILITY()": {
+    "prefix": "*MAGNETIC PERMEABILITY",
+    "body": [
+      "*MAGNETIC PERMEABILITY"
+    ],
+    "description": "MAGNETIC PERMEABILITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MAGNETIC PERMEABILITY(DEPENDENCIES, FREQUENCY, NONLINEAR, TYPE)": {
+    "prefix": "*MAGNETIC PERMEABILITY",
+    "body": [
+      "*MAGNETIC PERMEABILITY, DEPENDENCIES=${1}, FREQUENCY=${2}, NONLINEAR=${3}, TYPE=${4}"
+    ],
+    "description": "MAGNETIC PERMEABILITY with parameter(s) DEPENDENCIES, FREQUENCY, NONLINEAR, TYPE.",
+    "scope": "source.inp"
+  }
+}

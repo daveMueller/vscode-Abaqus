@@ -1,0 +1,18 @@
+{
+  "PIEZOELECTRIC()": {
+    "prefix": "*PIEZOELECTRIC",
+    "body": [
+      "*PIEZOELECTRIC"
+    ],
+    "description": "PIEZOELECTRIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PIEZOELECTRIC(DEPENDENCIES, TYPE)": {
+    "prefix": "*PIEZOELECTRIC",
+    "body": [
+      "*PIEZOELECTRIC, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "PIEZOELECTRIC with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

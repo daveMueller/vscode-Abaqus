@@ -1,0 +1,18 @@
+{
+  "CONCRETE DAMAGED PLASTICITY()": {
+    "prefix": "*CONCRETE DAMAGED PLASTICITY",
+    "body": [
+      "*CONCRETE DAMAGED PLASTICITY"
+    ],
+    "description": "CONCRETE DAMAGED PLASTICITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONCRETE DAMAGED PLASTICITY(DEPENDENCIES)": {
+    "prefix": "*CONCRETE DAMAGED PLASTICITY",
+    "body": [
+      "*CONCRETE DAMAGED PLASTICITY, DEPENDENCIES=${1}"
+    ],
+    "description": "CONCRETE DAMAGED PLASTICITY with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

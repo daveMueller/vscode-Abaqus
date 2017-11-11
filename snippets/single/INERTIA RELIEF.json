@@ -1,0 +1,26 @@
+{
+  "INERTIA RELIEF()": {
+    "prefix": "*INERTIA RELIEF",
+    "body": [
+      "*INERTIA RELIEF"
+    ],
+    "description": "INERTIA RELIEF without parameter(s).",
+    "scope": "source.inp"
+  },
+  "INERTIA RELIEF(ORIENTATION, FIXED)": {
+    "prefix": "*INERTIA RELIEF",
+    "body": [
+      "*INERTIA RELIEF, ORIENTATION=${1}, FIXED=${2}"
+    ],
+    "description": "INERTIA RELIEF with parameter(s) ORIENTATION, FIXED.",
+    "scope": "source.inp"
+  },
+  "INERTIA RELIEF(ORIENTATION, REMOVE)": {
+    "prefix": "*INERTIA RELIEF",
+    "body": [
+      "*INERTIA RELIEF, ORIENTATION=${1}, REMOVE=${2}"
+    ],
+    "description": "INERTIA RELIEF with parameter(s) ORIENTATION, REMOVE.",
+    "scope": "source.inp"
+  }
+}

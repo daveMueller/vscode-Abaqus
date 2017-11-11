@@ -1,0 +1,10 @@
+{
+  "MOLECULAR WEIGHT()": {
+    "prefix": "*MOLECULAR WEIGHT",
+    "body": [
+      "*MOLECULAR WEIGHT"
+    ],
+    "description": "MOLECULAR WEIGHT without parameter(s).",
+    "scope": "source.inp"
+  }
+}

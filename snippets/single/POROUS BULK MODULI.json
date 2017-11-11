@@ -1,0 +1,10 @@
+{
+  "POROUS BULK MODULI()": {
+    "prefix": "*POROUS BULK MODULI",
+    "body": [
+      "*POROUS BULK MODULI"
+    ],
+    "description": "POROUS BULK MODULI without parameter(s).",
+    "scope": "source.inp"
+  }
+}

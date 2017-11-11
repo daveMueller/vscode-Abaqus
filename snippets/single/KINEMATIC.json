@@ -1,0 +1,10 @@
+{
+  "KINEMATIC()": {
+    "prefix": "*KINEMATIC",
+    "body": [
+      "*KINEMATIC"
+    ],
+    "description": "KINEMATIC without parameter(s).",
+    "scope": "source.inp"
+  }
+}

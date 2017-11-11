@@ -1,0 +1,18 @@
+{
+  "JOINTED MATERIAL()": {
+    "prefix": "*JOINTED MATERIAL",
+    "body": [
+      "*JOINTED MATERIAL"
+    ],
+    "description": "JOINTED MATERIAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "JOINTED MATERIAL(DEPENDENCIES, JOINT DIRECTION, NO SEPARATION, SHEAR RETENTION)": {
+    "prefix": "*JOINTED MATERIAL",
+    "body": [
+      "*JOINTED MATERIAL, DEPENDENCIES=${1}, JOINT DIRECTION=${2}, NO SEPARATION=${3}, SHEAR RETENTION=${4}"
+    ],
+    "description": "JOINTED MATERIAL with parameter(s) DEPENDENCIES, JOINT DIRECTION, NO SEPARATION, SHEAR RETENTION.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "INCIDENT WAVE FLUID PROPERTY()": {
+    "prefix": "*INCIDENT WAVE FLUID PROPERTY",
+    "body": [
+      "*INCIDENT WAVE FLUID PROPERTY"
+    ],
+    "description": "INCIDENT WAVE FLUID PROPERTY without parameter(s).",
+    "scope": "source.inp"
+  }
+}

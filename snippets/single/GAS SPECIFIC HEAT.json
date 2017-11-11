@@ -1,0 +1,18 @@
+{
+  "GAS SPECIFIC HEAT()": {
+    "prefix": "*GAS SPECIFIC HEAT",
+    "body": [
+      "*GAS SPECIFIC HEAT"
+    ],
+    "description": "GAS SPECIFIC HEAT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GAS SPECIFIC HEAT(DEPENDENCIES)": {
+    "prefix": "*GAS SPECIFIC HEAT",
+    "body": [
+      "*GAS SPECIFIC HEAT, DEPENDENCIES=${1}"
+    ],
+    "description": "GAS SPECIFIC HEAT with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

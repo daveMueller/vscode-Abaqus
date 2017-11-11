@@ -1,0 +1,18 @@
+{
+  "CRADIATE()": {
+    "prefix": "*CRADIATE",
+    "body": [
+      "*CRADIATE"
+    ],
+    "description": "CRADIATE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CRADIATE(AMPLITUDE, OP, REGION TYPE)": {
+    "prefix": "*CRADIATE",
+    "body": [
+      "*CRADIATE, AMPLITUDE=${1}, OP=${2}, REGION TYPE=${3}"
+    ],
+    "description": "CRADIATE with parameter(s) AMPLITUDE, OP, REGION TYPE.",
+    "scope": "source.inp"
+  }
+}

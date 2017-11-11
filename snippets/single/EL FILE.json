@@ -1,0 +1,18 @@
+{
+  "EL FILE()": {
+    "prefix": "*EL FILE",
+    "body": [
+      "*EL FILE"
+    ],
+    "description": "EL FILE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EL FILE(DIRECTIONS, ELSET, FREQUENCY, LAST MODE, MODE, POSITION, REBAR)": {
+    "prefix": "*EL FILE",
+    "body": [
+      "*EL FILE, DIRECTIONS=${1}, ELSET=${2}, FREQUENCY=${3}, LAST MODE=${4}, MODE=${5}, POSITION=${6}, REBAR=${7}"
+    ],
+    "description": "EL FILE with parameter(s) DIRECTIONS, ELSET, FREQUENCY, LAST MODE, MODE, POSITION, REBAR.",
+    "scope": "source.inp"
+  }
+}

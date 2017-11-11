@@ -1,0 +1,10 @@
+{
+  "REFLECTION(TYPE)": {
+    "prefix": "*REFLECTION",
+    "body": [
+      "*REFLECTION, TYPE=${1}"
+    ],
+    "description": "REFLECTION with parameter(s) TYPE.",
+    "scope": "source.inp"
+  }
+}

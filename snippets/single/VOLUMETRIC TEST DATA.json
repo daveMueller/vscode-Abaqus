@@ -1,0 +1,34 @@
+{
+  "VOLUMETRIC TEST DATA()": {
+    "prefix": "*VOLUMETRIC TEST DATA",
+    "body": [
+      "*VOLUMETRIC TEST DATA"
+    ],
+    "description": "VOLUMETRIC TEST DATA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "VOLUMETRIC TEST DATA(SMOOTH)": {
+    "prefix": "*VOLUMETRIC TEST DATA",
+    "body": [
+      "*VOLUMETRIC TEST DATA, SMOOTH=${1}"
+    ],
+    "description": "VOLUMETRIC TEST DATA with parameter(s) SMOOTH.",
+    "scope": "source.inp"
+  },
+  "VOLUMETRIC TEST DATA(DEPENDENCIES)": {
+    "prefix": "*VOLUMETRIC TEST DATA",
+    "body": [
+      "*VOLUMETRIC TEST DATA, DEPENDENCIES=${1}"
+    ],
+    "description": "VOLUMETRIC TEST DATA with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "VOLUMETRIC TEST DATA(VOLINF)": {
+    "prefix": "*VOLUMETRIC TEST DATA",
+    "body": [
+      "*VOLUMETRIC TEST DATA, VOLINF=${1}"
+    ],
+    "description": "VOLUMETRIC TEST DATA with parameter(s) VOLINF.",
+    "scope": "source.inp"
+  }
+}

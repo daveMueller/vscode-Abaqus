@@ -1,0 +1,18 @@
+{
+  "DISTRIBUTION(LOCATION, NAME, TABLE)": {
+    "prefix": "*DISTRIBUTION",
+    "body": [
+      "*DISTRIBUTION, LOCATION=${1}, NAME=${2}, TABLE=${3}"
+    ],
+    "description": "DISTRIBUTION with parameter(s) LOCATION, NAME, TABLE.",
+    "scope": "source.inp"
+  },
+  "DISTRIBUTION(LOCATION, NAME, TABLE, INPUT)": {
+    "prefix": "*DISTRIBUTION",
+    "body": [
+      "*DISTRIBUTION, LOCATION=${1}, NAME=${2}, TABLE=${3}, INPUT=${4}"
+    ],
+    "description": "DISTRIBUTION with parameter(s) LOCATION, NAME, TABLE, INPUT.",
+    "scope": "source.inp"
+  }
+}

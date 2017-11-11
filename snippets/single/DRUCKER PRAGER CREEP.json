@@ -1,0 +1,18 @@
+{
+  "DRUCKER PRAGER CREEP()": {
+    "prefix": "*DRUCKER PRAGER CREEP",
+    "body": [
+      "*DRUCKER PRAGER CREEP"
+    ],
+    "description": "DRUCKER PRAGER CREEP without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DRUCKER PRAGER CREEP(DEPENDENCIES, LAW, TIME)": {
+    "prefix": "*DRUCKER PRAGER CREEP",
+    "body": [
+      "*DRUCKER PRAGER CREEP, DEPENDENCIES=${1}, LAW=${2}, TIME=${3}"
+    ],
+    "description": "DRUCKER PRAGER CREEP with parameter(s) DEPENDENCIES, LAW, TIME.",
+    "scope": "source.inp"
+  }
+}

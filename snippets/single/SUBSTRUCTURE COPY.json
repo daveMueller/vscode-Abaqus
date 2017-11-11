@@ -1,0 +1,18 @@
+{
+  "SUBSTRUCTURE COPY(NEW TYPE, OLD TYPE)": {
+    "prefix": "*SUBSTRUCTURE COPY",
+    "body": [
+      "*SUBSTRUCTURE COPY, NEW TYPE=${1}, OLD TYPE=${2}"
+    ],
+    "description": "SUBSTRUCTURE COPY with parameter(s) NEW TYPE, OLD TYPE.",
+    "scope": "source.inp"
+  },
+  "SUBSTRUCTURE COPY(NEW TYPE, OLD TYPE, NEW LIBRARY, OLD LIBRARY)": {
+    "prefix": "*SUBSTRUCTURE COPY",
+    "body": [
+      "*SUBSTRUCTURE COPY, NEW TYPE=${1}, OLD TYPE=${2}, NEW LIBRARY=${3}, OLD LIBRARY=${4}"
+    ],
+    "description": "SUBSTRUCTURE COPY with parameter(s) NEW TYPE, OLD TYPE, NEW LIBRARY, OLD LIBRARY.",
+    "scope": "source.inp"
+  }
+}

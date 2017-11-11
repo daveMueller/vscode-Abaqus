@@ -1,0 +1,58 @@
+{
+  "CONSTRAINT CONTROLS()": {
+    "prefix": "*CONSTRAINT CONTROLS",
+    "body": [
+      "*CONSTRAINT CONTROLS"
+    ],
+    "description": "CONSTRAINT CONTROLS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONSTRAINT CONTROLS(DELETE SLAVE)": {
+    "prefix": "*CONSTRAINT CONTROLS",
+    "body": [
+      "*CONSTRAINT CONTROLS, DELETE SLAVE=${1}"
+    ],
+    "description": "CONSTRAINT CONTROLS with parameter(s) DELETE SLAVE.",
+    "scope": "source.inp"
+  },
+  "CONSTRAINT CONTROLS(NO CHANGES)": {
+    "prefix": "*CONSTRAINT CONTROLS",
+    "body": [
+      "*CONSTRAINT CONTROLS, NO CHANGES=${1}"
+    ],
+    "description": "CONSTRAINT CONTROLS with parameter(s) NO CHANGES.",
+    "scope": "source.inp"
+  },
+  "CONSTRAINT CONTROLS(NO CHECKS)": {
+    "prefix": "*CONSTRAINT CONTROLS",
+    "body": [
+      "*CONSTRAINT CONTROLS, NO CHECKS=${1}"
+    ],
+    "description": "CONSTRAINT CONTROLS with parameter(s) NO CHECKS.",
+    "scope": "source.inp"
+  },
+  "CONSTRAINT CONTROLS(PRINT)": {
+    "prefix": "*CONSTRAINT CONTROLS",
+    "body": [
+      "*CONSTRAINT CONTROLS, PRINT=${1}"
+    ],
+    "description": "CONSTRAINT CONTROLS with parameter(s) PRINT.",
+    "scope": "source.inp"
+  },
+  "CONSTRAINT CONTROLS(CHECK FREQUENCY)": {
+    "prefix": "*CONSTRAINT CONTROLS",
+    "body": [
+      "*CONSTRAINT CONTROLS, CHECK FREQUENCY=${1}"
+    ],
+    "description": "CONSTRAINT CONTROLS with parameter(s) CHECK FREQUENCY.",
+    "scope": "source.inp"
+  },
+  "CONSTRAINT CONTROLS(TERMINATE ANALYSIS)": {
+    "prefix": "*CONSTRAINT CONTROLS",
+    "body": [
+      "*CONSTRAINT CONTROLS, TERMINATE ANALYSIS=${1}"
+    ],
+    "description": "CONSTRAINT CONTROLS with parameter(s) TERMINATE ANALYSIS.",
+    "scope": "source.inp"
+  }
+}

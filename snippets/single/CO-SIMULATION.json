@@ -1,0 +1,10 @@
+{
+  "CO-SIMULATION(CONTROLS, NAME, PROGRAM)": {
+    "prefix": "*CO-SIMULATION",
+    "body": [
+      "*CO-SIMULATION, CONTROLS=${1}, NAME=${2}, PROGRAM=${3}"
+    ],
+    "description": "CO-SIMULATION with parameter(s) CONTROLS, NAME, PROGRAM.",
+    "scope": "source.inp"
+  }
+}

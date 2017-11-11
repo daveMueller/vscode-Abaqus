@@ -1,0 +1,18 @@
+{
+  "REBAR LAYER()": {
+    "prefix": "*REBAR LAYER",
+    "body": [
+      "*REBAR LAYER"
+    ],
+    "description": "REBAR LAYER without parameter(s).",
+    "scope": "source.inp"
+  },
+  "REBAR LAYER(GEOMETRY, ORIENTATION)": {
+    "prefix": "*REBAR LAYER",
+    "body": [
+      "*REBAR LAYER, GEOMETRY=${1}, ORIENTATION=${2}"
+    ],
+    "description": "REBAR LAYER with parameter(s) GEOMETRY, ORIENTATION.",
+    "scope": "source.inp"
+  }
+}

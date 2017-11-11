@@ -1,0 +1,18 @@
+{
+  "INCIDENT WAVE PROPERTY(NAME)": {
+    "prefix": "*INCIDENT WAVE PROPERTY",
+    "body": [
+      "*INCIDENT WAVE PROPERTY, NAME=${1}"
+    ],
+    "description": "INCIDENT WAVE PROPERTY with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "INCIDENT WAVE PROPERTY(NAME, TYPE)": {
+    "prefix": "*INCIDENT WAVE PROPERTY",
+    "body": [
+      "*INCIDENT WAVE PROPERTY, NAME=${1}, TYPE=${2}"
+    ],
+    "description": "INCIDENT WAVE PROPERTY with parameter(s) NAME, TYPE.",
+    "scope": "source.inp"
+  }
+}

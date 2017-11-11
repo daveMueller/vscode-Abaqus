@@ -1,0 +1,18 @@
+{
+  "COHESIVE SECTION(ELSET, MATERIAL, RESPONSE)": {
+    "prefix": "*COHESIVE SECTION",
+    "body": [
+      "*COHESIVE SECTION, ELSET=${1}, MATERIAL=${2}, RESPONSE=${3}"
+    ],
+    "description": "COHESIVE SECTION with parameter(s) ELSET, MATERIAL, RESPONSE.",
+    "scope": "source.inp"
+  },
+  "COHESIVE SECTION(ELSET, MATERIAL, RESPONSE, CONTROLS, ORIENTATION, STACK DIRECTION, THICKNESS)": {
+    "prefix": "*COHESIVE SECTION",
+    "body": [
+      "*COHESIVE SECTION, ELSET=${1}, MATERIAL=${2}, RESPONSE=${3}, CONTROLS=${4}, ORIENTATION=${5}, STACK DIRECTION=${6}, THICKNESS=${7}"
+    ],
+    "description": "COHESIVE SECTION with parameter(s) ELSET, MATERIAL, RESPONSE, CONTROLS, ORIENTATION, STACK DIRECTION, THICKNESS.",
+    "scope": "source.inp"
+  }
+}

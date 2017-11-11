@@ -1,0 +1,50 @@
+{
+  "AMPLITUDE(NAME)": {
+    "prefix": "*AMPLITUDE",
+    "body": [
+      "*AMPLITUDE, NAME=${1}"
+    ],
+    "description": "AMPLITUDE with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "AMPLITUDE(NAME, DEFINITION, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE)": {
+    "prefix": "*AMPLITUDE",
+    "body": [
+      "*AMPLITUDE, NAME=${1}, DEFINITION=${2}, INPUT=${3}, SCALEX=${4}, SCALEY=${5}, SHIFTX=${6}, SHIFTY=${7}, TIME=${8}, VALUE=${9}"
+    ],
+    "description": "AMPLITUDE with parameter(s) NAME, DEFINITION, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE.",
+    "scope": "source.inp"
+  },
+  "AMPLITUDE(NAME, FIXED INTERVAL, DEFINITION=EQUALLY SPACED, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, BEGIN)": {
+    "prefix": "*AMPLITUDE",
+    "body": [
+      "*AMPLITUDE, NAME=${1}, FIXED INTERVAL=${2}, DEFINITION=EQUALLY SPACED, INPUT=${3}, SCALEX=${4}, SCALEY=${5}, SHIFTX=${6}, SHIFTY=${7}, TIME=${8}, VALUE=${9}, BEGIN=${10}"
+    ],
+    "description": "AMPLITUDE with parameter(s) NAME, FIXED INTERVAL, DEFINITION=EQUALLY SPACED, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, BEGIN.",
+    "scope": "source.inp"
+  },
+  "AMPLITUDE(NAME, FIXED INTERVAL, DEFINITION=EQUALLY SPACED, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, BEGIN, SMOOTH)": {
+    "prefix": "*AMPLITUDE",
+    "body": [
+      "*AMPLITUDE, NAME=${1}, FIXED INTERVAL=${2}, DEFINITION=EQUALLY SPACED, INPUT=${3}, SCALEX=${4}, SCALEY=${5}, SHIFTX=${6}, SHIFTY=${7}, TIME=${8}, VALUE=${9}, BEGIN=${10}, SMOOTH=${11}"
+    ],
+    "description": "AMPLITUDE with parameter(s) NAME, FIXED INTERVAL, DEFINITION=EQUALLY SPACED, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, BEGIN, SMOOTH.",
+    "scope": "source.inp"
+  },
+  "AMPLITUDE(NAME, DEFINITION=TABULAR, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, SMOOTH)": {
+    "prefix": "*AMPLITUDE",
+    "body": [
+      "*AMPLITUDE, NAME=${1}, DEFINITION=TABULAR, INPUT=${2}, SCALEX=${3}, SCALEY=${4}, SHIFTX=${5}, SHIFTY=${6}, TIME=${7}, VALUE=${8}, SMOOTH=${9}"
+    ],
+    "description": "AMPLITUDE with parameter(s) NAME, DEFINITION=TABULAR, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, SMOOTH.",
+    "scope": "source.inp"
+  },
+  "AMPLITUDE(NAME, NAME, DEFINITION=USER, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, PROPERTIES, VARIABLES)": {
+    "prefix": "*AMPLITUDE",
+    "body": [
+      "*AMPLITUDE, NAME=${1}, NAME=${2}, DEFINITION=USER, INPUT=${3}, SCALEX=${4}, SCALEY=${5}, SHIFTX=${6}, SHIFTY=${7}, TIME=${8}, VALUE=${9}, PROPERTIES=${10}, VARIABLES=${11}"
+    ],
+    "description": "AMPLITUDE with parameter(s) NAME, NAME, DEFINITION=USER, INPUT, SCALEX, SCALEY, SHIFTX, SHIFTY, TIME, VALUE, PROPERTIES, VARIABLES.",
+    "scope": "source.inp"
+  }
+}

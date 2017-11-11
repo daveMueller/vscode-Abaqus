@@ -1,0 +1,10 @@
+{
+  "SURFACE PROPERTY(NAME)": {
+    "prefix": "*SURFACE PROPERTY",
+    "body": [
+      "*SURFACE PROPERTY, NAME=${1}"
+    ],
+    "description": "SURFACE PROPERTY with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

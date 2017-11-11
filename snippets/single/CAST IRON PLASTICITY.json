@@ -1,0 +1,18 @@
+{
+  "CAST IRON PLASTICITY()": {
+    "prefix": "*CAST IRON PLASTICITY",
+    "body": [
+      "*CAST IRON PLASTICITY"
+    ],
+    "description": "CAST IRON PLASTICITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CAST IRON PLASTICITY(DEPENDENCIES)": {
+    "prefix": "*CAST IRON PLASTICITY",
+    "body": [
+      "*CAST IRON PLASTICITY, DEPENDENCIES=${1}"
+    ],
+    "description": "CAST IRON PLASTICITY with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

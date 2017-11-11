@@ -1,0 +1,18 @@
+{
+  "PLANAR TEST DATA()": {
+    "prefix": "*PLANAR TEST DATA",
+    "body": [
+      "*PLANAR TEST DATA"
+    ],
+    "description": "PLANAR TEST DATA without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PLANAR TEST DATA(SMOOTH, DEPENDENCIES)": {
+    "prefix": "*PLANAR TEST DATA",
+    "body": [
+      "*PLANAR TEST DATA, SMOOTH=${1}, DEPENDENCIES=${2}"
+    ],
+    "description": "PLANAR TEST DATA with parameter(s) SMOOTH, DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

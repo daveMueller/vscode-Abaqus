@@ -1,0 +1,18 @@
+{
+  "MASS DIFFUSION()": {
+    "prefix": "*MASS DIFFUSION",
+    "body": [
+      "*MASS DIFFUSION"
+    ],
+    "description": "MASS DIFFUSION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MASS DIFFUSION(DCMAX, END, STEADY STATE)": {
+    "prefix": "*MASS DIFFUSION",
+    "body": [
+      "*MASS DIFFUSION, DCMAX=${1}, END=${2}, STEADY STATE=${3}"
+    ],
+    "description": "MASS DIFFUSION with parameter(s) DCMAX, END, STEADY STATE.",
+    "scope": "source.inp"
+  }
+}

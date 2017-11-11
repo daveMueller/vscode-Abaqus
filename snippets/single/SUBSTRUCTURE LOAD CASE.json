@@ -1,0 +1,10 @@
+{
+  "SUBSTRUCTURE LOAD CASE(NAME)": {
+    "prefix": "*SUBSTRUCTURE LOAD CASE",
+    "body": [
+      "*SUBSTRUCTURE LOAD CASE, NAME=${1}"
+    ],
+    "description": "SUBSTRUCTURE LOAD CASE with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

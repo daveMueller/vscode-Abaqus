@@ -1,0 +1,18 @@
+{
+  "PERIODIC(TYPE)": {
+    "prefix": "*PERIODIC",
+    "body": [
+      "*PERIODIC, TYPE=${1}"
+    ],
+    "description": "PERIODIC with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "PERIODIC(TYPE, NR)": {
+    "prefix": "*PERIODIC",
+    "body": [
+      "*PERIODIC, TYPE=${1}, NR=${2}"
+    ],
+    "description": "PERIODIC with parameter(s) TYPE, NR.",
+    "scope": "source.inp"
+  }
+}

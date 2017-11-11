@@ -1,0 +1,34 @@
+{
+  "BEAM GENERAL SECTION(ELSET, DENSITY)": {
+    "prefix": "*BEAM GENERAL SECTION",
+    "body": [
+      "*BEAM GENERAL SECTION, ELSET=${1}, DENSITY=${2}"
+    ],
+    "description": "BEAM GENERAL SECTION with parameter(s) ELSET, DENSITY.",
+    "scope": "source.inp"
+  },
+  "BEAM GENERAL SECTION(ELSET, DENSITY, DEPENDENCIES, LUMPED, POISSON, ROTARY INERTIA, SECTION, TAPER, ZERO)": {
+    "prefix": "*BEAM GENERAL SECTION",
+    "body": [
+      "*BEAM GENERAL SECTION, ELSET=${1}, DENSITY=${2}, DEPENDENCIES=${3}, LUMPED=${4}, POISSON=${5}, ROTARY INERTIA=${6}, SECTION=${7}, TAPER=${8}, ZERO=${9}"
+    ],
+    "description": "BEAM GENERAL SECTION with parameter(s) ELSET, DENSITY, DEPENDENCIES, LUMPED, POISSON, ROTARY INERTIA, SECTION, TAPER, ZERO.",
+    "scope": "source.inp"
+  },
+  "BEAM GENERAL SECTION(ELSET)": {
+    "prefix": "*BEAM GENERAL SECTION",
+    "body": [
+      "*BEAM GENERAL SECTION, ELSET=${1}"
+    ],
+    "description": "BEAM GENERAL SECTION with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "BEAM GENERAL SECTION(ELSET, DEPENDENCIES, LUMPED, POISSON, ROTARY INERTIA, SECTION, TAPER, ZERO)": {
+    "prefix": "*BEAM GENERAL SECTION",
+    "body": [
+      "*BEAM GENERAL SECTION, ELSET=${1}, DEPENDENCIES=${2}, LUMPED=${3}, POISSON=${4}, ROTARY INERTIA=${5}, SECTION=${6}, TAPER=${7}, ZERO=${8}"
+    ],
+    "description": "BEAM GENERAL SECTION with parameter(s) ELSET, DEPENDENCIES, LUMPED, POISSON, ROTARY INERTIA, SECTION, TAPER, ZERO.",
+    "scope": "source.inp"
+  }
+}

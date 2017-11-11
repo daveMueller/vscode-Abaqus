@@ -1,0 +1,18 @@
+{
+  "POST OUTPUT(STEP)": {
+    "prefix": "*POST OUTPUT",
+    "body": [
+      "*POST OUTPUT, STEP=${1}"
+    ],
+    "description": "POST OUTPUT with parameter(s) STEP.",
+    "scope": "source.inp"
+  },
+  "POST OUTPUT(STEP, CYCLE, ITERATION)": {
+    "prefix": "*POST OUTPUT",
+    "body": [
+      "*POST OUTPUT, STEP=${1}, CYCLE=${2}, ITERATION=${3}"
+    ],
+    "description": "POST OUTPUT with parameter(s) STEP, CYCLE, ITERATION.",
+    "scope": "source.inp"
+  }
+}

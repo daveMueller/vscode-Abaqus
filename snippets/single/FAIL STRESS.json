@@ -1,0 +1,18 @@
+{
+  "FAIL STRESS()": {
+    "prefix": "*FAIL STRESS",
+    "body": [
+      "*FAIL STRESS"
+    ],
+    "description": "FAIL STRESS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FAIL STRESS(DEPENDENCIES)": {
+    "prefix": "*FAIL STRESS",
+    "body": [
+      "*FAIL STRESS, DEPENDENCIES=${1}"
+    ],
+    "description": "FAIL STRESS with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

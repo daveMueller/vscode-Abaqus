@@ -1,0 +1,26 @@
+{
+  "PRINT()": {
+    "prefix": "*PRINT",
+    "body": [
+      "*PRINT"
+    ],
+    "description": "PRINT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "PRINT(ADAPTIVE MESH, CONTACT, FREQUENCY, MODEL CHANGE, PLASTICITY, RESIDUAL, SOLVE)": {
+    "prefix": "*PRINT",
+    "body": [
+      "*PRINT, ADAPTIVE MESH=${1}, CONTACT=${2}, FREQUENCY=${3}, MODEL CHANGE=${4}, PLASTICITY=${5}, RESIDUAL=${6}, SOLVE=${7}"
+    ],
+    "description": "PRINT with parameter(s) ADAPTIVE MESH, CONTACT, FREQUENCY, MODEL CHANGE, PLASTICITY, RESIDUAL, SOLVE.",
+    "scope": "source.inp"
+  },
+  "PRINT(ALLKE, CRITICAL ELEMENT, DMASS, ETOTAL, MASS)": {
+    "prefix": "*PRINT",
+    "body": [
+      "*PRINT, ALLKE=${1}, CRITICAL ELEMENT=${2}, DMASS=${3}, ETOTAL=${4}, MASS=${5}"
+    ],
+    "description": "PRINT with parameter(s) ALLKE, CRITICAL ELEMENT, DMASS, ETOTAL, MASS.",
+    "scope": "source.inp"
+  }
+}

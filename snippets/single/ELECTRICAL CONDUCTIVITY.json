@@ -1,0 +1,18 @@
+{
+  "ELECTRICAL CONDUCTIVITY()": {
+    "prefix": "*ELECTRICAL CONDUCTIVITY",
+    "body": [
+      "*ELECTRICAL CONDUCTIVITY"
+    ],
+    "description": "ELECTRICAL CONDUCTIVITY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "ELECTRICAL CONDUCTIVITY(DEPENDENCIES, FREQUENCY, TYPE)": {
+    "prefix": "*ELECTRICAL CONDUCTIVITY",
+    "body": [
+      "*ELECTRICAL CONDUCTIVITY, DEPENDENCIES=${1}, FREQUENCY=${2}, TYPE=${3}"
+    ],
+    "description": "ELECTRICAL CONDUCTIVITY with parameter(s) DEPENDENCIES, FREQUENCY, TYPE.",
+    "scope": "source.inp"
+  }
+}

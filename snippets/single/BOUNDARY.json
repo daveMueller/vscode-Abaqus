@@ -1,0 +1,50 @@
+{
+  "BOUNDARY()": {
+    "prefix": "*BOUNDARY",
+    "body": [
+      "*BOUNDARY"
+    ],
+    "description": "BOUNDARY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BOUNDARY(BASE NAME)": {
+    "prefix": "*BOUNDARY",
+    "body": [
+      "*BOUNDARY, BASE NAME=${1}"
+    ],
+    "description": "BOUNDARY with parameter(s) BASE NAME.",
+    "scope": "source.inp"
+  },
+  "BOUNDARY(STEP, SUBMODEL)": {
+    "prefix": "*BOUNDARY",
+    "body": [
+      "*BOUNDARY, STEP=${1}, SUBMODEL=${2}"
+    ],
+    "description": "BOUNDARY with parameter(s) STEP, SUBMODEL.",
+    "scope": "source.inp"
+  },
+  "BOUNDARY(STEP, SUBMODEL, INC, OP, SCALE, TIMESCALE)": {
+    "prefix": "*BOUNDARY",
+    "body": [
+      "*BOUNDARY, STEP=${1}, SUBMODEL=${2}, INC=${3}, OP=${4}, SCALE=${5}, TIMESCALE=${6}"
+    ],
+    "description": "BOUNDARY with parameter(s) STEP, SUBMODEL, INC, OP, SCALE, TIMESCALE.",
+    "scope": "source.inp"
+  },
+  "BOUNDARY(AMPLITUDE, BLOCKING, FIXED, LOAD CASE, NAME, OP, PHANTOM, REGION TYPE, TYPE, USER, IMAGINARY)": {
+    "prefix": "*BOUNDARY",
+    "body": [
+      "*BOUNDARY, AMPLITUDE=${1}, BLOCKING=${2}, FIXED=${3}, LOAD CASE=${4}, NAME=${5}, OP=${6}, PHANTOM=${7}, REGION TYPE=${8}, TYPE=${9}, USER=${10}, IMAGINARY=${11}"
+    ],
+    "description": "BOUNDARY with parameter(s) AMPLITUDE, BLOCKING, FIXED, LOAD CASE, NAME, OP, PHANTOM, REGION TYPE, TYPE, USER, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "BOUNDARY(AMPLITUDE, BLOCKING, FIXED, LOAD CASE, NAME, OP, PHANTOM, REGION TYPE, TYPE, USER, REAL)": {
+    "prefix": "*BOUNDARY",
+    "body": [
+      "*BOUNDARY, AMPLITUDE=${1}, BLOCKING=${2}, FIXED=${3}, LOAD CASE=${4}, NAME=${5}, OP=${6}, PHANTOM=${7}, REGION TYPE=${8}, TYPE=${9}, USER=${10}, REAL=${11}"
+    ],
+    "description": "BOUNDARY with parameter(s) AMPLITUDE, BLOCKING, FIXED, LOAD CASE, NAME, OP, PHANTOM, REGION TYPE, TYPE, USER, REAL.",
+    "scope": "source.inp"
+  }
+}

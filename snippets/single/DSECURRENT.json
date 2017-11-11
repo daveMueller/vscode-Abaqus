@@ -1,0 +1,34 @@
+{
+  "DSECURRENT()": {
+    "prefix": "*DSECURRENT",
+    "body": [
+      "*DSECURRENT"
+    ],
+    "description": "DSECURRENT without parameter(s).",
+    "scope": "source.inp"
+  },
+  "DSECURRENT(AMPLITUDE, OP)": {
+    "prefix": "*DSECURRENT",
+    "body": [
+      "*DSECURRENT, AMPLITUDE=${1}, OP=${2}"
+    ],
+    "description": "DSECURRENT with parameter(s) AMPLITUDE, OP.",
+    "scope": "source.inp"
+  },
+  "DSECURRENT(AMPLITUDE, OP, IMAGINARY)": {
+    "prefix": "*DSECURRENT",
+    "body": [
+      "*DSECURRENT, AMPLITUDE=${1}, OP=${2}, IMAGINARY=${3}"
+    ],
+    "description": "DSECURRENT with parameter(s) AMPLITUDE, OP, IMAGINARY.",
+    "scope": "source.inp"
+  },
+  "DSECURRENT(AMPLITUDE, OP, REAL)": {
+    "prefix": "*DSECURRENT",
+    "body": [
+      "*DSECURRENT, AMPLITUDE=${1}, OP=${2}, REAL=${3}"
+    ],
+    "description": "DSECURRENT with parameter(s) AMPLITUDE, OP, REAL.",
+    "scope": "source.inp"
+  }
+}

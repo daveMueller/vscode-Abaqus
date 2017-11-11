@@ -1,0 +1,18 @@
+{
+  "SELECT EIGENMODES()": {
+    "prefix": "*SELECT EIGENMODES",
+    "body": [
+      "*SELECT EIGENMODES"
+    ],
+    "description": "SELECT EIGENMODES without parameter(s).",
+    "scope": "source.inp"
+  },
+  "SELECT EIGENMODES(DEFINITION, GENERATE)": {
+    "prefix": "*SELECT EIGENMODES",
+    "body": [
+      "*SELECT EIGENMODES, DEFINITION=${1}, GENERATE=${2}"
+    ],
+    "description": "SELECT EIGENMODES with parameter(s) DEFINITION, GENERATE.",
+    "scope": "source.inp"
+  }
+}

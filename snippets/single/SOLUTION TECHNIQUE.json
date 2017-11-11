@@ -1,0 +1,18 @@
+{
+  "SOLUTION TECHNIQUE(TYPE)": {
+    "prefix": "*SOLUTION TECHNIQUE",
+    "body": [
+      "*SOLUTION TECHNIQUE, TYPE=${1}"
+    ],
+    "description": "SOLUTION TECHNIQUE with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "SOLUTION TECHNIQUE(TYPE, REFORM KERNEL)": {
+    "prefix": "*SOLUTION TECHNIQUE",
+    "body": [
+      "*SOLUTION TECHNIQUE, TYPE=${1}, REFORM KERNEL=${2}"
+    ],
+    "description": "SOLUTION TECHNIQUE with parameter(s) TYPE, REFORM KERNEL.",
+    "scope": "source.inp"
+  }
+}

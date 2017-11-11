@@ -1,0 +1,18 @@
+{
+  "CONNECTOR LOCK(COMPONENT)": {
+    "prefix": "*CONNECTOR LOCK",
+    "body": [
+      "*CONNECTOR LOCK, COMPONENT=${1}"
+    ],
+    "description": "CONNECTOR LOCK with parameter(s) COMPONENT.",
+    "scope": "source.inp"
+  },
+  "CONNECTOR LOCK(COMPONENT, DEPENDENCIES, EXTRAPOLATION, LOCK, REGULARIZE, RTOL)": {
+    "prefix": "*CONNECTOR LOCK",
+    "body": [
+      "*CONNECTOR LOCK, COMPONENT=${1}, DEPENDENCIES=${2}, EXTRAPOLATION=${3}, LOCK=${4}, REGULARIZE=${5}, RTOL=${6}"
+    ],
+    "description": "CONNECTOR LOCK with parameter(s) COMPONENT, DEPENDENCIES, EXTRAPOLATION, LOCK, REGULARIZE, RTOL.",
+    "scope": "source.inp"
+  }
+}

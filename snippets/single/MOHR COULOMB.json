@@ -1,0 +1,18 @@
+{
+  "MOHR COULOMB()": {
+    "prefix": "*MOHR COULOMB",
+    "body": [
+      "*MOHR COULOMB"
+    ],
+    "description": "MOHR COULOMB without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MOHR COULOMB(DEPENDENCIES, DEVIATORIC ECCENTRICITY, ECCENTRICITY)": {
+    "prefix": "*MOHR COULOMB",
+    "body": [
+      "*MOHR COULOMB, DEPENDENCIES=${1}, DEVIATORIC ECCENTRICITY=${2}, ECCENTRICITY=${3}"
+    ],
+    "description": "MOHR COULOMB with parameter(s) DEPENDENCIES, DEVIATORIC ECCENTRICITY, ECCENTRICITY.",
+    "scope": "source.inp"
+  }
+}

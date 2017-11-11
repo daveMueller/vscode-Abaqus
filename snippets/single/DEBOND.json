@@ -1,0 +1,18 @@
+{
+  "DEBOND(MASTER, SLAVE)": {
+    "prefix": "*DEBOND",
+    "body": [
+      "*DEBOND, MASTER=${1}, SLAVE=${2}"
+    ],
+    "description": "DEBOND with parameter(s) MASTER, SLAVE.",
+    "scope": "source.inp"
+  },
+  "DEBOND(MASTER, SLAVE, DEBONDING FORCE, FREQUENCY, OUTPUT, TIME INCREMENT)": {
+    "prefix": "*DEBOND",
+    "body": [
+      "*DEBOND, MASTER=${1}, SLAVE=${2}, DEBOND,ING FORCE=${3}, FREQUENCY=${4}, OUTPUT=${5}, TIME INCREMENT=${6}"
+    ],
+    "description": "DEBOND with parameter(s) MASTER, SLAVE, DEBONDING FORCE, FREQUENCY, OUTPUT, TIME INCREMENT.",
+    "scope": "source.inp"
+  }
+}

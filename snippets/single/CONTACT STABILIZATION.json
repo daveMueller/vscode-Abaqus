@@ -1,0 +1,18 @@
+{
+  "CONTACT STABILIZATION()": {
+    "prefix": "*CONTACT STABILIZATION",
+    "body": [
+      "*CONTACT STABILIZATION"
+    ],
+    "description": "CONTACT STABILIZATION without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CONTACT STABILIZATION(AMPLITUDE, RANGE, REDUCTION PER INCREMENT, RESET, SCALE FACTOR, TANGENT FRACTION)": {
+    "prefix": "*CONTACT STABILIZATION",
+    "body": [
+      "*CONTACT STABILIZATION, AMPLITUDE=${1}, RANGE=${2}, REDUCTION PER INCREMENT=${3}, RESET=${4}, SCALE FACTOR=${5}, TANGENT FRACTION=${6}"
+    ],
+    "description": "CONTACT STABILIZATION with parameter(s) AMPLITUDE, RANGE, REDUCTION PER INCREMENT, RESET, SCALE FACTOR, TANGENT FRACTION.",
+    "scope": "source.inp"
+  }
+}

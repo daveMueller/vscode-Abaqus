@@ -1,0 +1,10 @@
+{
+  "LOAD CASE(NAME)": {
+    "prefix": "*LOAD CASE",
+    "body": [
+      "*LOAD CASE, NAME=${1}"
+    ],
+    "description": "LOAD CASE with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

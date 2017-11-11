@@ -1,0 +1,10 @@
+{
+  "RADIATION SYMMETRY(NAME)": {
+    "prefix": "*RADIATION SYMMETRY",
+    "body": [
+      "*RADIATION SYMMETRY, NAME=${1}"
+    ],
+    "description": "RADIATION SYMMETRY with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

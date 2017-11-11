@@ -1,0 +1,18 @@
+{
+  "TENSION STIFFENING()": {
+    "prefix": "*TENSION STIFFENING",
+    "body": [
+      "*TENSION STIFFENING"
+    ],
+    "description": "TENSION STIFFENING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "TENSION STIFFENING(DEPENDENCIES, TYPE)": {
+    "prefix": "*TENSION STIFFENING",
+    "body": [
+      "*TENSION STIFFENING, DEPENDENCIES=${1}, TYPE=${2}"
+    ],
+    "description": "TENSION STIFFENING with parameter(s) DEPENDENCIES, TYPE.",
+    "scope": "source.inp"
+  }
+}

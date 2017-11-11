@@ -1,0 +1,18 @@
+{
+  "GEOSTATIC()": {
+    "prefix": "*GEOSTATIC",
+    "body": [
+      "*GEOSTATIC"
+    ],
+    "description": "GEOSTATIC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GEOSTATIC(HEAT, UTOL)": {
+    "prefix": "*GEOSTATIC",
+    "body": [
+      "*GEOSTATIC, HEAT=${1}, UTOL=${2}"
+    ],
+    "description": "GEOSTATIC with parameter(s) HEAT, UTOL.",
+    "scope": "source.inp"
+  }
+}

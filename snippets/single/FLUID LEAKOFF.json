@@ -1,0 +1,26 @@
+{
+  "FLUID LEAKOFF()": {
+    "prefix": "*FLUID LEAKOFF",
+    "body": [
+      "*FLUID LEAKOFF"
+    ],
+    "description": "FLUID LEAKOFF without parameter(s).",
+    "scope": "source.inp"
+  },
+  "FLUID LEAKOFF(DEPENDENCIES)": {
+    "prefix": "*FLUID LEAKOFF",
+    "body": [
+      "*FLUID LEAKOFF, DEPENDENCIES=${1}"
+    ],
+    "description": "FLUID LEAKOFF with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  },
+  "FLUID LEAKOFF(USER)": {
+    "prefix": "*FLUID LEAKOFF",
+    "body": [
+      "*FLUID LEAKOFF, USER=${1}"
+    ],
+    "description": "FLUID LEAKOFF with parameter(s) USER.",
+    "scope": "source.inp"
+  }
+}

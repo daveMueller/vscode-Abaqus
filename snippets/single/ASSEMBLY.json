@@ -1,0 +1,10 @@
+{
+  "ASSEMBLY(NAME)": {
+    "prefix": "*ASSEMBLY",
+    "body": [
+      "*ASSEMBLY, NAME=${1}"
+    ],
+    "description": "ASSEMBLY with parameter(s) NAME.",
+    "scope": "source.inp"
+  }
+}

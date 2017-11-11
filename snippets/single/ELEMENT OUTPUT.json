@@ -1,0 +1,50 @@
+{
+  "ELEMENT OUTPUT(ELSET)": {
+    "prefix": "*ELEMENT OUTPUT",
+    "body": [
+      "*ELEMENT OUTPUT, ELSET=${1}"
+    ],
+    "description": "ELEMENT OUTPUT with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "ELEMENT OUTPUT(TRACER SET)": {
+    "prefix": "*ELEMENT OUTPUT",
+    "body": [
+      "*ELEMENT OUTPUT, TRACER SET=${1}"
+    ],
+    "description": "ELEMENT OUTPUT with parameter(s) TRACER SET.",
+    "scope": "source.inp"
+  },
+  "ELEMENT OUTPUT(ELSET, REBAR, VARIABLE)": {
+    "prefix": "*ELEMENT OUTPUT",
+    "body": [
+      "*ELEMENT OUTPUT, ELSET=${1}, REBAR=${2}, VARIABLE=${3}"
+    ],
+    "description": "ELEMENT OUTPUT with parameter(s) ELSET, REBAR, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "ELEMENT OUTPUT(TRACER SET, REBAR, VARIABLE)": {
+    "prefix": "*ELEMENT OUTPUT",
+    "body": [
+      "*ELEMENT OUTPUT, TRACER SET=${1}, REBAR=${2}, VARIABLE=${3}"
+    ],
+    "description": "ELEMENT OUTPUT with parameter(s) TRACER SET, REBAR, VARIABLE.",
+    "scope": "source.inp"
+  },
+  "ELEMENT OUTPUT(DIRECTIONS, ELSET, EXTERIOR, POSITION)": {
+    "prefix": "*ELEMENT OUTPUT",
+    "body": [
+      "*ELEMENT OUTPUT, DIRECTIONS=${1}, ELSET=${2}, EXTERIOR=${3}, POSITION=${4}"
+    ],
+    "description": "ELEMENT OUTPUT with parameter(s) DIRECTIONS, ELSET, EXTERIOR, POSITION.",
+    "scope": "source.inp"
+  },
+  "ELEMENT OUTPUT(DIRECTIONS, ELSET, EXTERIOR, POSITION, REBAR, VARIABLE)": {
+    "prefix": "*ELEMENT OUTPUT",
+    "body": [
+      "*ELEMENT OUTPUT, DIRECTIONS=${1}, ELSET=${2}, EXTERIOR=${3}, POSITION=${4}, REBAR=${5}, VARIABLE=${6}"
+    ],
+    "description": "ELEMENT OUTPUT with parameter(s) DIRECTIONS, ELSET, EXTERIOR, POSITION, REBAR, VARIABLE.",
+    "scope": "source.inp"
+  }
+}

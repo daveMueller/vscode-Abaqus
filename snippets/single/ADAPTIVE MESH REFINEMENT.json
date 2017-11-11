@@ -1,0 +1,18 @@
+{
+  "ADAPTIVE MESH REFINEMENT(ELSET)": {
+    "prefix": "*ADAPTIVE MESH REFINEMENT",
+    "body": [
+      "*ADAPTIVE MESH REFINEMENT, ELSET=${1}"
+    ],
+    "description": "ADAPTIVE MESH REFINEMENT with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "ADAPTIVE MESH REFINEMENT(ELSET, RATIO)": {
+    "prefix": "*ADAPTIVE MESH REFINEMENT",
+    "body": [
+      "*ADAPTIVE MESH REFINEMENT, ELSET=${1}, RATIO=${2}"
+    ],
+    "description": "ADAPTIVE MESH REFINEMENT with parameter(s) ELSET, RATIO.",
+    "scope": "source.inp"
+  }
+}

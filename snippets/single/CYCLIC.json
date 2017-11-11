@@ -1,0 +1,10 @@
+{
+  "CYCLIC(NC, TYPE)": {
+    "prefix": "*CYCLIC",
+    "body": [
+      "*CYCLIC, NC=${1}, TYPE=${2}"
+    ],
+    "description": "CYCLIC with parameter(s) NC, TYPE.",
+    "scope": "source.inp"
+  }
+}

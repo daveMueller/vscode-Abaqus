@@ -1,0 +1,18 @@
+{
+  "MASS ADJUST()": {
+    "prefix": "*MASS ADJUST",
+    "body": [
+      "*MASS ADJUST"
+    ],
+    "description": "MASS ADJUST without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MASS ADJUST(TARGET DT)": {
+    "prefix": "*MASS ADJUST",
+    "body": [
+      "*MASS ADJUST, TARGET DT=${1}"
+    ],
+    "description": "MASS ADJUST with parameter(s) TARGET DT.",
+    "scope": "source.inp"
+  }
+}

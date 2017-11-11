@@ -1,0 +1,18 @@
+{
+  "DISTRIBUTING COUPLING(ELSET)": {
+    "prefix": "*DISTRIBUTING COUPLING",
+    "body": [
+      "*DISTRIBUTING COUPLING, ELSET=${1}"
+    ],
+    "description": "DISTRIBUTING COUPLING with parameter(s) ELSET.",
+    "scope": "source.inp"
+  },
+  "DISTRIBUTING COUPLING(ELSET, MASS)": {
+    "prefix": "*DISTRIBUTING COUPLING",
+    "body": [
+      "*DISTRIBUTING COUPLING, ELSET=${1}, MASS=${2}"
+    ],
+    "description": "DISTRIBUTING COUPLING with parameter(s) ELSET, MASS.",
+    "scope": "source.inp"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "POTENTIAL()": {
+    "prefix": "*POTENTIAL",
+    "body": [
+      "*POTENTIAL"
+    ],
+    "description": "POTENTIAL without parameter(s).",
+    "scope": "source.inp"
+  },
+  "POTENTIAL(DEPENDENCIES)": {
+    "prefix": "*POTENTIAL",
+    "body": [
+      "*POTENTIAL, DEPENDENCIES=${1}"
+    ],
+    "description": "POTENTIAL with parameter(s) DEPENDENCIES.",
+    "scope": "source.inp"
+  }
+}

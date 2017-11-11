@@ -1,0 +1,58 @@
+{
+  "USER ELEMENT(TYPE)": {
+    "prefix": "*USER ELEMENT",
+    "body": [
+      "*USER ELEMENT, TYPE=${1}"
+    ],
+    "description": "USER ELEMENT with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "USER ELEMENT(TYPE, NODES)": {
+    "prefix": "*USER ELEMENT",
+    "body": [
+      "*USER ELEMENT, TYPE=${1}, NODES=${2}"
+    ],
+    "description": "USER ELEMENT with parameter(s) TYPE, NODES.",
+    "scope": "source.inp"
+  },
+  "USER ELEMENT(TYPE, LINEAR, NODES)": {
+    "prefix": "*USER ELEMENT",
+    "body": [
+      "*USER ELEMENT, TYPE=${1}, LINEAR=${2}, NODES=${3}"
+    ],
+    "description": "USER ELEMENT with parameter(s) TYPE, LINEAR, NODES.",
+    "scope": "source.inp"
+  },
+  "USER ELEMENT(TYPE, FILE, INTEGRATION, TENSOR)": {
+    "prefix": "*USER ELEMENT",
+    "body": [
+      "*USER ELEMENT, TYPE=${1}, FILE=${2}, INTEGRATION=${3}, TENSOR=${4}"
+    ],
+    "description": "USER ELEMENT with parameter(s) TYPE, FILE, INTEGRATION, TENSOR.",
+    "scope": "source.inp"
+  },
+  "USER ELEMENT(TYPE, NODES, COORDINATES, I PROPERTIES, PROPERTIES, UNSYMM, VARIABLES)": {
+    "prefix": "*USER ELEMENT",
+    "body": [
+      "*USER ELEMENT, TYPE=${1}, NODES=${2}, COORDINATES=${3}, I PROPERTIES=${4}, PROPERTIES=${5}, UNSYMM=${6}, VARIABLES=${7}"
+    ],
+    "description": "USER ELEMENT with parameter(s) TYPE, NODES, COORDINATES, I PROPERTIES, PROPERTIES, UNSYMM, VARIABLES.",
+    "scope": "source.inp"
+  },
+  "USER ELEMENT(TYPE, LINEAR, NODES, INTEGRATION, TENSOR, COORDINATES, UNSYMM)": {
+    "prefix": "*USER ELEMENT",
+    "body": [
+      "*USER ELEMENT, TYPE=${1}, LINEAR=${2}, NODES=${3}, INTEGRATION=${4}, TENSOR=${5}, COORDINATES=${6}, UNSYMM=${7}"
+    ],
+    "description": "USER ELEMENT with parameter(s) TYPE, LINEAR, NODES, INTEGRATION, TENSOR, COORDINATES, UNSYMM.",
+    "scope": "source.inp"
+  },
+  "USER ELEMENT(TYPE, OLD ELEMENT, STEP, INCREMENT, FILE, INTEGRATION, TENSOR)": {
+    "prefix": "*USER ELEMENT",
+    "body": [
+      "*USER ELEMENT, TYPE=${1}, OLD ELEMENT=${2}, STEP=${3}, INCREMENT=${4}, FILE=${5}, INTEGRATION=${6}, TENSOR=${7}"
+    ],
+    "description": "USER ELEMENT with parameter(s) TYPE, OLD ELEMENT, STEP, INCREMENT, FILE, INTEGRATION, TENSOR.",
+    "scope": "source.inp"
+  }
+}

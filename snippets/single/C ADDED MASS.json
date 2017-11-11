@@ -1,0 +1,10 @@
+{
+  "C ADDED MASS()": {
+    "prefix": "*C ADDED MASS",
+    "body": [
+      "*C ADDED MASS"
+    ],
+    "description": "C ADDED MASS without parameter(s).",
+    "scope": "source.inp"
+  }
+}

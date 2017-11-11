@@ -1,0 +1,18 @@
+{
+  "EULERIAN BOUNDARY()": {
+    "prefix": "*EULERIAN BOUNDARY",
+    "body": [
+      "*EULERIAN BOUNDARY"
+    ],
+    "description": "EULERIAN BOUNDARY without parameter(s).",
+    "scope": "source.inp"
+  },
+  "EULERIAN BOUNDARY(INFLOW, OP, OUTFLOW)": {
+    "prefix": "*EULERIAN BOUNDARY",
+    "body": [
+      "*EULERIAN BOUNDARY, INFLOW=${1}, OP=${2}, OUTFLOW=${3}"
+    ],
+    "description": "EULERIAN BOUNDARY with parameter(s) INFLOW, OP, OUTFLOW.",
+    "scope": "source.inp"
+  }
+}

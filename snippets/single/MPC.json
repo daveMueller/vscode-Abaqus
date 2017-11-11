@@ -1,0 +1,18 @@
+{
+  "MPC()": {
+    "prefix": "*MPC",
+    "body": [
+      "*MPC"
+    ],
+    "description": "MPC without parameter(s).",
+    "scope": "source.inp"
+  },
+  "MPC(INPUT, MODE, USER)": {
+    "prefix": "*MPC",
+    "body": [
+      "*MPC, INPUT=${1}, MODE=${2}, USER=${3}"
+    ],
+    "description": "MPC with parameter(s) INPUT, MODE, USER.",
+    "scope": "source.inp"
+  }
+}

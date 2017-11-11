@@ -1,0 +1,10 @@
+{
+  "SURFACE OUTPUT(SURFACE)": {
+    "prefix": "*SURFACE OUTPUT",
+    "body": [
+      "*SURFACE OUTPUT, SURFACE=${1}"
+    ],
+    "description": "SURFACE OUTPUT with parameter(s) SURFACE.",
+    "scope": "source.inp"
+  }
+}

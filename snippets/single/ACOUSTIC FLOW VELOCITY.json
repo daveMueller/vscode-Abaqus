@@ -1,0 +1,34 @@
+{
+  "ACOUSTIC FLOW VELOCITY(TRANSLATION)": {
+    "prefix": "*ACOUSTIC FLOW VELOCITY",
+    "body": [
+      "*ACOUSTIC FLOW VELOCITY, TRANSLATION=${1}"
+    ],
+    "description": "ACOUSTIC FLOW VELOCITY with parameter(s) TRANSLATION.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC FLOW VELOCITY(TRANSLATION, AMPLITUDE)": {
+    "prefix": "*ACOUSTIC FLOW VELOCITY",
+    "body": [
+      "*ACOUSTIC FLOW VELOCITY, TRANSLATION=${1}, AMPLITUDE=${2}"
+    ],
+    "description": "ACOUSTIC FLOW VELOCITY with parameter(s) TRANSLATION, AMPLITUDE.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC FLOW VELOCITY(ROTATION)": {
+    "prefix": "*ACOUSTIC FLOW VELOCITY",
+    "body": [
+      "*ACOUSTIC FLOW VELOCITY, ROTATION=${1}"
+    ],
+    "description": "ACOUSTIC FLOW VELOCITY with parameter(s) ROTATION.",
+    "scope": "source.inp"
+  },
+  "ACOUSTIC FLOW VELOCITY(ROTATION, AMPLITUDE)": {
+    "prefix": "*ACOUSTIC FLOW VELOCITY",
+    "body": [
+      "*ACOUSTIC FLOW VELOCITY, ROTATION=${1}, AMPLITUDE=${2}"
+    ],
+    "description": "ACOUSTIC FLOW VELOCITY with parameter(s) ROTATION, AMPLITUDE.",
+    "scope": "source.inp"
+  }
+}

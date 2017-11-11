@@ -1,0 +1,10 @@
+{
+  "SUBSTRUCTURE DIRECTORY(LIBRARY)": {
+    "prefix": "*SUBSTRUCTURE DIRECTORY",
+    "body": [
+      "*SUBSTRUCTURE DIRECTORY, LIBRARY=${1}"
+    ],
+    "description": "SUBSTRUCTURE DIRECTORY with parameter(s) LIBRARY.",
+    "scope": "source.inp"
+  }
+}

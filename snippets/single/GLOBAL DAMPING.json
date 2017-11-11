@@ -1,0 +1,18 @@
+{
+  "GLOBAL DAMPING()": {
+    "prefix": "*GLOBAL DAMPING",
+    "body": [
+      "*GLOBAL DAMPING"
+    ],
+    "description": "GLOBAL DAMPING without parameter(s).",
+    "scope": "source.inp"
+  },
+  "GLOBAL DAMPING(FIELD, ALPHA, BETA, STRUCTURAL)": {
+    "prefix": "*GLOBAL DAMPING",
+    "body": [
+      "*GLOBAL DAMPING, FIELD=${1}, ALPHA=${2}, BETA=${3}, STRUCTURAL=${4}"
+    ],
+    "description": "GLOBAL DAMPING with parameter(s) FIELD, ALPHA, BETA, STRUCTURAL.",
+    "scope": "source.inp"
+  }
+}

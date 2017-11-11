@@ -1,0 +1,18 @@
+{
+  "FLUID EXCHANGE PROPERTY(NAME, TYPE)": {
+    "prefix": "*FLUID EXCHANGE PROPERTY",
+    "body": [
+      "*FLUID EXCHANGE PROPERTY, NAME=${1}, TYPE=${2}"
+    ],
+    "description": "FLUID EXCHANGE PROPERTY with parameter(s) NAME, TYPE.",
+    "scope": "source.inp"
+  },
+  "FLUID EXCHANGE PROPERTY(NAME, TYPE, CONSTANTS, DEPENDENCIES, DEPVAR)": {
+    "prefix": "*FLUID EXCHANGE PROPERTY",
+    "body": [
+      "*FLUID EXCHANGE PROPERTY, NAME=${1}, TYPE=${2}, CONSTANTS=${3}, DEPENDENCIES=${4}, DEPVAR=${5}"
+    ],
+    "description": "FLUID EXCHANGE PROPERTY with parameter(s) NAME, TYPE, CONSTANTS, DEPENDENCIES, DEPVAR.",
+    "scope": "source.inp"
+  }
+}

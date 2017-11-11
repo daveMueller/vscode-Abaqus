@@ -1,0 +1,18 @@
+{
+  "BUCKLING REDUCTION FACTORS()": {
+    "prefix": "*BUCKLING REDUCTION FACTORS",
+    "body": [
+      "*BUCKLING REDUCTION FACTORS"
+    ],
+    "description": "BUCKLING REDUCTION FACTORS without parameter(s).",
+    "scope": "source.inp"
+  },
+  "BUCKLING REDUCTION FACTORS(AXIS1, AXIS2)": {
+    "prefix": "*BUCKLING REDUCTION FACTORS",
+    "body": [
+      "*BUCKLING REDUCTION FACTORS, AXIS1=${1}, AXIS2=${2}"
+    ],
+    "description": "BUCKLING REDUCTION FACTORS with parameter(s) AXIS1, AXIS2.",
+    "scope": "source.inp"
+  }
+}

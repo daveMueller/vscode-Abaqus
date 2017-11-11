@@ -1,0 +1,34 @@
+{
+  "CFLUX()": {
+    "prefix": "*CFLUX",
+    "body": [
+      "*CFLUX"
+    ],
+    "description": "CFLUX without parameter(s).",
+    "scope": "source.inp"
+  },
+  "CFLUX(FILE)": {
+    "prefix": "*CFLUX",
+    "body": [
+      "*CFLUX, FILE=${1}"
+    ],
+    "description": "CFLUX with parameter(s) FILE.",
+    "scope": "source.inp"
+  },
+  "CFLUX(AMPLITUDE, INC, OP, REGION TYPE, STEP)": {
+    "prefix": "*CFLUX",
+    "body": [
+      "*CFLUX, AMPLITUDE=${1}, INC=${2}, OP=${3}, REGION TYPE=${4}, STEP=${5}"
+    ],
+    "description": "CFLUX with parameter(s) AMPLITUDE, INC, OP, REGION TYPE, STEP.",
+    "scope": "source.inp"
+  },
+  "CFLUX(FILE, AMPLITUDE, INC, OP, REGION TYPE, STEP)": {
+    "prefix": "*CFLUX",
+    "body": [
+      "*CFLUX, FILE=${1}, AMPLITUDE=${2}, INC=${3}, OP=${4}, REGION TYPE=${5}, STEP=${6}"
+    ],
+    "description": "CFLUX with parameter(s) FILE, AMPLITUDE, INC, OP, REGION TYPE, STEP.",
+    "scope": "source.inp"
+  }
+}

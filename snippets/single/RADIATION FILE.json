@@ -1,0 +1,42 @@
+{
+  "RADIATION FILE()": {
+    "prefix": "*RADIATION FILE",
+    "body": [
+      "*RADIATION FILE"
+    ],
+    "description": "RADIATION FILE without parameter(s).",
+    "scope": "source.inp"
+  },
+  "RADIATION FILE(FREQUENCY)": {
+    "prefix": "*RADIATION FILE",
+    "body": [
+      "*RADIATION FILE, FREQUENCY=${1}"
+    ],
+    "description": "RADIATION FILE with parameter(s) FREQUENCY.",
+    "scope": "source.inp"
+  },
+  "RADIATION FILE(FREQUENCY, CAVITY)": {
+    "prefix": "*RADIATION FILE",
+    "body": [
+      "*RADIATION FILE, FREQUENCY=${1}, CAVITY=${2}"
+    ],
+    "description": "RADIATION FILE with parameter(s) FREQUENCY, CAVITY.",
+    "scope": "source.inp"
+  },
+  "RADIATION FILE(FREQUENCY, ELSET)": {
+    "prefix": "*RADIATION FILE",
+    "body": [
+      "*RADIATION FILE, FREQUENCY=${1}, ELSET=${2}"
+    ],
+    "description": "RADIATION FILE with parameter(s) FREQUENCY, ELSET.",
+    "scope": "source.inp"
+  },
+  "RADIATION FILE(FREQUENCY, SURFACE)": {
+    "prefix": "*RADIATION FILE",
+    "body": [
+      "*RADIATION FILE, FREQUENCY=${1}, SURFACE=${2}"
+    ],
+    "description": "RADIATION FILE with parameter(s) FREQUENCY, SURFACE.",
+    "scope": "source.inp"
+  }
+}

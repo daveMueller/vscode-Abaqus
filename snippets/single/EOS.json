@@ -1,0 +1,18 @@
+{
+  "EOS(TYPE)": {
+    "prefix": "*EOS",
+    "body": [
+      "*EOS, TYPE=${1}"
+    ],
+    "description": "EOS with parameter(s) TYPE.",
+    "scope": "source.inp"
+  },
+  "EOS(TYPE, DETONATION ENERGY)": {
+    "prefix": "*EOS",
+    "body": [
+      "*EOS, TYPE=${1}, DETONATION ENERGY=${2}"
+    ],
+    "description": "EOS with parameter(s) TYPE, DETONATION ENERGY.",
+    "scope": "source.inp"
+  }
+}

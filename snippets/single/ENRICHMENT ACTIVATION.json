@@ -1,0 +1,18 @@
+{
+  "ENRICHMENT ACTIVATION(NAME)": {
+    "prefix": "*ENRICHMENT ACTIVATION",
+    "body": [
+      "*ENRICHMENT ACTIVATION, NAME=${1}"
+    ],
+    "description": "ENRICHMENT ACTIVATION with parameter(s) NAME.",
+    "scope": "source.inp"
+  },
+  "ENRICHMENT ACTIVATION(NAME, ACTIVATE, TYPE)": {
+    "prefix": "*ENRICHMENT ACTIVATION",
+    "body": [
+      "*ENRICHMENT ACTIVATION, NAME=${1}, ACTIVATE=${2}, TYPE=${3}"
+    ],
+    "description": "ENRICHMENT ACTIVATION with parameter(s) NAME, ACTIVATE, TYPE.",
+    "scope": "source.inp"
+  }
+}
